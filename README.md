@@ -1,71 +1,563 @@
-> **4 Nov 2026 Photo Save hotfix:** See `PHOTO_SAVE_HOTFIX_REPORT.md` and `APPLY_PHOTO_FIX_WINDOWS.md`. The local-image fix is implemented and targeted unit-tested; full Windows browser acceptance is still required. Pre-existing release verification reports refer to the original build.
-
 # RoboLN — Robotics Logic Navigator
 
-**Design. Practice. Build. Verify. Monitor.**
+### From Idea to Intelligent Robotics
 
-A consolidated Next.js + FastAPI engineering workbench for robotics, embedded systems, electronics and IoT. This release extends the supplied source architecture and preserves account authentication, project membership, isolated notes, hardware identity, deterministic engineering plans, navigation and themes.
+**Design • Simulate • Build • Learn • Monitor**
 
-The software connects requirements, source-grounded Meta guidance, a detailed procedural 3D assembly, camera/image evidence, device enrollment and timestamped telemetry. Design / Simulation / Live Monitor share stable project component IDs, saved transforms and BOM/pin/source references. It is **production-oriented source, not certification of hardware safety or a claim of production commissioning**.
+An AI-powered robotics engineering workspace that brings together intelligent project guidance, interactive 3D digital twins, hardware planning, step-by-step assembly, and device monitoring.
 
-> **Live Build Copilot release — November 4, 2026:** Persistent guided steps, private checkpoints/Resume Build, equipment photos and BOM mapping, reviewed provider plan proposals, step-linked snapshot inspection, English browser speech, upgraded 3D transforms/gizmos/undo, and a new original blue-accent studio. The supplied codebase was extended directly. Read [actual verification results](FINAL_VERIFICATION_REPORT.md): non-browser checks passed; browser interaction and native integrations remain unverified in this environment.
+**Built for the Meta Global AI Developer Hackathon 2026**
 
-Start at **Project → Build Copilot** (`/projects/<id>/workspace/copilot`). The original Plan, Practice in 3D, Live Build evidence workbench, Digital Twin and Evidence views remain available.
+**Track:** Indie Developer  
+**Developer:** Sadia Akter Zannat  
+**Focus:** AI × Robotics × Digital Twins × Embedded Systems
 
-- [Live Build Copilot user guide](LIVE_BUILD_COPILOT_GUIDE.md)
-- [Windows 11 / VS Code run instructions](docs/WINDOWS_VSCODE_RUN.md)
-- [Implementation checklist and validation scope](docs/FEATURE_CHECKLIST.md)
-- [Manual acceptance tests](docs/MANUAL_ACCEPTANCE_TESTS.md)
-- [Known limitations](docs/KNOWN_LIMITATIONS.md)
-- [External integration checklist](docs/EXTERNAL_INTEGRATION_CHECKLIST.md)
+---
 
-Guided plans can be generated from your saved project without a key. Actual Meta questions, images and provider plan proposals require your server-side MODEL_API_KEY and consent. There is no production mock-response fallback. Step completion is user-reported; hardware remains NOT VERIFIED.
+## Watch the RoboLN Demo
 
-## Run and verify
+**See RoboLN in action — from robotics planning to interactive 3D assembly and AI-assisted engineering.**
 
-- [Windows VS Code instructions](docs/WINDOWS_VSCODE_RUN.md)
-- [Final verification report and exact browser limitation](FINAL_VERIFICATION_REPORT.md)
-- [Feature implementation and verification matrix](docs/FEATURE_MATRIX.md)
-- [Architecture and API](docs/ARCHITECTURE.md)
-- [Deployment preparation](docs/DEPLOYMENT.md)
-- [External integration checklist](docs/EXTERNAL_INTEGRATION_CHECKLIST.md)
-- [Security and limitations](SECURITY.md)
-- [Hardware adapters](adapters/README.md)
+### [▶ Watch RoboLN AI — Official Demo on YouTube](https://youtu.be/z4g6jI3I-po)
 
-Python 3.12 and Node 24 LTS are the tested runtime family. Install backend dependencies from `backend/requirements.lock`, frontend dependencies with `npm ci`, then apply Alembic migrations before starting the API. No source editing or patch merging is required.
+[![Watch RoboLN Demo](https://img.youtube.com/vi/z4g6jI3I-po/hqdefault.jpg)](https://youtu.be/z4g6jI3I-po)
 
-## Included workflow
+**YouTube:** https://youtu.be/z4g6jI3I-po
 
-1. Register or sign in; create a project and record its exact hardware identity.
-2. Open Plan. Collect requirements, constraints, BOM, user-defined pin assignments, software notes and build tasks. Save immutable revisions and export JSON artifacts.
-3. Upload technical TXT/MD/CSV/JSON or text PDF sources. Inspect original text, hashes, versions and retrieved excerpts. The local lexical retrieval service does not require an AI key.
-4. Ask the project-aware Meta assistant after explicit cloud consent. Text and image requests use the real documented Meta Model API contract. A missing key produces `NOT_CONFIGURED`; no substitute answer is generated. Chat history is private to each project/account; project sources and build observations are shared with project members.
-5. Practice with the industrial React Three Fiber assembly: orbit, zoom, reset, select, inspect, move and manually declare component/connection correspondence. Load a provisional rover draft or define other components. Save the scene to the same engineering revision history.
-6. In Live Build, deliberately enable the browser camera or select an image. Capture locally, optionally ask Meta to analyze, and separately consent to storing project evidence. Independent user test notes are required for a user-attested PASS. Image analysis cannot produce physical PASS or automatic scene synchronization.
-7. Enroll a physical or explicitly simulated controller. A one-time bearer token authenticates packets. The Digital Twin polls actual stored device observations, distinguishes origin and stale state, and displays history. No measurements exist before a packet arrives.
-8. Request owner review for a consequential operation. Approval records intent only; dispatch remains `HOLD_NO_EXECUTOR`. Physical actuation is not implemented.
+**GitHub:** https://github.com/sadia-zannat/-RoboLN-AI
 
-## Important boundaries
+---
 
-- Real Meta inference requires your provider key, model eligibility, network access and explicit consent. Release verification uses explicitly mocked provider responses for connector tests; no real provider success is claimed.
-- 3D shapes and coordinates are provisional generic geometry, not manufacturer CAD, accurate scale, physics or electrical simulation.
-- Compatibility checks detect user pin conflicts and list required evidence. They do not certify part ratings or generate an electrically validated pinout.
-- Native webcam/hardware commissioning remains external. Browser capture specs use a synthetic MediaStream fixture, but they could not execute in this release environment.
-- Telemetry is authenticated device-reported data, not proof that a sensor is physically correct. Origin is fixed at device enrollment; a dishonest device can still report incorrect values.
-- No automatic irrigation, fertilizer dispensing, firmware flashing, validated plant diagnosis or physical command execution is included.
-- Local SQLite is verified; PostgreSQL configuration is supplied but a live PostgreSQL deployment is not claimed.
+## 1. What Is RoboLN?
 
-This package contains no API key, private `.env`, local database, dependency folder, build cache or virtual environment. Historical checkpoint documents are retained under `docs/history/` for provenance and do not describe the current verification state. `packages/contracts/LEGACY_*` are historical contracts; current runtime schemas are the FastAPI/Pydantic definitions and `/api/openapi.json`.
+Building a robot involves much more than writing code.
 
-No GitHub push, Render deployment or hackathon submission was performed.
+Developers must understand hardware components, select compatible devices, design mechanical structures, plan electrical connections, test systems, and integrate software with physical equipment.
 
+For students and independent makers, these activities are often spread across multiple disconnected tools.
 
-## Ultimate recovery release
+**RoboLN — Robotics Logic Navigator** brings robotics development into one intelligent, visual engineering workspace.
 
-Read [recovery provenance](docs/RECOVERY_STATUS.md) and the current test report. Workspace maintenance removed the previous unsaved industrial source. This release retains the last saved consolidated foundation and restores recorded industrial functionality; it is not a byte-for-byte recovery of the removed tree. Earlier 78/96 results are historical, not current certification.
+Instead of switching between tutorials, component references, simulation environments, documentation, and AI tools, developers can work through a connected robotics development process.
 
-The reusable scene includes 12 generic procedural component categories and a 16-entry rover with PBR materials, lighting/shadows, detailed wheels/motors/PCB/sensors, focus, visibility, explode, orientation and hierarchy. Simulation runs persist deterministic planar traces/events and never write device telemetry. Live sensor mappings feed genuine stored values/times/units into the inspector, scene annotations and trend charts. Measured wheel/atomic pose channels do not extrapolate; simulation streams cannot drive live geometry. Missing/stale/revoked/unmapped states remain explicit.
+### Our Mission
 
-Selected-component Meta chat uses genuine responses only when configured/consented. Specification proposals require explicit human review and unchanged revision. No physical actuator executor is included. Exact CAD, electrical/physical certification, automatic camera alignment, validated dynamics and real hardware commissioning remain outside the implemented boundary.
+**Make robotics development more accessible, visual, structured, and intelligent — from the first idea to the physical prototype.**
 
-The explicit API proxy reads ROBOLN_BACKEND_URL at runtime. It uses fresh upstream sockets, visible reset/timeout errors and no write retry. One serialized abortable twin snapshot replaces overlapping triple polling. See [reset investigation](docs/ECONNRESET_DIAGNOSIS.md) and [local asset provenance](assets/ASSETS_AND_LICENSES.md).
+RoboLN helps developers:
+
+- Transform robotics ideas into structured engineering projects.
+- Organize real hardware components and technical requirements.
+- Explore robotic designs through an interactive 3D environment.
+- Receive AI-assisted engineering guidance.
+- Follow documented assembly steps.
+- Capture visual evidence and project progress.
+- Connect device monitoring workflows when hardware integrations are available.
+
+---
+
+## 2. Core Features
+
+### AI-Powered Robotics Assistance
+
+RoboLN includes an AI integration layer for intelligent engineering support.
+
+**Capabilities:**
+
+- Robotics-related question answering
+- Project-aware technical guidance
+- Hardware planning assistance
+- Component selection recommendations
+- Engineering explanations
+- Structured planning proposals
+- Reviewable AI-assisted build guidance
+
+AI-generated recommendations are designed to support human decision-making.
+
+### Interactive Industrial 3D Digital Twin
+
+A visual workspace for understanding robotic assemblies and component relationships.
+
+**Capabilities:**
+
+- Interactive 3D robot visualization
+- Component positioning and transformation
+- Assembly-oriented workspace
+- Procedural component models
+- Saved component configurations
+- Visual design inspection
+- Digital-twin views
+
+The 3D environment helps bridge the gap between engineering documentation and physical assembly.
+
+### Live Build Copilot
+
+A guided development environment for moving from a plan into hands-on robotics construction.
+
+**Capabilities:**
+
+- Step-by-step assembly guidance
+- Build progress checkpoints
+- Resume Build workflow
+- Equipment references
+- Component and BOM mapping
+- Build evidence and photos
+- Reviewable AI proposals
+- Project-specific assembly context
+
+The Build Copilot is intended to make complex robotics tasks easier to follow and document.
+
+### Hardware and Equipment Workspace
+
+Keep robotics components and engineering references organized.
+
+- Component inventory
+- Hardware specifications
+- Equipment photography
+- Bill-of-materials references
+- Device information
+- Pin and connection documentation
+- Project-specific hardware planning
+
+### Camera and Visual Evidence
+
+Connect practical engineering work with visual documentation.
+
+- Local camera interface
+- Image capture workflows
+- Equipment photographs
+- Assembly evidence
+- Project-linked visual records
+- Image-related engineering context
+
+### Digital Monitoring and Telemetry
+
+RoboLN includes software interfaces and integration architecture for device-oriented monitoring.
+
+- Device enrollment workflows
+- Timestamped telemetry
+- Monitoring interfaces
+- Device status information
+- Digital-twin-linked engineering views
+- Project evidence and history
+
+Live physical monitoring requires compatible devices, adapters, and connectivity.
+
+### Secure Project Workspace
+
+Organize projects within a structured application environment.
+
+- User authentication
+- Project management
+- Project membership
+- Saved engineering context
+- Project-specific workspaces
+- Engineering history
+- Planning and practice views
+
+---
+
+## 3. Meta Model API Integration
+
+Meta's AI technology is integrated into RoboLN's backend architecture to support intelligent robotics engineering workflows.
+
+Rather than treating AI as a separate chatbot, RoboLN is designed to connect model-generated assistance with the context of the robotics project being developed.
+
+### How the Integration Works
+
+```text
+          Robotics Developer
+                  |
+                  v
+         RoboLN Web Interface
+                  |
+                  v
+       Project Context & Inputs
+                  |
+                  v
+          FastAPI Backend
+                  |
+                  v
+         Meta Model API Layer
+                  |
+                  v
+       AI Engineering Response
+                  |
+                  v
+      Human Review & Decisions
+                  |
+                  v
+       RoboLN Build Workspace
+```
+
+### AI Integration Components
+
+- Meta Model API provider interface
+- Project-context handling
+- AI-generated engineering guidance
+- Structured response processing
+- Reviewable engineering proposals
+- Provider verification utilities
+
+**Backend Integration:** `backend/app/meta_ai.py`
+
+**Inference Verification:** `scripts/verify_meta_inference.py`
+
+**Security:** API credentials are supplied through runtime environment configuration and are not stored in the public repository.
+
+Live model inference requires a valid API key, supported model access, and an operational provider connection.
+
+---
+
+## 4. Real-World Application — Agri Rover
+
+### AI-Assisted Agricultural Robotics Development
+
+One practical scenario for RoboLN is the development of a compact agricultural rover.
+
+The proposed Agri Rover hardware includes:
+
+- Raspberry Pi 3 Model B+
+- Four-wheel robotic chassis
+- DC motors and motor driver
+- USB camera
+- Soil moisture sensor
+- Water tank and irrigation pump
+- Power supply and electronic modules
+
+### Proposed Agricultural Capabilities
+
+The physical Agri Rover concept aims to support:
+
+1. Soil moisture measurement
+2. Camera-based plant observation
+3. AI-assisted plant condition analysis
+4. Irrigation decision support
+5. Automated watering under controlled conditions
+6. Real-time device monitoring
+
+### How RoboLN Supports This Project
+
+**Phase 1 — Project Definition**
+
+Describe the rover's objectives and engineering requirements.
+
+**Phase 2 — Equipment Planning**
+
+Organize the Raspberry Pi, chassis, motors, sensors, camera, and additional components.
+
+**Phase 3 — Interactive Assembly**
+
+Explore component placement and robotic structure inside the 3D engineering workspace.
+
+**Phase 4 — AI Guidance**
+
+Use project-aware AI assistance to review technical questions and proposed implementation steps.
+
+**Phase 5 — Build Documentation**
+
+Record assembly progress, supporting images, component information, and engineering evidence.
+
+**Phase 6 — Hardware Integration**
+
+Connect compatible hardware interfaces and telemetry when the physical prototype is available.
+
+**Scope:** Agri Rover is an example application and physical robotics development concept. Its proposed autonomous agricultural functions are not presented as already hardware-validated RoboLN features.
+
+---
+
+## 5. Technology Stack
+
+| Layer | Technology |
+|---|---|
+| Frontend | Next.js, React, TypeScript |
+| 3D Environment | Three.js, React Three Fiber |
+| Backend | Python, FastAPI |
+| AI Integration | Meta Model API |
+| API Communication | REST-based application interfaces |
+| Testing | Pytest, Playwright, frontend unit tests |
+| Containerization | Docker |
+| Deployment Configuration | Render |
+| Source Control | Git, GitHub |
+
+---
+
+## 6. System Architecture
+
+```text
+                  RoboLN AI
+                      |
+          +-----------+-----------+
+          |                       |
+          v                       v
+    Frontend Application     FastAPI Backend
+          |                       |
+    +-----+------+       +--------+--------+
+    |     |      |       |        |        |
+    v     v      v       v        v        v
+   3D   Build  Project  Meta    Project   Device
+  Twin Copilot  Views    AI      Data    Services
+    |     |      |       |        |        |
+    +-----+------+-------+--------+--------+
+                      |
+                      v
+          Integrated Engineering
+                Workspace
+                      |
+                      v
+          Human Review & Evidence
+```
+
+### Design Principles
+
+**Modularity:** Separate frontend, backend, AI integration, and hardware-facing components.
+
+**Explainability:** Keep engineering recommendations reviewable and connected to project context.
+
+**Human Control:** Require appropriate human oversight for engineering decisions and physical operations.
+
+**Extensibility:** Support additional robotics components, AI capabilities, and hardware adapters.
+
+---
+
+## 7. Project Structure
+
+```text
+RoboLN/
+|
+|-- backend/
+|   |-- app/
+|   |   |-- meta_ai.py
+|   |-- tests/
+|
+|-- frontend/
+|   |-- app/
+|   |-- components/
+|   |-- lib/
+|   |-- tests/
+|
+|-- packages/
+|   |-- contracts/
+|
+|-- scripts/
+|   |-- run_local.ps1
+|   |-- run_local.sh
+|   |-- verify_meta_inference.py
+|
+|-- docs/
+|-- research/
+|-- verification/
+|
+|-- render.yaml
+|-- README.md
+```
+
+---
+
+## 8. Getting Started
+
+### Prerequisites
+
+- Git
+- Node.js and npm
+- Python
+- A compatible modern browser
+- Meta Model API access for live AI inference
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/sadia-zannat/-RoboLN-AI.git
+```
+
+```bash
+cd -- -RoboLN-AI
+```
+
+### Frontend Development
+
+From the repository root:
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+The frontend development server typically runs at:
+
+`http://localhost:3000`
+
+### Backend Development
+
+The backend uses FastAPI and Python dependencies.
+
+Install the backend requirements in a virtual environment and use the repository's documented local runtime configuration.
+
+For Windows development, the repository also includes:
+
+`scripts/run_local.ps1`
+
+For Unix-like environments:
+
+`scripts/run_local.sh`
+
+### Meta AI Configuration
+
+Configure the backend runtime environment with:
+
+```text
+MODEL_API_KEY=<your-private-meta-api-key>
+```
+
+Replace the placeholder locally. Never publish the actual key.
+
+For an operator-approved real inference test:
+
+```bash
+python scripts/verify_meta_inference.py --consent-send
+```
+
+This command requires valid Meta API credentials and may consume API credits.
+
+---
+
+## 9. Engineering Workflows
+
+RoboLN connects multiple stages of robotics development:
+
+```text
+         Project Idea
+              |
+              v
+      Requirements & Planning
+              |
+              v
+       Hardware Selection
+              |
+              v
+      Interactive 3D Design
+              |
+              v
+       AI-Assisted Guidance
+              |
+              v
+        Guided Assembly
+              |
+              v
+       Evidence & Review
+              |
+              v
+   Device Integration & Monitoring
+```
+
+The goal is to make engineering progress understandable and traceable across different project stages.
+
+---
+
+## 10. Testing and Documentation
+
+RoboLN includes a collection of engineering tests and development verification records.
+
+These cover areas such as:
+
+- Backend functionality
+- Frontend application behavior
+- Project workflows
+- Navigation
+- AI integration utilities
+- Digital-twin-related logic
+- Build Copilot workflows
+- Selected browser and integration scenarios
+
+Detailed results, test scope, and environment-specific limitations are documented in the repository's verification reports.
+
+**Key documentation:**
+
+- `FINAL_VERIFICATION_REPORT.md`
+- `verification/`
+- `docs/`
+- `research/SOURCES_REGISTER.csv`
+
+Test evidence should be interpreted according to the specific environment and scope recorded in each report.
+
+---
+
+## 11. Future Roadmap
+
+### Robotics Intelligence
+
+- More advanced project-aware AI guidance
+- Enhanced engineering troubleshooting
+- Improved planning and component recommendations
+
+### Digital Twin
+
+- Richer component libraries
+- More sophisticated physical simulation
+- Expanded live device synchronization
+
+### Physical Robotics
+
+- Raspberry Pi and microcontroller integration
+- Additional robotics hardware adapters
+- Sensor and actuator workflows
+- Embedded AI integration
+
+### Research and Education
+
+- Guided robotics learning environments
+- Engineering experiment documentation
+- Student robotics project templates
+- Agriculture and automation use cases
+
+**Long-Term Vision:** An intelligent robotics development environment connecting software, physical hardware, AI assistance, and interactive engineering tools.
+
+---
+
+## 12. Responsible AI and Robotics
+
+RoboLN is a robotics engineering assistance and prototyping platform.
+
+AI-generated technical guidance should be reviewed before implementation. Electrical connections, actuator operations, mechanical behavior, and safety-critical decisions require independent verification.
+
+The platform supports engineering judgment rather than replacing it.
+
+---
+
+## 13. Hackathon Information
+
+| Field | Details |
+|---|---|
+| Event | Meta Global AI Developer Hackathon 2026 |
+| Track | Indie Developer |
+| Project | RoboLN — Robotics Logic Navigator |
+| Developer | Sadia Akter Zannat |
+| Institution | Daffodil International University |
+| Country | Bangladesh |
+| Domain | AI, Robotics, Digital Twins, Embedded Systems |
+
+### Project Links
+
+**GitHub Repository:**  
+https://github.com/sadia-zannat/-RoboLN-AI
+
+**Official Demo Video:**  
+https://youtu.be/z4g6jI3I-po
+
+---
+
+## Developer
+
+**Sadia Akter Zannat**
+
+Computer Science and Engineering  
+Daffodil International University, Bangladesh
+
+Independent Developer | AI & Robotics Enthusiast
+
+---
+
+### RoboLN — From Idea to Intelligent Robotics
+
+**One workspace. Connected engineering workflows. Intelligent robotics development.**
