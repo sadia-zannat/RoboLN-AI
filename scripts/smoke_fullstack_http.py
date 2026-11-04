@@ -112,7 +112,7 @@ def main():
                 checked(owner.post('/api/auth/login', json={'email': 'owner@fullstack.example', 'password': 'FullStackTestingPassword123!'}))
                 assert checked(owner.get('/api/auth/me'))['theme'] == 'dark'
                 assert checked(owner.get('/api' + path + '/draft'))['draft'] == 'Saved through the real production proxy'
-                for suffix in ['', '/workspace/plan', '/workspace/practice', '/workspace/build', '/twin', '/evidence']:
+                for suffix in ['', '/workspace/plan', '/workspace/practice', '/workspace/copilot', '/twin', '/evidence']:
                     response = owner.get(path + suffix)
                     assert response.status_code == 200 and 'text/html' in response.headers['content-type']
                     checks += 1
