@@ -24,7 +24,7 @@ An AI-powered robotics engineering workspace that brings together intelligent pr
 
 **YouTube:** https://youtu.be/z4g6jI3I-po
 
-**GitHub:** https://github.com/sadia-zannat/RoboLN-AI?utm_source=chatgpt.com
+**GitHub:** https://github.com/sadia-zannat/RoboLN-AI
 
 ---
 
@@ -367,7 +367,7 @@ RoboLN/
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/sadia-zannat/RoboLN-AI?utm_source=chatgpt.com
+git clone https://github.com/sadia-zannat/RoboLN-AI
 ```
 
 ```bash
@@ -540,7 +540,7 @@ The platform supports engineering judgment rather than replacing it.
 ### Project Links
 
 **GitHub Repository:**  
-https://github.com/sadia-zannat/RoboLN-AI?utm_source=chatgpt.com
+https://github.com/sadia-zannat/RoboLN-AI
 
 **Official Demo Video:**  
 https://youtu.be/z4g6jI3I-po
