@@ -1,0 +1,594 @@
+FFFFF.                                                                   [100%]
+=================================== FAILURES ===================================
+_____ test_malformed_model_catalog_is_a_structured_provider_failure[None] ______
+
+client = <starlette.testclient.TestClient object at 0x7f7c360ea450>
+register = <function register.<locals>.f at 0x7f7c349237e0>
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x7f7c360ea3c0>
+response = None
+
+    @pytest.mark.parametrize('response', [None, [], 'invalid object', {'data': None}, {'data': {}}])
+    def test_malformed_model_catalog_is_a_structured_provider_failure(client, register, monkeypatch, response):
+        register(client)
+        consent(client)
+        fake_provider(monkeypatch, lambda req: httpx.Response(200, content=json.dumps(response), headers={'content-type': 'application/json'}))
+>       r = client.post('/api/ai/check', headers=csrf(client), json={'consent': True})
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests/test_release_regressions.py:14: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+../../../.venv/lib/python3.12/site-packages/httpx/_client.py:1144: in post
+    return self.request(
+../../../.venv/lib/python3.12/site-packages/starlette/testclient.py:518: in request
+    return super().request(
+../../../.venv/lib/python3.12/site-packages/httpx/_client.py:825: in request
+    return self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../.venv/lib/python3.12/site-packages/httpx/_client.py:928: in send
+    raise exc
+../../../.venv/lib/python3.12/site-packages/httpx/_client.py:922: in send
+    response.read()
+../../../.venv/lib/python3.12/site-packages/httpx/_models.py:881: in read
+    self._content = b"".join(self.iter_bytes())
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../.venv/lib/python3.12/site-packages/httpx/_models.py:897: in iter_bytes
+    for raw_bytes in self.iter_raw():
+                     ^^^^^^^^^^^^^^^
+../../../.venv/lib/python3.12/site-packages/httpx/_models.py:951: in iter_raw
+    for raw_stream_bytes in self.stream:
+                            ^^^^^^^^^^^
+../../../.venv/lib/python3.12/site-packages/httpx/_client.py:153: in __iter__
+    for chunk in self._stream:
+                 ^^^^^^^^^^^^
+../../../.venv/lib/python3.12/site-packages/starlette/testclient.py:384: in iter_body
+    exit_stack.close()
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/contextlib.py:618: in close
+    self.__exit__(None, None, None)
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/contextlib.py:610: in __exit__
+    raise exc_details[1]
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/contextlib.py:595: in __exit__
+    if cb(*exc_details):
+       ^^^^^^^^^^^^^^^^
+../../../.venv/lib/python3.12/site-packages/starlette/testclient.py:399: in close_app
+    raise exception
+../../../.venv/lib/python3.12/site-packages/anyio/from_thread.py:265: in _call_func
+    retval = await retval_or_awaitable
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../.venv/lib/python3.12/site-packages/starlette/testclient.py:366: in run_app
+    await self.app(scope, receive, send)
+../../../.venv/lib/python3.12/site-packages/fastapi/applications.py:1194: in __call__
+    await super().__call__(scope, receive, send)
+../../../.venv/lib/python3.12/site-packages/starlette/applications.py:96: in __call__
+    await self.middleware_stack(scope, receive, send)
+../../../.venv/lib/python3.12/site-packages/starlette/middleware/errors.py:186: in __call__
+    raise exc
+../../../.venv/lib/python3.12/site-packages/starlette/middleware/errors.py:164: in __call__
+    await self.app(scope, receive, _send)
+../../../.venv/lib/python3.12/site-packages/fastapi/telemetry/_asgi.py:151: in __call__
+    await self.app(scope, receive, send)
+app/http_policy.py:26: in __call__
+    await self.app(scope,bounded_receive,send)
+../../../.venv/lib/python3.12/site-packages/starlette/middleware/base.py:203: in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+app/api.py:21: in sensitive_api_response_headers
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+../../../.venv/lib/python3.12/site-packages/starlette/middleware/base.py:179: in call_next
+    raise app_exc from app_exc.__cause__ or app_exc.__context__
+../../../.venv/lib/python3.12/site-packages/starlette/middleware/base.py:149: in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+../../../.venv/lib/python3.12/site-packages/starlette/middleware/exceptions.py:63: in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+../../../.venv/lib/python3.12/site-packages/starlette/_exception_handler.py:53: in wrapped_app
+    raise exc
+../../../.venv/lib/python3.12/site-packages/starlette/_exception_handler.py:42: in wrapped_app
+    await app(scope, receive, sender)
+../../../.venv/lib/python3.12/site-packages/fastapi/middleware/asyncexitstack.py:18: in __call__
+    await self.app(scope, receive, send)
+../../../.venv/lib/python3.12/site-packages/starlette/routing.py:683: in __call__
+    await self.middleware_stack(scope, receive, send)
+../../../.venv/lib/python3.12/site-packages/fastapi/routing.py:2811: in app
+    await route.handle(scope, receive, send)
+../../../.venv/lib/python3.12/site-packages/fastapi/routing.py:1839: in handle
+    await self.original_router.handle(scope, receive, send)
+../../../.venv/lib/python3.12/site-packages/fastapi/routing.py:2894: in handle
+    await included_router._handle_selected(scope, receive, send)
+../../../.venv/lib/python3.12/site-packages/fastapi/routing.py:1865: in _handle_selected
+    await original_route.handle(scope, receive, send)
+../../../.venv/lib/python3.12/site-packages/fastapi/routing.py:1328: in handle
+    await effective_context.app(scope, receive, send)
+../../../.venv/lib/python3.12/site-packages/fastapi/routing.py:166: in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+../../../.venv/lib/python3.12/site-packages/starlette/_exception_handler.py:53: in wrapped_app
+    raise exc
+../../../.venv/lib/python3.12/site-packages/starlette/_exception_handler.py:42: in wrapped_app
+    await app(scope, receive, sender)
+../../../.venv/lib/python3.12/site-packages/fastapi/routing.py:152: in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+../../../.venv/lib/python3.12/site-packages/fastapi/routing.py:745: in app
+    raw_response = await run_endpoint_function(
+../../../.venv/lib/python3.12/site-packages/fastapi/routing.py:374: in run_endpoint_function
+    return await run_in_threadpool(
+../../../.venv/lib/python3.12/site-packages/starlette/concurrency.py:34: in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../.venv/lib/python3.12/site-packages/anyio/to_thread.py:65: in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+../../../.venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py:2706: in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+../../../.venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py:1100: in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+../../../.venv/lib/python3.12/site-packages/fastapi/telemetry/_api.py:244: in _run_sync_endpoint
+    return function(**arguments)
+           ^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+payload = CheckAI(consent=True)
+db = <sqlalchemy.orm.session.Session object at 0x7f7c33844b30>
+u = <app.models.User object at 0x7f7c3388ce30>
+
+    @router.post('/ai/check',dependencies=write)
+    def check_ai(payload:CheckAI,db:Session=Depends(get_db),u:User=Depends(current_user)):
+        cloud_consent(db,u,payload.consent);rate_guard(db,u,None)
+        data=meta_ai.provider_request('/models')
+>       models=[str(x['id']) for x in data.get('data',[]) if isinstance(x,dict) and 'id' in x]
+                                      ^^^^^^^^
+E       AttributeError: 'NoneType' object has no attribute 'get'
+
+app/workbench.py:53: AttributeError
+___ test_malformed_model_catalog_is_a_structured_provider_failure[response1] ___
+
+client = <starlette.testclient.TestClient object at 0x7f7c3490e300>
+register = <function register.<locals>.f at 0x7f7c32fe6520>
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x7f7c3490ea50>
+response = []
+
+    @pytest.mark.parametrize('response', [None, [], 'invalid object', {'data': None}, {'data': {}}])
+    def test_malformed_model_catalog_is_a_structured_provider_failure(client, register, monkeypatch, response):
+        register(client)
+        consent(client)
+        fake_provider(monkeypatch, lambda req: httpx.Response(200, content=json.dumps(response), headers={'content-type': 'application/json'}))
+>       r = client.post('/api/ai/check', headers=csrf(client), json={'consent': True})
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests/test_release_regressions.py:14: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+../../../.venv/lib/python3.12/site-packages/httpx/_client.py:1144: in post
+    return self.request(
+../../../.venv/lib/python3.12/site-packages/starlette/testclient.py:518: in request
+    return super().request(
+../../../.venv/lib/python3.12/site-packages/httpx/_client.py:825: in request
+    return self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../.venv/lib/python3.12/site-packages/httpx/_client.py:928: in send
+    raise exc
+../../../.venv/lib/python3.12/site-packages/httpx/_client.py:922: in send
+    response.read()
+../../../.venv/lib/python3.12/site-packages/httpx/_models.py:881: in read
+    self._content = b"".join(self.iter_bytes())
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../.venv/lib/python3.12/site-packages/httpx/_models.py:897: in iter_bytes
+    for raw_bytes in self.iter_raw():
+                     ^^^^^^^^^^^^^^^
+../../../.venv/lib/python3.12/site-packages/httpx/_models.py:951: in iter_raw
+    for raw_stream_bytes in self.stream:
+                            ^^^^^^^^^^^
+../../../.venv/lib/python3.12/site-packages/httpx/_client.py:153: in __iter__
+    for chunk in self._stream:
+                 ^^^^^^^^^^^^
+../../../.venv/lib/python3.12/site-packages/starlette/testclient.py:384: in iter_body
+    exit_stack.close()
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/contextlib.py:618: in close
+    self.__exit__(None, None, None)
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/contextlib.py:610: in __exit__
+    raise exc_details[1]
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/contextlib.py:595: in __exit__
+    if cb(*exc_details):
+       ^^^^^^^^^^^^^^^^
+../../../.venv/lib/python3.12/site-packages/starlette/testclient.py:399: in close_app
+    raise exception
+../../../.venv/lib/python3.12/site-packages/anyio/from_thread.py:265: in _call_func
+    retval = await retval_or_awaitable
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../.venv/lib/python3.12/site-packages/starlette/testclient.py:366: in run_app
+    await self.app(scope, receive, send)
+../../../.venv/lib/python3.12/site-packages/fastapi/applications.py:1194: in __call__
+    await super().__call__(scope, receive, send)
+../../../.venv/lib/python3.12/site-packages/starlette/applications.py:96: in __call__
+    await self.middleware_stack(scope, receive, send)
+../../../.venv/lib/python3.12/site-packages/starlette/middleware/errors.py:186: in __call__
+    raise exc
+../../../.venv/lib/python3.12/site-packages/starlette/middleware/errors.py:164: in __call__
+    await self.app(scope, receive, _send)
+../../../.venv/lib/python3.12/site-packages/fastapi/telemetry/_asgi.py:151: in __call__
+    await self.app(scope, receive, send)
+app/http_policy.py:26: in __call__
+    await self.app(scope,bounded_receive,send)
+../../../.venv/lib/python3.12/site-packages/starlette/middleware/base.py:203: in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+app/api.py:21: in sensitive_api_response_headers
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+../../../.venv/lib/python3.12/site-packages/starlette/middleware/base.py:179: in call_next
+    raise app_exc from app_exc.__cause__ or app_exc.__context__
+../../../.venv/lib/python3.12/site-packages/starlette/middleware/base.py:149: in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+../../../.venv/lib/python3.12/site-packages/starlette/middleware/exceptions.py:63: in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+../../../.venv/lib/python3.12/site-packages/starlette/_exception_handler.py:53: in wrapped_app
+    raise exc
+../../../.venv/lib/python3.12/site-packages/starlette/_exception_handler.py:42: in wrapped_app
+    await app(scope, receive, sender)
+../../../.venv/lib/python3.12/site-packages/fastapi/middleware/asyncexitstack.py:18: in __call__
+    await self.app(scope, receive, send)
+../../../.venv/lib/python3.12/site-packages/starlette/routing.py:683: in __call__
+    await self.middleware_stack(scope, receive, send)
+../../../.venv/lib/python3.12/site-packages/fastapi/routing.py:2811: in app
+    await route.handle(scope, receive, send)
+../../../.venv/lib/python3.12/site-packages/fastapi/routing.py:1839: in handle
+    await self.original_router.handle(scope, receive, send)
+../../../.venv/lib/python3.12/site-packages/fastapi/routing.py:2894: in handle
+    await included_router._handle_selected(scope, receive, send)
+../../../.venv/lib/python3.12/site-packages/fastapi/routing.py:1865: in _handle_selected
+    await original_route.handle(scope, receive, send)
+../../../.venv/lib/python3.12/site-packages/fastapi/routing.py:1328: in handle
+    await effective_context.app(scope, receive, send)
+../../../.venv/lib/python3.12/site-packages/fastapi/routing.py:166: in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+../../../.venv/lib/python3.12/site-packages/starlette/_exception_handler.py:53: in wrapped_app
+    raise exc
+../../../.venv/lib/python3.12/site-packages/starlette/_exception_handler.py:42: in wrapped_app
+    await app(scope, receive, sender)
+../../../.venv/lib/python3.12/site-packages/fastapi/routing.py:152: in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+../../../.venv/lib/python3.12/site-packages/fastapi/routing.py:745: in app
+    raw_response = await run_endpoint_function(
+../../../.venv/lib/python3.12/site-packages/fastapi/routing.py:374: in run_endpoint_function
+    return await run_in_threadpool(
+../../../.venv/lib/python3.12/site-packages/starlette/concurrency.py:34: in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../.venv/lib/python3.12/site-packages/anyio/to_thread.py:65: in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+../../../.venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py:2706: in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+../../../.venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py:1100: in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+../../../.venv/lib/python3.12/site-packages/fastapi/telemetry/_api.py:244: in _run_sync_endpoint
+    return function(**arguments)
+           ^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+payload = CheckAI(consent=True)
+db = <sqlalchemy.orm.session.Session object at 0x7f7c33128ad0>
+u = <app.models.User object at 0x7f7c33122900>
+
+    @router.post('/ai/check',dependencies=write)
+    def check_ai(payload:CheckAI,db:Session=Depends(get_db),u:User=Depends(current_user)):
+        cloud_consent(db,u,payload.consent);rate_guard(db,u,None)
+        data=meta_ai.provider_request('/models')
+>       models=[str(x['id']) for x in data.get('data',[]) if isinstance(x,dict) and 'id' in x]
+                                      ^^^^^^^^
+E       AttributeError: 'list' object has no attribute 'get'
+
+app/workbench.py:53: AttributeError
+_ test_malformed_model_catalog_is_a_structured_provider_failure[invalid object] _
+
+client = <starlette.testclient.TestClient object at 0x7f7c3494a120>
+register = <function register.<locals>.f at 0x7f7c33126020>
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x7f7c3494b890>
+response = 'invalid object'
+
+    @pytest.mark.parametrize('response', [None, [], 'invalid object', {'data': None}, {'data': {}}])
+    def test_malformed_model_catalog_is_a_structured_provider_failure(client, register, monkeypatch, response):
+        register(client)
+        consent(client)
+        fake_provider(monkeypatch, lambda req: httpx.Response(200, content=json.dumps(response), headers={'content-type': 'application/json'}))
+>       r = client.post('/api/ai/check', headers=csrf(client), json={'consent': True})
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests/test_release_regressions.py:14: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+../../../.venv/lib/python3.12/site-packages/httpx/_client.py:1144: in post
+    return self.request(
+../../../.venv/lib/python3.12/site-packages/starlette/testclient.py:518: in request
+    return super().request(
+../../../.venv/lib/python3.12/site-packages/httpx/_client.py:825: in request
+    return self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../.venv/lib/python3.12/site-packages/httpx/_client.py:928: in send
+    raise exc
+../../../.venv/lib/python3.12/site-packages/httpx/_client.py:922: in send
+    response.read()
+../../../.venv/lib/python3.12/site-packages/httpx/_models.py:881: in read
+    self._content = b"".join(self.iter_bytes())
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../.venv/lib/python3.12/site-packages/httpx/_models.py:897: in iter_bytes
+    for raw_bytes in self.iter_raw():
+                     ^^^^^^^^^^^^^^^
+../../../.venv/lib/python3.12/site-packages/httpx/_models.py:951: in iter_raw
+    for raw_stream_bytes in self.stream:
+                            ^^^^^^^^^^^
+../../../.venv/lib/python3.12/site-packages/httpx/_client.py:153: in __iter__
+    for chunk in self._stream:
+                 ^^^^^^^^^^^^
+../../../.venv/lib/python3.12/site-packages/starlette/testclient.py:384: in iter_body
+    exit_stack.close()
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/contextlib.py:618: in close
+    self.__exit__(None, None, None)
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/contextlib.py:610: in __exit__
+    raise exc_details[1]
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/contextlib.py:595: in __exit__
+    if cb(*exc_details):
+       ^^^^^^^^^^^^^^^^
+../../../.venv/lib/python3.12/site-packages/starlette/testclient.py:399: in close_app
+    raise exception
+../../../.venv/lib/python3.12/site-packages/anyio/from_thread.py:265: in _call_func
+    retval = await retval_or_awaitable
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../.venv/lib/python3.12/site-packages/starlette/testclient.py:366: in run_app
+    await self.app(scope, receive, send)
+../../../.venv/lib/python3.12/site-packages/fastapi/applications.py:1194: in __call__
+    await super().__call__(scope, receive, send)
+../../../.venv/lib/python3.12/site-packages/starlette/applications.py:96: in __call__
+    await self.middleware_stack(scope, receive, send)
+../../../.venv/lib/python3.12/site-packages/starlette/middleware/errors.py:186: in __call__
+    raise exc
+../../../.venv/lib/python3.12/site-packages/starlette/middleware/errors.py:164: in __call__
+    await self.app(scope, receive, _send)
+../../../.venv/lib/python3.12/site-packages/fastapi/telemetry/_asgi.py:151: in __call__
+    await self.app(scope, receive, send)
+app/http_policy.py:26: in __call__
+    await self.app(scope,bounded_receive,send)
+../../../.venv/lib/python3.12/site-packages/starlette/middleware/base.py:203: in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+app/api.py:21: in sensitive_api_response_headers
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+../../../.venv/lib/python3.12/site-packages/starlette/middleware/base.py:179: in call_next
+    raise app_exc from app_exc.__cause__ or app_exc.__context__
+../../../.venv/lib/python3.12/site-packages/starlette/middleware/base.py:149: in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+../../../.venv/lib/python3.12/site-packages/starlette/middleware/exceptions.py:63: in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+../../../.venv/lib/python3.12/site-packages/starlette/_exception_handler.py:53: in wrapped_app
+    raise exc
+../../../.venv/lib/python3.12/site-packages/starlette/_exception_handler.py:42: in wrapped_app
+    await app(scope, receive, sender)
+../../../.venv/lib/python3.12/site-packages/fastapi/middleware/asyncexitstack.py:18: in __call__
+    await self.app(scope, receive, send)
+../../../.venv/lib/python3.12/site-packages/starlette/routing.py:683: in __call__
+    await self.middleware_stack(scope, receive, send)
+../../../.venv/lib/python3.12/site-packages/fastapi/routing.py:2811: in app
+    await route.handle(scope, receive, send)
+../../../.venv/lib/python3.12/site-packages/fastapi/routing.py:1839: in handle
+    await self.original_router.handle(scope, receive, send)
+../../../.venv/lib/python3.12/site-packages/fastapi/routing.py:2894: in handle
+    await included_router._handle_selected(scope, receive, send)
+../../../.venv/lib/python3.12/site-packages/fastapi/routing.py:1865: in _handle_selected
+    await original_route.handle(scope, receive, send)
+../../../.venv/lib/python3.12/site-packages/fastapi/routing.py:1328: in handle
+    await effective_context.app(scope, receive, send)
+../../../.venv/lib/python3.12/site-packages/fastapi/routing.py:166: in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+../../../.venv/lib/python3.12/site-packages/starlette/_exception_handler.py:53: in wrapped_app
+    raise exc
+../../../.venv/lib/python3.12/site-packages/starlette/_exception_handler.py:42: in wrapped_app
+    await app(scope, receive, sender)
+../../../.venv/lib/python3.12/site-packages/fastapi/routing.py:152: in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+../../../.venv/lib/python3.12/site-packages/fastapi/routing.py:745: in app
+    raw_response = await run_endpoint_function(
+../../../.venv/lib/python3.12/site-packages/fastapi/routing.py:374: in run_endpoint_function
+    return await run_in_threadpool(
+../../../.venv/lib/python3.12/site-packages/starlette/concurrency.py:34: in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../.venv/lib/python3.12/site-packages/anyio/to_thread.py:65: in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+../../../.venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py:2706: in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+../../../.venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py:1100: in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+../../../.venv/lib/python3.12/site-packages/fastapi/telemetry/_api.py:244: in _run_sync_endpoint
+    return function(**arguments)
+           ^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+payload = CheckAI(consent=True)
+db = <sqlalchemy.orm.session.Session object at 0x7f7c33159820>
+u = <app.models.User object at 0x7f7c33159f40>
+
+    @router.post('/ai/check',dependencies=write)
+    def check_ai(payload:CheckAI,db:Session=Depends(get_db),u:User=Depends(current_user)):
+        cloud_consent(db,u,payload.consent);rate_guard(db,u,None)
+        data=meta_ai.provider_request('/models')
+>       models=[str(x['id']) for x in data.get('data',[]) if isinstance(x,dict) and 'id' in x]
+                                      ^^^^^^^^
+E       AttributeError: 'str' object has no attribute 'get'
+
+app/workbench.py:53: AttributeError
+___ test_malformed_model_catalog_is_a_structured_provider_failure[response3] ___
+
+client = <starlette.testclient.TestClient object at 0x7f7c3490c830>
+register = <function register.<locals>.f at 0x7f7c3314f6a0>
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x7f7c3388f5c0>
+response = {'data': None}
+
+    @pytest.mark.parametrize('response', [None, [], 'invalid object', {'data': None}, {'data': {}}])
+    def test_malformed_model_catalog_is_a_structured_provider_failure(client, register, monkeypatch, response):
+        register(client)
+        consent(client)
+        fake_provider(monkeypatch, lambda req: httpx.Response(200, content=json.dumps(response), headers={'content-type': 'application/json'}))
+>       r = client.post('/api/ai/check', headers=csrf(client), json={'consent': True})
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests/test_release_regressions.py:14: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+../../../.venv/lib/python3.12/site-packages/httpx/_client.py:1144: in post
+    return self.request(
+../../../.venv/lib/python3.12/site-packages/starlette/testclient.py:518: in request
+    return super().request(
+../../../.venv/lib/python3.12/site-packages/httpx/_client.py:825: in request
+    return self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../.venv/lib/python3.12/site-packages/httpx/_client.py:928: in send
+    raise exc
+../../../.venv/lib/python3.12/site-packages/httpx/_client.py:922: in send
+    response.read()
+../../../.venv/lib/python3.12/site-packages/httpx/_models.py:881: in read
+    self._content = b"".join(self.iter_bytes())
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../.venv/lib/python3.12/site-packages/httpx/_models.py:897: in iter_bytes
+    for raw_bytes in self.iter_raw():
+                     ^^^^^^^^^^^^^^^
+../../../.venv/lib/python3.12/site-packages/httpx/_models.py:951: in iter_raw
+    for raw_stream_bytes in self.stream:
+                            ^^^^^^^^^^^
+../../../.venv/lib/python3.12/site-packages/httpx/_client.py:153: in __iter__
+    for chunk in self._stream:
+                 ^^^^^^^^^^^^
+../../../.venv/lib/python3.12/site-packages/starlette/testclient.py:384: in iter_body
+    exit_stack.close()
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/contextlib.py:618: in close
+    self.__exit__(None, None, None)
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/contextlib.py:610: in __exit__
+    raise exc_details[1]
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/contextlib.py:595: in __exit__
+    if cb(*exc_details):
+       ^^^^^^^^^^^^^^^^
+../../../.venv/lib/python3.12/site-packages/starlette/testclient.py:399: in close_app
+    raise exception
+../../../.venv/lib/python3.12/site-packages/anyio/from_thread.py:265: in _call_func
+    retval = await retval_or_awaitable
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../.venv/lib/python3.12/site-packages/starlette/testclient.py:366: in run_app
+    await self.app(scope, receive, send)
+../../../.venv/lib/python3.12/site-packages/fastapi/applications.py:1194: in __call__
+    await super().__call__(scope, receive, send)
+../../../.venv/lib/python3.12/site-packages/starlette/applications.py:96: in __call__
+    await self.middleware_stack(scope, receive, send)
+../../../.venv/lib/python3.12/site-packages/starlette/middleware/errors.py:186: in __call__
+    raise exc
+../../../.venv/lib/python3.12/site-packages/starlette/middleware/errors.py:164: in __call__
+    await self.app(scope, receive, _send)
+../../../.venv/lib/python3.12/site-packages/fastapi/telemetry/_asgi.py:151: in __call__
+    await self.app(scope, receive, send)
+app/http_policy.py:26: in __call__
+    await self.app(scope,bounded_receive,send)
+../../../.venv/lib/python3.12/site-packages/starlette/middleware/base.py:203: in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+app/api.py:21: in sensitive_api_response_headers
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+../../../.venv/lib/python3.12/site-packages/starlette/middleware/base.py:179: in call_next
+    raise app_exc from app_exc.__cause__ or app_exc.__context__
+../../../.venv/lib/python3.12/site-packages/starlette/middleware/base.py:149: in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+../../../.venv/lib/python3.12/site-packages/starlette/middleware/exceptions.py:63: in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+../../../.venv/lib/python3.12/site-packages/starlette/_exception_handler.py:53: in wrapped_app
+    raise exc
+../../../.venv/lib/python3.12/site-packages/starlette/_exception_handler.py:42: in wrapped_app
+    await app(scope, receive, sender)
+../../../.venv/lib/python3.12/site-packages/fastapi/middleware/asyncexitstack.py:18: in __call__
+    await self.app(scope, receive, send)
+../../../.venv/lib/python3.12/site-packages/starlette/routing.py:683: in __call__
+    await self.middleware_stack(scope, receive, send)
+../../../.venv/lib/python3.12/site-packages/fastapi/routing.py:2811: in app
+    await route.handle(scope, receive, send)
+../../../.venv/lib/python3.12/site-packages/fastapi/routing.py:1839: in handle
+    await self.original_router.handle(scope, receive, send)
+../../../.venv/lib/python3.12/site-packages/fastapi/routing.py:2894: in handle
+    await included_router._handle_selected(scope, receive, send)
+../../../.venv/lib/python3.12/site-packages/fastapi/routing.py:1865: in _handle_selected
+    await original_route.handle(scope, receive, send)
+../../../.venv/lib/python3.12/site-packages/fastapi/routing.py:1328: in handle
+    await effective_context.app(scope, receive, send)
+../../../.venv/lib/python3.12/site-packages/fastapi/routing.py:166: in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+../../../.venv/lib/python3.12/site-packages/starlette/_exception_handler.py:53: in wrapped_app
+    raise exc
+../../../.venv/lib/python3.12/site-packages/starlette/_exception_handler.py:42: in wrapped_app
+    await app(scope, receive, sender)
+../../../.venv/lib/python3.12/site-packages/fastapi/routing.py:152: in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+../../../.venv/lib/python3.12/site-packages/fastapi/routing.py:745: in app
+    raw_response = await run_endpoint_function(
+../../../.venv/lib/python3.12/site-packages/fastapi/routing.py:374: in run_endpoint_function
+    return await run_in_threadpool(
+../../../.venv/lib/python3.12/site-packages/starlette/concurrency.py:34: in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../../../.venv/lib/python3.12/site-packages/anyio/to_thread.py:65: in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+../../../.venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py:2706: in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+../../../.venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py:1100: in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+../../../.venv/lib/python3.12/site-packages/fastapi/telemetry/_api.py:244: in _run_sync_endpoint
+    return function(**arguments)
+           ^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+payload = CheckAI(consent=True)
+db = <sqlalchemy.orm.session.Session object at 0x7f7c330d8440>
+u = <app.models.User object at 0x7f7c330dbb00>
+
+    @router.post('/ai/check',dependencies=write)
+    def check_ai(payload:CheckAI,db:Session=Depends(get_db),u:User=Depends(current_user)):
+        cloud_consent(db,u,payload.consent);rate_guard(db,u,None)
+        data=meta_ai.provider_request('/models')
+>       models=[str(x['id']) for x in data.get('data',[]) if isinstance(x,dict) and 'id' in x]
+                                      ^^^^^^^^^^^^^^^^^^^
+E       TypeError: 'NoneType' object is not iterable
+
+app/workbench.py:53: TypeError
+___ test_malformed_model_catalog_is_a_structured_provider_failure[response4] ___
+
+client = <starlette.testclient.TestClient object at 0x7f7c3312a8d0>
+register = <function register.<locals>.f at 0x7f7c3311d6c0>
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x7f7c3312a750>
+response = {'data': {}}
+
+    @pytest.mark.parametrize('response', [None, [], 'invalid object', {'data': None}, {'data': {}}])
+    def test_malformed_model_catalog_is_a_structured_provider_failure(client, register, monkeypatch, response):
+        register(client)
+        consent(client)
+        fake_provider(monkeypatch, lambda req: httpx.Response(200, content=json.dumps(response), headers={'content-type': 'application/json'}))
+        r = client.post('/api/ai/check', headers=csrf(client), json={'consent': True})
+>       assert r.status_code == 502, r.text
+E       AssertionError: {"models":[],"configured_model_available":false,"inference_verified":false}
+E       assert 200 == 502
+E        +  where 200 = <Response [200 OK]>.status_code
+
+tests/test_release_regressions.py:15: AssertionError
+=============================== warnings summary ===============================
+../../../.venv/lib/python3.12/site-packages/fastapi/testclient.py:1
+  /workspace/scratch/f2f00674cd4e/.venv/lib/python3.12/site-packages/fastapi/testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.
+    from starlette.testclient import TestClient as TestClient  # noqa
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ============================
+FAILED tests/test_release_regressions.py::test_malformed_model_catalog_is_a_structured_provider_failure[None]
+FAILED tests/test_release_regressions.py::test_malformed_model_catalog_is_a_structured_provider_failure[response1]
+FAILED tests/test_release_regressions.py::test_malformed_model_catalog_is_a_structured_provider_failure[invalid object]
+FAILED tests/test_release_regressions.py::test_malformed_model_catalog_is_a_structured_provider_failure[response3]
+FAILED tests/test_release_regressions.py::test_malformed_model_catalog_is_a_structured_provider_failure[response4]
+5 failed, 1 passed, 1 warning in 2.69s

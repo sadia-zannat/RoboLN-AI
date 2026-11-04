@@ -1,0 +1,127 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+Listing tests:
+  [desktop-1440] › copilot.spec.ts:5:5 › equipment photos, saved steps, checkpoint, new tab, login and project switching
+  [desktop-1440] › copilot.spec.ts:14:5 › camera denial, consented step upload and honest unavailable Meta error
+  [desktop-1440] › copilot.spec.ts:18:5 › 3D library search transforms undo redo and saved parenting
+  [desktop-1440] › engineering-intake.spec.ts:14:5 › engineering intake creates isolated, unverified, versioned draft
+  [desktop-1440] › engineering-intake.spec.ts:36:5 › camera starts disabled without permission and offers deliberate control
+  [desktop-1440] › full-workflow.spec.ts:9:5 › source ingestion retrieval and honest AI not-configured error
+  [desktop-1440] › full-workflow.spec.ts:18:5 › engineering revision interactive WebGL selection and manual scene correspondence
+  [desktop-1440] › full-workflow.spec.ts:28:5 › synthetic MediaStream capture evidence and independent PASS boundary
+  [desktop-1440] › full-workflow.spec.ts:46:5 › camera denial stays safe and upload evidence works
+  [desktop-1440] › full-workflow.spec.ts:51:5 › authenticated simulation telemetry reaches twin and owner control remains HOLD
+  [desktop-1440] › full-workflow.spec.ts:57:5 › integrated pages have no serious accessibility failures and fit viewport
+  [desktop-1440] › industrial.spec.ts:4:5 › assembly orientation visibility pin association and accessibility persist
+  [desktop-1440] › industrial.spec.ts:5:5 › Design Simulation Live mode refresh and deterministic virtual history
+  [desktop-1440] › industrial.spec.ts:6:5 › software physical-origin contract packet maps into scene inspector chart and warnings
+  [desktop-1440] › industrial.spec.ts:7:5 › simulated packets excluded from live scene; selected AI reports missing credentials
+  [desktop-1440] › industrial.spec.ts:8:5 › slow snapshot does not overlap and navigation cancels pending work
+  [desktop-1440] › industrial.spec.ts:9:5 › modes camera embedding navigation and refresh have no runtime errors
+  [desktop-1440] › industrial.spec.ts:10:5 › original telemetry history twin controls routes survive idle reads and refresh
+  [desktop-1440] › industrial.spec.ts:11:5 › BOM deletion cleans draft relations but sensor mapping stays explicitly orphaned
+  [desktop-1440] › navigation.spec.ts:19:5 › registered session, routes, real back-forward, breadcrumbs, home, deep refresh
+  [desktop-1440] › navigation.spec.ts:40:5 › light/dark/system persistence, navigation and width audit
+  [desktop-1440] › navigation.spec.ts:54:5 › viewer cannot edit, missing project cannot leak title, signout blocks deep link
+  [desktop-1440] › navigation.spec.ts:65:5 › keyboard skip link and forward initially disabled
+  [desktop-1440] › navigation.spec.ts:73:5 › per-project draft isolation across navigation and refresh
+  [desktop-1440] › navigation.spec.ts:86:5 › public product titles and keyboard modal dismissal
+  [desktop-1440] › navigation.spec.ts:96:5 › mobile workspace tabs expose all three complete destinations
+  [desktop-1440] › navigation.spec.ts:108:5 › archived projects cannot edit hardware, membership or planning drafts
+  [desktop-1440] › navigation.spec.ts:127:5 › account export includes saved hardware and my own planning draft
+  [desktop-1440] › ux-guided-assembly.spec.ts:16:5 › tutorial, drag from component library and revision persistence
+  [desktop-1440] › ux-guided-assembly.spec.ts:31:5 › drag existing part, attach parent, and preserve translated grouping
+  [desktop-1440] › ux-guided-assembly.spec.ts:64:5 › model message renders headings/lists/code without interpreting HTML
+  [tablet-768] › copilot.spec.ts:5:5 › equipment photos, saved steps, checkpoint, new tab, login and project switching
+  [tablet-768] › copilot.spec.ts:14:5 › camera denial, consented step upload and honest unavailable Meta error
+  [tablet-768] › copilot.spec.ts:18:5 › 3D library search transforms undo redo and saved parenting
+  [tablet-768] › engineering-intake.spec.ts:14:5 › engineering intake creates isolated, unverified, versioned draft
+  [tablet-768] › engineering-intake.spec.ts:36:5 › camera starts disabled without permission and offers deliberate control
+  [tablet-768] › full-workflow.spec.ts:9:5 › source ingestion retrieval and honest AI not-configured error
+  [tablet-768] › full-workflow.spec.ts:18:5 › engineering revision interactive WebGL selection and manual scene correspondence
+  [tablet-768] › full-workflow.spec.ts:28:5 › synthetic MediaStream capture evidence and independent PASS boundary
+  [tablet-768] › full-workflow.spec.ts:46:5 › camera denial stays safe and upload evidence works
+  [tablet-768] › full-workflow.spec.ts:51:5 › authenticated simulation telemetry reaches twin and owner control remains HOLD
+  [tablet-768] › full-workflow.spec.ts:57:5 › integrated pages have no serious accessibility failures and fit viewport
+  [tablet-768] › industrial.spec.ts:4:5 › assembly orientation visibility pin association and accessibility persist
+  [tablet-768] › industrial.spec.ts:5:5 › Design Simulation Live mode refresh and deterministic virtual history
+  [tablet-768] › industrial.spec.ts:6:5 › software physical-origin contract packet maps into scene inspector chart and warnings
+  [tablet-768] › industrial.spec.ts:7:5 › simulated packets excluded from live scene; selected AI reports missing credentials
+  [tablet-768] › industrial.spec.ts:8:5 › slow snapshot does not overlap and navigation cancels pending work
+  [tablet-768] › industrial.spec.ts:9:5 › modes camera embedding navigation and refresh have no runtime errors
+  [tablet-768] › industrial.spec.ts:10:5 › original telemetry history twin controls routes survive idle reads and refresh
+  [tablet-768] › industrial.spec.ts:11:5 › BOM deletion cleans draft relations but sensor mapping stays explicitly orphaned
+  [tablet-768] › navigation.spec.ts:19:5 › registered session, routes, real back-forward, breadcrumbs, home, deep refresh
+  [tablet-768] › navigation.spec.ts:40:5 › light/dark/system persistence, navigation and width audit
+  [tablet-768] › navigation.spec.ts:54:5 › viewer cannot edit, missing project cannot leak title, signout blocks deep link
+  [tablet-768] › navigation.spec.ts:65:5 › keyboard skip link and forward initially disabled
+  [tablet-768] › navigation.spec.ts:73:5 › per-project draft isolation across navigation and refresh
+  [tablet-768] › navigation.spec.ts:86:5 › public product titles and keyboard modal dismissal
+  [tablet-768] › navigation.spec.ts:96:5 › mobile workspace tabs expose all three complete destinations
+  [tablet-768] › navigation.spec.ts:108:5 › archived projects cannot edit hardware, membership or planning drafts
+  [tablet-768] › navigation.spec.ts:127:5 › account export includes saved hardware and my own planning draft
+  [tablet-768] › ux-guided-assembly.spec.ts:16:5 › tutorial, drag from component library and revision persistence
+  [tablet-768] › ux-guided-assembly.spec.ts:31:5 › drag existing part, attach parent, and preserve translated grouping
+  [tablet-768] › ux-guided-assembly.spec.ts:64:5 › model message renders headings/lists/code without interpreting HTML
+  [mobile-390] › copilot.spec.ts:5:5 › equipment photos, saved steps, checkpoint, new tab, login and project switching
+  [mobile-390] › copilot.spec.ts:14:5 › camera denial, consented step upload and honest unavailable Meta error
+  [mobile-390] › copilot.spec.ts:18:5 › 3D library search transforms undo redo and saved parenting
+  [mobile-390] › engineering-intake.spec.ts:14:5 › engineering intake creates isolated, unverified, versioned draft
+  [mobile-390] › engineering-intake.spec.ts:36:5 › camera starts disabled without permission and offers deliberate control
+  [mobile-390] › full-workflow.spec.ts:9:5 › source ingestion retrieval and honest AI not-configured error
+  [mobile-390] › full-workflow.spec.ts:18:5 › engineering revision interactive WebGL selection and manual scene correspondence
+  [mobile-390] › full-workflow.spec.ts:28:5 › synthetic MediaStream capture evidence and independent PASS boundary
+  [mobile-390] › full-workflow.spec.ts:46:5 › camera denial stays safe and upload evidence works
+  [mobile-390] › full-workflow.spec.ts:51:5 › authenticated simulation telemetry reaches twin and owner control remains HOLD
+  [mobile-390] › full-workflow.spec.ts:57:5 › integrated pages have no serious accessibility failures and fit viewport
+  [mobile-390] › industrial.spec.ts:4:5 › assembly orientation visibility pin association and accessibility persist
+  [mobile-390] › industrial.spec.ts:5:5 › Design Simulation Live mode refresh and deterministic virtual history
+  [mobile-390] › industrial.spec.ts:6:5 › software physical-origin contract packet maps into scene inspector chart and warnings
+  [mobile-390] › industrial.spec.ts:7:5 › simulated packets excluded from live scene; selected AI reports missing credentials
+  [mobile-390] › industrial.spec.ts:8:5 › slow snapshot does not overlap and navigation cancels pending work
+  [mobile-390] › industrial.spec.ts:9:5 › modes camera embedding navigation and refresh have no runtime errors
+  [mobile-390] › industrial.spec.ts:10:5 › original telemetry history twin controls routes survive idle reads and refresh
+  [mobile-390] › industrial.spec.ts:11:5 › BOM deletion cleans draft relations but sensor mapping stays explicitly orphaned
+  [mobile-390] › navigation.spec.ts:19:5 › registered session, routes, real back-forward, breadcrumbs, home, deep refresh
+  [mobile-390] › navigation.spec.ts:40:5 › light/dark/system persistence, navigation and width audit
+  [mobile-390] › navigation.spec.ts:54:5 › viewer cannot edit, missing project cannot leak title, signout blocks deep link
+  [mobile-390] › navigation.spec.ts:65:5 › keyboard skip link and forward initially disabled
+  [mobile-390] › navigation.spec.ts:73:5 › per-project draft isolation across navigation and refresh
+  [mobile-390] › navigation.spec.ts:86:5 › public product titles and keyboard modal dismissal
+  [mobile-390] › navigation.spec.ts:96:5 › mobile workspace tabs expose all three complete destinations
+  [mobile-390] › navigation.spec.ts:108:5 › archived projects cannot edit hardware, membership or planning drafts
+  [mobile-390] › navigation.spec.ts:127:5 › account export includes saved hardware and my own planning draft
+  [mobile-390] › ux-guided-assembly.spec.ts:16:5 › tutorial, drag from component library and revision persistence
+  [mobile-390] › ux-guided-assembly.spec.ts:31:5 › drag existing part, attach parent, and preserve translated grouping
+  [mobile-390] › ux-guided-assembly.spec.ts:64:5 › model message renders headings/lists/code without interpreting HTML
+  [mobile-320] › copilot.spec.ts:5:5 › equipment photos, saved steps, checkpoint, new tab, login and project switching
+  [mobile-320] › copilot.spec.ts:14:5 › camera denial, consented step upload and honest unavailable Meta error
+  [mobile-320] › copilot.spec.ts:18:5 › 3D library search transforms undo redo and saved parenting
+  [mobile-320] › engineering-intake.spec.ts:14:5 › engineering intake creates isolated, unverified, versioned draft
+  [mobile-320] › engineering-intake.spec.ts:36:5 › camera starts disabled without permission and offers deliberate control
+  [mobile-320] › full-workflow.spec.ts:9:5 › source ingestion retrieval and honest AI not-configured error
+  [mobile-320] › full-workflow.spec.ts:18:5 › engineering revision interactive WebGL selection and manual scene correspondence
+  [mobile-320] › full-workflow.spec.ts:28:5 › synthetic MediaStream capture evidence and independent PASS boundary
+  [mobile-320] › full-workflow.spec.ts:46:5 › camera denial stays safe and upload evidence works
+  [mobile-320] › full-workflow.spec.ts:51:5 › authenticated simulation telemetry reaches twin and owner control remains HOLD
+  [mobile-320] › full-workflow.spec.ts:57:5 › integrated pages have no serious accessibility failures and fit viewport
+  [mobile-320] › industrial.spec.ts:4:5 › assembly orientation visibility pin association and accessibility persist
+  [mobile-320] › industrial.spec.ts:5:5 › Design Simulation Live mode refresh and deterministic virtual history
+  [mobile-320] › industrial.spec.ts:6:5 › software physical-origin contract packet maps into scene inspector chart and warnings
+  [mobile-320] › industrial.spec.ts:7:5 › simulated packets excluded from live scene; selected AI reports missing credentials
+  [mobile-320] › industrial.spec.ts:8:5 › slow snapshot does not overlap and navigation cancels pending work
+  [mobile-320] › industrial.spec.ts:9:5 › modes camera embedding navigation and refresh have no runtime errors
+  [mobile-320] › industrial.spec.ts:10:5 › original telemetry history twin controls routes survive idle reads and refresh
+  [mobile-320] › industrial.spec.ts:11:5 › BOM deletion cleans draft relations but sensor mapping stays explicitly orphaned
+  [mobile-320] › navigation.spec.ts:19:5 › registered session, routes, real back-forward, breadcrumbs, home, deep refresh
+  [mobile-320] › navigation.spec.ts:40:5 › light/dark/system persistence, navigation and width audit
+  [mobile-320] › navigation.spec.ts:54:5 › viewer cannot edit, missing project cannot leak title, signout blocks deep link
+  [mobile-320] › navigation.spec.ts:65:5 › keyboard skip link and forward initially disabled
+  [mobile-320] › navigation.spec.ts:73:5 › per-project draft isolation across navigation and refresh
+  [mobile-320] › navigation.spec.ts:86:5 › public product titles and keyboard modal dismissal
+  [mobile-320] › navigation.spec.ts:96:5 › mobile workspace tabs expose all three complete destinations
+  [mobile-320] › navigation.spec.ts:108:5 › archived projects cannot edit hardware, membership or planning drafts
+  [mobile-320] › navigation.spec.ts:127:5 › account export includes saved hardware and my own planning draft
+  [mobile-320] › ux-guided-assembly.spec.ts:16:5 › tutorial, drag from component library and revision persistence
+  [mobile-320] › ux-guided-assembly.spec.ts:31:5 › drag existing part, attach parent, and preserve translated grouping
+  [mobile-320] › ux-guided-assembly.spec.ts:64:5 › model message renders headings/lists/code without interpreting HTML
+Total: 124 tests in 6 files

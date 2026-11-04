@@ -1,0 +1,1 @@
+Managed browser created a blank tab but opening http://127.0.0.1:3000/register failed with net::ERR_CONNECTION_REFUSED. No application DOM, screenshot or manual workflow was verified. The temporary local QA server was stopped. CLI browser failures are recorded separately in browser-preflight.txt and both Playwright result logs.

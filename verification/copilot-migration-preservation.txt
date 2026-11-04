@@ -1,0 +1,1 @@
+Copilot additive migration: PASS; existing account, theme, membership, chat/provider metadata and dependent change proposal retained across upgrade/downgrade/re-upgrade; seven new tables and chat defaults verified. Downgrade intentionally removes NEW copilot data; back up before schema changes.

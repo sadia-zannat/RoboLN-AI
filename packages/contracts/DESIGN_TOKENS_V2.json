@@ -1,0 +1,50 @@
+{
+  "dark": {
+    "page": "#08111F",
+    "surface": "#101D30",
+    "raised": "#172940",
+    "border": "#293D55",
+    "text": "#EAF2FF",
+    "muted": "#A4B4CB",
+    "accent": "#4E98FF",
+    "accent2": "#38C9DC",
+    "success": "#40CCA0",
+    "warning": "#F2BD69",
+    "danger": "#FF7E8A"
+  },
+  "light": {
+    "page": "#F6F8FC",
+    "surface": "#FFFFFF",
+    "raised": "#EEF3F9",
+    "border": "#DCE4EE",
+    "text": "#152439",
+    "muted": "#52657B",
+    "accent": "#155FD2",
+    "accent2": "#008C9B",
+    "success": "#187A59",
+    "warning": "#936100",
+    "danger": "#C33144"
+  },
+  "spacingScalePx": [
+    4,
+    8,
+    12,
+    16,
+    20,
+    24,
+    32
+  ],
+  "radiusPx": {
+    "sm": 6,
+    "card": 12,
+    "modal": 14
+  },
+  "bodyFontMinPx": 14,
+  "tapTargetMinPx": 44,
+  "modes": [
+    "light",
+    "dark",
+    "system"
+  ],
+  "note": "Reference tokens only; contrast verify in real browsers"
+}

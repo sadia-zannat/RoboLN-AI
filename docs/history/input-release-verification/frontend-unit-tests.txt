@@ -1,0 +1,33 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> roboln-frontend@1.0.0 test:unit
+> node --experimental-strip-types --test tests/unit/*.test.ts
+
+(node:25) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///workspace/scratch/fb444ae2fc0e/recovered/RoboLN/frontend/tests/unit/backend-proxy.test.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /workspace/scratch/fb444ae2fc0e/recovered/RoboLN/frontend/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ fresh sockets preserve genuine responses query cookies and CSRF (36.52914ms)
+[RoboLN proxy 3e2dd2b0-4091-488f-88ad-2e6885cc34be] GET /api/p ECONNRESET
+✔ forced reset is explicit 502 with correlation ID (4.973578ms)
+✔ real authorization and database errors are forwarded (12.367788ms)
+[RoboLN proxy 8beebbc9-013c-440e-bc4e-fe822d79006e] POST /api/p UPSTREAM_TIMEOUT
+✔ timeout bounded with no mutation retry (34.183021ms)
+✔ invalid traversal and oversized body rejected (8.299976ms)
+✔ upload body is forwarded unchanged (2.779017ms)
+(node:27) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///workspace/scratch/fb444ae2fc0e/recovered/RoboLN/frontend/tests/unit/twin-state.test.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /workspace/scratch/fb444ae2fc0e/recovered/RoboLN/frontend/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ stale or revoked recorded wheel remains frozen (1.101171ms)
+✔ simulation cannot drive physical transforms (0.31727ms)
+✔ partial pose update retains previous atomic packet (1.002766ms)
+✔ incompatible historic units cannot move scene (0.185294ms)
+ℹ tests 10
+ℹ suites 0
+ℹ pass 10
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 354.164436

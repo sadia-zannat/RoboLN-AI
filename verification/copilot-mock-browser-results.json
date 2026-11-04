@@ -1,0 +1,322 @@
+{
+  "config": {
+    "argv": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin/node",
+      "/workspace/scratch/f2f00674cd4e/copilot/RoboLN/frontend/node_modules/.bin/playwright",
+      "test",
+      "-c",
+      "playwright.copilot.config.ts",
+      "--max-failures=1"
+    ],
+    "configFile": "/workspace/scratch/f2f00674cd4e/copilot/RoboLN/frontend/playwright.copilot.config.ts",
+    "rootDir": "/workspace/scratch/f2f00674cd4e/copilot/RoboLN/frontend/tests/e2e",
+    "failOnFlakyTests": false,
+    "forbidOnly": true,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 900000,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 1,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/workspace/scratch/f2f00674cd4e/copilot/RoboLN/frontend/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "desktop-1440",
+        "name": "desktop-1440",
+        "testDir": "/workspace/scratch/f2f00674cd4e/copilot/RoboLN/frontend/tests/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/copilot.mock.spec.ts"
+        ],
+        "timeout": 60000
+      },
+      {
+        "outputDir": "/workspace/scratch/f2f00674cd4e/copilot/RoboLN/frontend/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "mobile-390",
+        "name": "mobile-390",
+        "testDir": "/workspace/scratch/f2f00674cd4e/copilot/RoboLN/frontend/tests/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/copilot.mock.spec.ts"
+        ],
+        "timeout": 60000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "/workspace/scratch/f2f00674cd4e/copilot/RoboLN/frontend/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "desktop-1440",
+        "testDir": "/workspace/scratch/f2f00674cd4e/copilot/RoboLN/frontend/tests/e2e",
+        "snapshotDir": "/workspace/scratch/f2f00674cd4e/copilot/RoboLN/frontend/tests/e2e",
+        "testIgnore": [],
+        "testMatch": "**/copilot.mock.spec.ts",
+        "timeout": 60000,
+        "use": {
+          "baseURL": "http://127.0.0.1:3000",
+          "trace": "retain-on-failure",
+          "screenshot": "only-on-failure",
+          "launchOptions": {
+            "executablePath": "/usr/lib/chromium/chromium",
+            "args": [
+              "--use-gl=angle",
+              "--use-angle=swiftshader",
+              "--use-fake-device-for-media-stream",
+              "--enable-unsafe-swiftshader"
+            ]
+          },
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.8078.4 Safari/537.36",
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "screen": {
+            "width": 1920,
+            "height": 1080
+          },
+          "deviceScaleFactor": 1,
+          "isMobile": false,
+          "hasTouch": false,
+          "defaultBrowserType": "chromium"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "desktop-1440"
+      },
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "/workspace/scratch/f2f00674cd4e/copilot/RoboLN/frontend/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "mobile-390",
+        "testDir": "/workspace/scratch/f2f00674cd4e/copilot/RoboLN/frontend/tests/e2e",
+        "snapshotDir": "/workspace/scratch/f2f00674cd4e/copilot/RoboLN/frontend/tests/e2e",
+        "testIgnore": [],
+        "testMatch": "**/copilot.mock.spec.ts",
+        "timeout": 60000,
+        "use": {
+          "baseURL": "http://127.0.0.1:3000",
+          "trace": "retain-on-failure",
+          "screenshot": "only-on-failure",
+          "launchOptions": {
+            "executablePath": "/usr/lib/chromium/chromium",
+            "args": [
+              "--use-gl=angle",
+              "--use-angle=swiftshader",
+              "--use-fake-device-for-media-stream",
+              "--enable-unsafe-swiftshader"
+            ]
+          },
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.8078.4 Safari/537.36",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "screen": {
+            "width": 1920,
+            "height": 1080
+          },
+          "deviceScaleFactor": 1,
+          "isMobile": true,
+          "hasTouch": true,
+          "defaultBrowserType": "chromium"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "mobile-390"
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "../verification/copilot-mock-browser-results.json"
+        }
+      ],
+      [
+        "html",
+        {
+          "outputFolder": "../logs/copilot-mock-browser-report",
+          "open": "never"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.64.1",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "copilot.mock.spec.ts",
+      "file": "copilot.mock.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "review actual saved provider-mock plan, inspect synthetic snapshot, confirm and resume",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-1440",
+              "projectName": "desktop-1440",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 2,
+                  "error": {
+                    "message": "Error: browserType.launch: Target page, context or browser has been closed\nBrowser logs:\n\n<launching> /usr/lib/chromium/chromium --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --use-gl=angle --use-angle=swiftshader --use-fake-device-for-media-stream --enable-unsafe-swiftshader --user-data-dir=/tmp/playwright_chromiumdev_profile-ec5Xel --remote-debugging-pipe --no-startup-window\n<launched> pid=82\n[pid=82][err] [82:82:1104/120421.346952:FATAL:chrome/browser/process_singleton_posix.cc:297] Check failed: . socket() failed: Operation not permitted (1)\n[pid=82][err] [1104/120421.348662:ERROR:third_party/crashpad/crashpad/util/linux/scoped_ptrace_attach.cc:27] ptrace: Operation not permitted (1)\nCall log:\n\u001b[2m  - <launching> /usr/lib/chromium/chromium --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --use-gl=angle --use-angle=swiftshader --use-fake-device-for-media-stream --enable-unsafe-swiftshader --user-data-dir=/tmp/playwright_chromiumdev_profile-ec5Xel --remote-debugging-pipe --no-startup-window\u001b[22m\n\u001b[2m  - <launched> pid=82\u001b[22m\n\u001b[2m  - [pid=82][err] [82:82:1104/120421.346952:FATAL:chrome/browser/process_singleton_posix.cc:297] Check failed: . socket() failed: Operation not permitted (1)\u001b[22m\n\u001b[2m  - [pid=82][err] [1104/120421.348662:ERROR:third_party/crashpad/crashpad/util/linux/scoped_ptrace_attach.cc:27] ptrace: Operation not permitted (1)\u001b[22m\n\u001b[2m  - [pid=82] <gracefully close start>\u001b[22m\n\u001b[2m  - [pid=82] <kill>\u001b[22m\n\u001b[2m  - [pid=82] <will force kill>\u001b[22m\n\u001b[2m  - [pid=82] <process did exit: exitCode=null, signal=SIGABRT>\u001b[22m\n\u001b[2m  - [pid=82] starting temporary directories cleanup\u001b[22m\n\u001b[2m  - [pid=82] finished temporary directories cleanup\u001b[22m\n\u001b[2m  - [pid=82] <gracefully close end>\u001b[22m\n",
+                    "stack": "Error: browserType.launch: Target page, context or browser has been closed\nBrowser logs:\n\n<launching> /usr/lib/chromium/chromium --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --use-gl=angle --use-angle=swiftshader --use-fake-device-for-media-stream --enable-unsafe-swiftshader --user-data-dir=/tmp/playwright_chromiumdev_profile-ec5Xel --remote-debugging-pipe --no-startup-window\n<launched> pid=82\n[pid=82][err] [82:82:1104/120421.346952:FATAL:chrome/browser/process_singleton_posix.cc:297] Check failed: . socket() failed: Operation not permitted (1)\n[pid=82][err] [1104/120421.348662:ERROR:third_party/crashpad/crashpad/util/linux/scoped_ptrace_attach.cc:27] ptrace: Operation not permitted (1)\nCall log:\n\u001b[2m  - <launching> /usr/lib/chromium/chromium --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --use-gl=angle --use-angle=swiftshader --use-fake-device-for-media-stream --enable-unsafe-swiftshader --user-data-dir=/tmp/playwright_chromiumdev_profile-ec5Xel --remote-debugging-pipe --no-startup-window\u001b[22m\n\u001b[2m  - <launched> pid=82\u001b[22m\n\u001b[2m  - [pid=82][err] [82:82:1104/120421.346952:FATAL:chrome/browser/process_singleton_posix.cc:297] Check failed: . socket() failed: Operation not permitted (1)\u001b[22m\n\u001b[2m  - [pid=82][err] [1104/120421.348662:ERROR:third_party/crashpad/crashpad/util/linux/scoped_ptrace_attach.cc:27] ptrace: Operation not permitted (1)\u001b[22m\n\u001b[2m  - [pid=82] <gracefully close start>\u001b[22m\n\u001b[2m  - [pid=82] <kill>\u001b[22m\n\u001b[2m  - [pid=82] <will force kill>\u001b[22m\n\u001b[2m  - [pid=82] <process did exit: exitCode=null, signal=SIGABRT>\u001b[22m\n\u001b[2m  - [pid=82] starting temporary directories cleanup\u001b[22m\n\u001b[2m  - [pid=82] finished temporary directories cleanup\u001b[22m\n\u001b[2m  - [pid=82] <gracefully close end>\u001b[22m\n"
+                  },
+                  "errors": [
+                    {
+                      "message": "Error: browserType.launch: Target page, context or browser has been closed\nBrowser logs:\n\n<launching> /usr/lib/chromium/chromium --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --use-gl=angle --use-angle=swiftshader --use-fake-device-for-media-stream --enable-unsafe-swiftshader --user-data-dir=/tmp/playwright_chromiumdev_profile-ec5Xel --remote-debugging-pipe --no-startup-window\n<launched> pid=82\n[pid=82][err] [82:82:1104/120421.346952:FATAL:chrome/browser/process_singleton_posix.cc:297] Check failed: . socket() failed: Operation not permitted (1)\n[pid=82][err] [1104/120421.348662:ERROR:third_party/crashpad/crashpad/util/linux/scoped_ptrace_attach.cc:27] ptrace: Operation not permitted (1)\nCall log:\n\u001b[2m  - <launching> /usr/lib/chromium/chromium --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --use-gl=angle --use-angle=swiftshader --use-fake-device-for-media-stream --enable-unsafe-swiftshader --user-data-dir=/tmp/playwright_chromiumdev_profile-ec5Xel --remote-debugging-pipe --no-startup-window\u001b[22m\n\u001b[2m  - <launched> pid=82\u001b[22m\n\u001b[2m  - [pid=82][err] [82:82:1104/120421.346952:FATAL:chrome/browser/process_singleton_posix.cc:297] Check failed: . socket() failed: Operation not permitted (1)\u001b[22m\n\u001b[2m  - [pid=82][err] [1104/120421.348662:ERROR:third_party/crashpad/crashpad/util/linux/scoped_ptrace_attach.cc:27] ptrace: Operation not permitted (1)\u001b[22m\n\u001b[2m  - [pid=82] <gracefully close start>\u001b[22m\n\u001b[2m  - [pid=82] <kill>\u001b[22m\n\u001b[2m  - [pid=82] <will force kill>\u001b[22m\n\u001b[2m  - [pid=82] <process did exit: exitCode=null, signal=SIGABRT>\u001b[22m\n\u001b[2m  - [pid=82] starting temporary directories cleanup\u001b[22m\n\u001b[2m  - [pid=82] finished temporary directories cleanup\u001b[22m\n\u001b[2m  - [pid=82] <gracefully close end>\u001b[22m\n"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-04T06:04:21.269Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "/workspace/scratch/f2f00674cd4e/copilot/RoboLN/frontend/test-results/copilot.mock-review-actual-21819-snapshot-confirm-and-resume-desktop-1440/error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/workspace/scratch/f2f00674cd4e/copilot/RoboLN/frontend/test-results/copilot.mock-review-actual-21819-snapshot-confirm-and-resume-desktop-1440/trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "eac7b51ba288bd1b7844-a8f28bfde06a3d43ca40",
+          "file": "copilot.mock.spec.ts",
+          "line": 5,
+          "column": 5
+        },
+        {
+          "title": "browser speech fixtures speak stop and dictate without auto-sending",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-1440",
+              "projectName": "desktop-1440",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "eac7b51ba288bd1b7844-964c030bdd4d393cb004",
+          "file": "copilot.mock.spec.ts",
+          "line": 10,
+          "column": 5
+        },
+        {
+          "title": "review actual saved provider-mock plan, inspect synthetic snapshot, confirm and resume",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-390",
+              "projectName": "mobile-390",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "eac7b51ba288bd1b7844-235a7c1cd78ce939c01d",
+          "file": "copilot.mock.spec.ts",
+          "line": 5,
+          "column": 5
+        },
+        {
+          "title": "browser speech fixtures speak stop and dictate without auto-sending",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-390",
+              "projectName": "mobile-390",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "eac7b51ba288bd1b7844-1c1c22751da9953fefee",
+          "file": "copilot.mock.spec.ts",
+          "line": 10,
+          "column": 5
+        }
+      ]
+    }
+  ],
+  "errors": [
+    {
+      "message": "Testing stopped early after 1 maximum allowed failures."
+    }
+  ],
+  "stats": {
+    "startTime": "2026-11-04T06:04:18.070Z",
+    "duration": 3319.5730000000003,
+    "expected": 0,
+    "skipped": 3,
+    "unexpected": 1,
+    "flaky": 0
+  }
+}

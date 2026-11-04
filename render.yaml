@@ -1,0 +1,37 @@
+# Prepared configuration only. No service has been created or deployed.
+# Set the frontend's ROBOLN_BACKEND_URL to your actual API URL BEFORE its build.
+services:
+  - type: web
+    name: roboln-api
+    runtime: python
+    rootDir: backend
+    buildCommand: pip install -r requirements.lock
+    startCommand: python -m alembic upgrade head && python -m uvicorn app.api:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /api/ready
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.14
+      - key: ROBOLN_DATABASE_URL
+        sync: false
+      - key: ROBOLN_COOKIE_SECURE
+        value: "true"
+      - key: ROBOLN_ALLOWED_ORIGINS
+        sync: false
+      - key: MODEL_API_KEY
+        sync: false
+      - key: ROBOLN_META_MODEL
+        value: muse-spark-1.3
+  - type: web
+    name: roboln-web
+    runtime: node
+    rootDir: frontend
+    buildCommand: npm ci && npm run build
+    startCommand: npx next start --hostname 0.0.0.0 --port $PORT
+    healthCheckPath: /login
+    envVars:
+      - key: NODE_VERSION
+        value: 24.22.1
+      - key: ROBOLN_BACKEND_URL
+        sync: false
+      - key: NEXT_TELEMETRY_DISABLED
+        value: "1"

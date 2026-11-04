@@ -1,0 +1,177 @@
+
+> roboln-frontend@1.0.0 test:unit
+> node --experimental-strip-types --test tests/unit/*.test.ts
+
+TAP version 13
+# (node:1398) ExperimentalWarning: Type Stripping is an experimental feature and might change at any time
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# (node:1398) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///mnt/data/roboln_repair_work/RoboLN/frontend/tests/unit/assembly-placement.test.ts is not specified and it doesn't parse as CommonJS.
+# Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+# To eliminate this warning, add "type": "module" to /mnt/data/roboln_repair_work/RoboLN/frontend/package.json.
+# Subtest: moving a parent translates its linked descendants without moving unrelated parts
+ok 1 - moving a parent translates its linked descendants without moving unrelated parts
+  ---
+  duration_ms: 4.210157
+  type: 'test'
+  ...
+# Subtest: movement is bounded to backend workspace coordinate limits
+ok 2 - movement is bounded to backend workspace coordinate limits
+  ---
+  duration_ms: 2.936917
+  type: 'test'
+  ...
+# Subtest: group movement preserves child offsets at every workspace boundary
+ok 3 - group movement preserves child offsets at every workspace boundary
+  ---
+  duration_ms: 1.831752
+  type: 'test'
+  ...
+# Subtest: non-finite position changes do not mutate the assembly
+ok 4 - non-finite position changes do not mutate the assembly
+  ---
+  duration_ms: 0.251485
+  type: 'test'
+  ...
+# Subtest: a component cannot become its own parent or a descendant parent
+ok 5 - a component cannot become its own parent or a descendant parent
+  ---
+  duration_ms: 1.02827
+  type: 'test'
+  ...
+# (node:1399) ExperimentalWarning: Type Stripping is an experimental feature and might change at any time
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# (node:1399) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///mnt/data/roboln_repair_work/RoboLN/frontend/tests/unit/backend-proxy.test.ts is not specified and it doesn't parse as CommonJS.
+# Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+# To eliminate this warning, add "type": "module" to /mnt/data/roboln_repair_work/RoboLN/frontend/package.json.
+# Subtest: fresh sockets preserve genuine responses query cookies and CSRF
+ok 6 - fresh sockets preserve genuine responses query cookies and CSRF
+  ---
+  duration_ms: 115.190829
+  type: 'test'
+  ...
+# [RoboLN proxy dfe24b6e-d5e7-4e77-8c2c-d42a5faab49d] GET /api/p ECONNRESET
+# Subtest: forced reset is explicit 502 with correlation ID
+ok 7 - forced reset is explicit 502 with correlation ID
+  ---
+  duration_ms: 9.83248
+  type: 'test'
+  ...
+# Subtest: real authorization and database errors are forwarded
+ok 8 - real authorization and database errors are forwarded
+  ---
+  duration_ms: 34.662819
+  type: 'test'
+  ...
+# [RoboLN proxy 32056412-73ba-4367-8639-e71268c39790] POST /api/p UPSTREAM_TIMEOUT
+# Subtest: timeout bounded with no mutation retry
+ok 9 - timeout bounded with no mutation retry
+  ---
+  duration_ms: 40.523337
+  type: 'test'
+  ...
+# Subtest: invalid traversal and oversized body rejected
+ok 10 - invalid traversal and oversized body rejected
+  ---
+  duration_ms: 62.13756
+  type: 'test'
+  ...
+# Subtest: upload body is forwarded unchanged
+ok 11 - upload body is forwarded unchanged
+  ---
+  duration_ms: 16.172509
+  type: 'test'
+  ...
+# (node:1400) ExperimentalWarning: Type Stripping is an experimental feature and might change at any time
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# (node:1400) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///mnt/data/roboln_repair_work/RoboLN/frontend/tests/unit/copilot.test.ts is not specified and it doesn't parse as CommonJS.
+# Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+# To eliminate this warning, add "type": "module" to /mnt/data/roboln_repair_work/RoboLN/frontend/package.json.
+# node:internal/modules/package_json_reader:256
+#   throw new ERR_MODULE_NOT_FOUND(packageName, fileURLToPath(base), null);
+#         ^
+# Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'three' imported from /mnt/data/roboln_repair_work/RoboLN/frontend/lib/assembly-transform.ts
+#     at Object.getPackageJSONURL (node:internal/modules/package_json_reader:256:9)
+#     at packageResolve (node:internal/modules/esm/resolve:768:81)
+#     at moduleResolve (node:internal/modules/esm/resolve:854:18)
+#     at defaultResolve (node:internal/modules/esm/resolve:984:11)
+#     at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12)
+#     at \#cachedDefaultResolve (node:internal/modules/esm/loader:704:25)
+#     at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38)
+#     at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38)
+#     at ModuleJob._link (node:internal/modules/esm/module_job:137:49) {
+#   code: 'ERR_MODULE_NOT_FOUND'
+# }
+# Node.js v22.16.0
+# Subtest: tests/unit/copilot.test.ts
+not ok 3 - tests/unit/copilot.test.ts
+  ---
+  duration_ms: 294.204225
+  type: 'test'
+  location: '/mnt/data/roboln_repair_work/RoboLN/frontend/tests/unit/copilot.test.ts:1:1'
+  failureType: 'testCodeFailure'
+  exitCode: 1
+  signal: ~
+  error: 'test failed'
+  code: 'ERR_TEST_FAILURE'
+  ...
+# (node:1431) ExperimentalWarning: Type Stripping is an experimental feature and might change at any time
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# (node:1431) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///mnt/data/roboln_repair_work/RoboLN/frontend/tests/unit/local-image.test.ts is not specified and it doesn't parse as CommonJS.
+# Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+# To eliminate this warning, add "type": "module" to /mnt/data/roboln_repair_work/RoboLN/frontend/package.json.
+# Subtest: camera data URL is converted to a JPEG Blob locally without fetch or CSP connect-src
+ok 13 - camera data URL is converted to a JPEG Blob locally without fetch or CSP connect-src
+  ---
+  duration_ms: 1.913821
+  type: 'test'
+  ...
+# Subtest: PNG and WebP local snapshots retain media type and exact bytes
+ok 14 - PNG and WebP local snapshots retain media type and exact bytes
+  ---
+  duration_ms: 0.606833
+  type: 'test'
+  ...
+# Subtest: invalid, empty and oversized data URLs are rejected before upload
+ok 15 - invalid, empty and oversized data URLs are rejected before upload
+  ---
+  duration_ms: 17.282998
+  type: 'test'
+  ...
+# (node:1438) ExperimentalWarning: Type Stripping is an experimental feature and might change at any time
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# (node:1438) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///mnt/data/roboln_repair_work/RoboLN/frontend/tests/unit/twin-state.test.ts is not specified and it doesn't parse as CommonJS.
+# Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+# To eliminate this warning, add "type": "module" to /mnt/data/roboln_repair_work/RoboLN/frontend/package.json.
+# Subtest: stale or revoked recorded wheel remains frozen
+ok 16 - stale or revoked recorded wheel remains frozen
+  ---
+  duration_ms: 1.607564
+  type: 'test'
+  ...
+# Subtest: simulation cannot drive physical transforms
+ok 17 - simulation cannot drive physical transforms
+  ---
+  duration_ms: 0.972805
+  type: 'test'
+  ...
+# Subtest: partial pose update retains previous atomic packet
+ok 18 - partial pose update retains previous atomic packet
+  ---
+  duration_ms: 2.668053
+  type: 'test'
+  ...
+# Subtest: incompatible historic units cannot move scene
+ok 19 - incompatible historic units cannot move scene
+  ---
+  duration_ms: 0.817283
+  type: 'test'
+  ...
+1..19
+# tests 19
+# suites 0
+# pass 18
+# fail 1
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 732.199272

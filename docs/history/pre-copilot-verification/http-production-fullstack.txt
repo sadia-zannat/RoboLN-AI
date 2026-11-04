@@ -1,0 +1,1 @@
+Production Next.js -> FastAPI -> SQLite: 41 HTTP checks PASS. Real cookies/CSRF, login, RBAC, saved layout/parents, sources, synthetic image/evidence, simulation telemetry, theme persistence and provider-not-configured path. HTML routes returned successfully; client rendering and browser interactions are NOT certified.

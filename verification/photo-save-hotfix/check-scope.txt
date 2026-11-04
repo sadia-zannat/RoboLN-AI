@@ -1,0 +1,7 @@
+Release-specific checks on Python 3.13 / Node 22 sandbox, not Windows:
+- Frontend local-image and backend-proxy targeted node tests: 10 PASS / 0 FAIL.
+- Five changed TS/TSX syntax parsing checks: PASS.
+- Python backend compileall: PASS (no backend modifications).
+- Full frontend suite: blocked by absent three dependency after 18 tests passed.
+- Backend pytest: blocked by available pypdf 5.9.0; project pins 6.21.4.
+- Browser E2E, lint, production build, Windows acceptance and live Meta calls: not run.

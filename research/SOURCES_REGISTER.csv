@@ -1,0 +1,17 @@
+publisher,source,url,use,evidence_status,license_caution
+Meta Developer,Official Models Catalog,https://dev.meta.ai/docs/models,Meta Muse Spark 1.3 multimodal capabilities; confirm at build time,Official docs; verified 2026-10-24,Vendor docs; restrictions apply
+Meta Developer,Vision Input Cookbook,https://dev.meta.ai/docs/cookbook/vision-input,Example image chat with muse-spark-1.3,Official docs; verified 2026-10-24,Vendor docs; do not redistribute assets
+Meta Developer,API Overview,https://dev.meta.ai/docs/overview,"API base, model identifiers, auth methods",Official docs; verified 2026-10-24,Vendor docs
+Meta Developer,Billing Setup,https://dev.meta.ai/help/billing/set-up-billing,Payment-method requirements; card-free hackathon credit not verified,Official docs; verified 2026-10-24,Vendor docs
+Meta Developer,Pricing,https://dev.meta.ai/docs/pricing-rate-limits,"Model API Standard vs Contributor privacy, rates",Official docs; verify live rates,Vendor docs
+Cerebral Valley,Hackathon Event,https://events.cerebralvalley.ai/e/meta-ai-developer-hackathon,"Event themes, partner selective credits, dates",Official event page; verified 2026-10-24,Event rules may change
+Cerebral Valley,Official Waiver,https://events.cerebralvalley.ai/e/meta-ai-developer-hackathon,"User-provided waiver: 30/25/20/25, team and licensing",User-provided page text; revisit login waiver,Read current waiver in participant login
+Render,Deploy for Free,https://render.com/docs/free,"Sleep, ephemeral filesystem, expiring Free PostgreSQL",Official docs; verified 2026-10-24,Service limitations
+Arduino,Docs,https://docs.arduino.cc/,Board and firmware official references,Official docs; verify exact kit,Manufacturer documentation reuse terms
+PlatformIO,Docs,https://docs.platformio.org/,"Board toolchains, compile and upload",Official docs,License per component
+Espressif,ESP-IDF,https://docs.espressif.com/projects/esp-idf/en/latest/,"Firmware, device security and OTA update",Official docs,Tooling and SDK licensing
+Raspberry Pi,Docs,https://www.raspberrypi.com/documentation/,Linux/board setup as appropriate,Official docs,Documentation copyright
+Three.js,Docs,https://threejs.org/docs/,3D viewport and transforms,Official docs,MIT library; third-party models separate
+Google,MediaPipe Hand Landmarker,https://ai.google.dev/edge/mediapipe/solutions/vision/hand_landmarker/web_js,Local optional hand gestures,Official docs,Review model asset license
+PX4,SITL,https://docs.px4.io/main/en/simulation/,Clearly labeled drone simulation,Official docs,Confirm simulator version
+Assembly101,Open Assembly Benchmark,https://github.com/assembly-101/assembly101-download-scripts,Prior art and non-commercial educational benchmark,Source previously inspected,"CC BY-NC 4.0, restrict redistribution"

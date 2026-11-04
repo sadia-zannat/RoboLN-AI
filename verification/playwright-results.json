@@ -1,0 +1,2900 @@
+{
+  "config": {
+    "argv": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin/node",
+      "/workspace/scratch/f2f00674cd4e/copilot/RoboLN/frontend/node_modules/.bin/playwright",
+      "test",
+      "--max-failures=1"
+    ],
+    "configFile": "/workspace/scratch/f2f00674cd4e/copilot/RoboLN/frontend/playwright.config.ts",
+    "rootDir": "/workspace/scratch/f2f00674cd4e/copilot/RoboLN/frontend/tests/e2e",
+    "failOnFlakyTests": false,
+    "forbidOnly": true,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 900000,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 1,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/workspace/scratch/f2f00674cd4e/copilot/RoboLN/frontend/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "desktop-1440",
+        "name": "desktop-1440",
+        "testDir": "/workspace/scratch/f2f00674cd4e/copilot/RoboLN/frontend/tests/e2e",
+        "testIgnore": [
+          "**/*.mock.spec.ts"
+        ],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 60000
+      },
+      {
+        "outputDir": "/workspace/scratch/f2f00674cd4e/copilot/RoboLN/frontend/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "tablet-768",
+        "name": "tablet-768",
+        "testDir": "/workspace/scratch/f2f00674cd4e/copilot/RoboLN/frontend/tests/e2e",
+        "testIgnore": [
+          "**/*.mock.spec.ts"
+        ],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 60000
+      },
+      {
+        "outputDir": "/workspace/scratch/f2f00674cd4e/copilot/RoboLN/frontend/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "mobile-390",
+        "name": "mobile-390",
+        "testDir": "/workspace/scratch/f2f00674cd4e/copilot/RoboLN/frontend/tests/e2e",
+        "testIgnore": [
+          "**/*.mock.spec.ts"
+        ],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 60000
+      },
+      {
+        "outputDir": "/workspace/scratch/f2f00674cd4e/copilot/RoboLN/frontend/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "mobile-320",
+        "name": "mobile-320",
+        "testDir": "/workspace/scratch/f2f00674cd4e/copilot/RoboLN/frontend/tests/e2e",
+        "testIgnore": [
+          "**/*.mock.spec.ts"
+        ],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 60000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "/workspace/scratch/f2f00674cd4e/copilot/RoboLN/frontend/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "desktop-1440",
+        "testDir": "/workspace/scratch/f2f00674cd4e/copilot/RoboLN/frontend/tests/e2e",
+        "snapshotDir": "/workspace/scratch/f2f00674cd4e/copilot/RoboLN/frontend/tests/e2e",
+        "testIgnore": [
+          "**/*.mock.spec.ts"
+        ],
+        "testMatch": "**/*.@(spec|test).?(c|m)[jt]s?(x)",
+        "timeout": 60000,
+        "use": {
+          "baseURL": "http://127.0.0.1:3000",
+          "trace": "retain-on-failure",
+          "screenshot": "only-on-failure",
+          "launchOptions": {
+            "executablePath": "/usr/lib/chromium/chromium",
+            "args": [
+              "--use-gl=angle",
+              "--use-angle=swiftshader",
+              "--use-fake-device-for-media-stream",
+              "--enable-unsafe-swiftshader"
+            ]
+          },
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.8078.4 Safari/537.36",
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "screen": {
+            "width": 1920,
+            "height": 1080
+          },
+          "deviceScaleFactor": 1,
+          "isMobile": false,
+          "hasTouch": false,
+          "defaultBrowserType": "chromium"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "desktop-1440"
+      },
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "/workspace/scratch/f2f00674cd4e/copilot/RoboLN/frontend/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "tablet-768",
+        "testDir": "/workspace/scratch/f2f00674cd4e/copilot/RoboLN/frontend/tests/e2e",
+        "snapshotDir": "/workspace/scratch/f2f00674cd4e/copilot/RoboLN/frontend/tests/e2e",
+        "testIgnore": [
+          "**/*.mock.spec.ts"
+        ],
+        "testMatch": "**/*.@(spec|test).?(c|m)[jt]s?(x)",
+        "timeout": 60000,
+        "use": {
+          "baseURL": "http://127.0.0.1:3000",
+          "trace": "retain-on-failure",
+          "screenshot": "only-on-failure",
+          "launchOptions": {
+            "executablePath": "/usr/lib/chromium/chromium",
+            "args": [
+              "--use-gl=angle",
+              "--use-angle=swiftshader",
+              "--use-fake-device-for-media-stream",
+              "--enable-unsafe-swiftshader"
+            ]
+          },
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.8078.4 Safari/537.36",
+          "viewport": {
+            "width": 768,
+            "height": 1024
+          },
+          "screen": {
+            "width": 1920,
+            "height": 1080
+          },
+          "deviceScaleFactor": 1,
+          "isMobile": false,
+          "hasTouch": false,
+          "defaultBrowserType": "chromium"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "tablet-768"
+      },
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "/workspace/scratch/f2f00674cd4e/copilot/RoboLN/frontend/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "mobile-390",
+        "testDir": "/workspace/scratch/f2f00674cd4e/copilot/RoboLN/frontend/tests/e2e",
+        "snapshotDir": "/workspace/scratch/f2f00674cd4e/copilot/RoboLN/frontend/tests/e2e",
+        "testIgnore": [
+          "**/*.mock.spec.ts"
+        ],
+        "testMatch": "**/*.@(spec|test).?(c|m)[jt]s?(x)",
+        "timeout": 60000,
+        "use": {
+          "baseURL": "http://127.0.0.1:3000",
+          "trace": "retain-on-failure",
+          "screenshot": "only-on-failure",
+          "launchOptions": {
+            "executablePath": "/usr/lib/chromium/chromium",
+            "args": [
+              "--use-gl=angle",
+              "--use-angle=swiftshader",
+              "--use-fake-device-for-media-stream",
+              "--enable-unsafe-swiftshader"
+            ]
+          },
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.8078.4 Safari/537.36",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "screen": {
+            "width": 1920,
+            "height": 1080
+          },
+          "deviceScaleFactor": 1,
+          "isMobile": true,
+          "hasTouch": true,
+          "defaultBrowserType": "chromium"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "mobile-390"
+      },
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "/workspace/scratch/f2f00674cd4e/copilot/RoboLN/frontend/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "mobile-320",
+        "testDir": "/workspace/scratch/f2f00674cd4e/copilot/RoboLN/frontend/tests/e2e",
+        "snapshotDir": "/workspace/scratch/f2f00674cd4e/copilot/RoboLN/frontend/tests/e2e",
+        "testIgnore": [
+          "**/*.mock.spec.ts"
+        ],
+        "testMatch": "**/*.@(spec|test).?(c|m)[jt]s?(x)",
+        "timeout": 60000,
+        "use": {
+          "baseURL": "http://127.0.0.1:3000",
+          "trace": "retain-on-failure",
+          "screenshot": "only-on-failure",
+          "launchOptions": {
+            "executablePath": "/usr/lib/chromium/chromium",
+            "args": [
+              "--use-gl=angle",
+              "--use-angle=swiftshader",
+              "--use-fake-device-for-media-stream",
+              "--enable-unsafe-swiftshader"
+            ]
+          },
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.8078.4 Safari/537.36",
+          "viewport": {
+            "width": 320,
+            "height": 700
+          },
+          "screen": {
+            "width": 1920,
+            "height": 1080
+          },
+          "deviceScaleFactor": 1,
+          "isMobile": true,
+          "hasTouch": true,
+          "defaultBrowserType": "chromium"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "mobile-320"
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "../verification/playwright-results.json"
+        }
+      ],
+      [
+        "html",
+        {
+          "outputFolder": "../logs/playwright-report",
+          "open": "never"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.64.1",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "copilot.spec.ts",
+      "file": "copilot.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "equipment photos, saved steps, checkpoint, new tab, login and project switching",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-1440",
+              "projectName": "desktop-1440",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 2,
+                  "error": {
+                    "message": "Error: browserType.launch: Target page, context or browser has been closed\nBrowser logs:\n\n<launching> /usr/lib/chromium/chromium --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --use-gl=angle --use-angle=swiftshader --use-fake-device-for-media-stream --enable-unsafe-swiftshader --user-data-dir=/tmp/playwright_chromiumdev_profile-wsbvrq --remote-debugging-pipe --no-startup-window\n<launched> pid=82\n[pid=82][err] [82:82:1104/120105.926922:FATAL:chrome/browser/process_singleton_posix.cc:297] Check failed: . socket() failed: Operation not permitted (1)\n[pid=82][err] [1104/120105.927220:ERROR:third_party/crashpad/crashpad/util/linux/scoped_ptrace_attach.cc:27] ptrace: Operation not permitted (1)\nCall log:\n\u001b[2m  - <launching> /usr/lib/chromium/chromium --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --use-gl=angle --use-angle=swiftshader --use-fake-device-for-media-stream --enable-unsafe-swiftshader --user-data-dir=/tmp/playwright_chromiumdev_profile-wsbvrq --remote-debugging-pipe --no-startup-window\u001b[22m\n\u001b[2m  - <launched> pid=82\u001b[22m\n\u001b[2m  - [pid=82][err] [82:82:1104/120105.926922:FATAL:chrome/browser/process_singleton_posix.cc:297] Check failed: . socket() failed: Operation not permitted (1)\u001b[22m\n\u001b[2m  - [pid=82][err] [1104/120105.927220:ERROR:third_party/crashpad/crashpad/util/linux/scoped_ptrace_attach.cc:27] ptrace: Operation not permitted (1)\u001b[22m\n\u001b[2m  - [pid=82] <gracefully close start>\u001b[22m\n\u001b[2m  - [pid=82] <kill>\u001b[22m\n\u001b[2m  - [pid=82] <will force kill>\u001b[22m\n\u001b[2m  - [pid=82] <process did exit: exitCode=null, signal=SIGABRT>\u001b[22m\n\u001b[2m  - [pid=82] starting temporary directories cleanup\u001b[22m\n\u001b[2m  - [pid=82] finished temporary directories cleanup\u001b[22m\n\u001b[2m  - [pid=82] <gracefully close end>\u001b[22m\n",
+                    "stack": "Error: browserType.launch: Target page, context or browser has been closed\nBrowser logs:\n\n<launching> /usr/lib/chromium/chromium --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --use-gl=angle --use-angle=swiftshader --use-fake-device-for-media-stream --enable-unsafe-swiftshader --user-data-dir=/tmp/playwright_chromiumdev_profile-wsbvrq --remote-debugging-pipe --no-startup-window\n<launched> pid=82\n[pid=82][err] [82:82:1104/120105.926922:FATAL:chrome/browser/process_singleton_posix.cc:297] Check failed: . socket() failed: Operation not permitted (1)\n[pid=82][err] [1104/120105.927220:ERROR:third_party/crashpad/crashpad/util/linux/scoped_ptrace_attach.cc:27] ptrace: Operation not permitted (1)\nCall log:\n\u001b[2m  - <launching> /usr/lib/chromium/chromium --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --use-gl=angle --use-angle=swiftshader --use-fake-device-for-media-stream --enable-unsafe-swiftshader --user-data-dir=/tmp/playwright_chromiumdev_profile-wsbvrq --remote-debugging-pipe --no-startup-window\u001b[22m\n\u001b[2m  - <launched> pid=82\u001b[22m\n\u001b[2m  - [pid=82][err] [82:82:1104/120105.926922:FATAL:chrome/browser/process_singleton_posix.cc:297] Check failed: . socket() failed: Operation not permitted (1)\u001b[22m\n\u001b[2m  - [pid=82][err] [1104/120105.927220:ERROR:third_party/crashpad/crashpad/util/linux/scoped_ptrace_attach.cc:27] ptrace: Operation not permitted (1)\u001b[22m\n\u001b[2m  - [pid=82] <gracefully close start>\u001b[22m\n\u001b[2m  - [pid=82] <kill>\u001b[22m\n\u001b[2m  - [pid=82] <will force kill>\u001b[22m\n\u001b[2m  - [pid=82] <process did exit: exitCode=null, signal=SIGABRT>\u001b[22m\n\u001b[2m  - [pid=82] starting temporary directories cleanup\u001b[22m\n\u001b[2m  - [pid=82] finished temporary directories cleanup\u001b[22m\n\u001b[2m  - [pid=82] <gracefully close end>\u001b[22m\n"
+                  },
+                  "errors": [
+                    {
+                      "message": "Error: browserType.launch: Target page, context or browser has been closed\nBrowser logs:\n\n<launching> /usr/lib/chromium/chromium --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --use-gl=angle --use-angle=swiftshader --use-fake-device-for-media-stream --enable-unsafe-swiftshader --user-data-dir=/tmp/playwright_chromiumdev_profile-wsbvrq --remote-debugging-pipe --no-startup-window\n<launched> pid=82\n[pid=82][err] [82:82:1104/120105.926922:FATAL:chrome/browser/process_singleton_posix.cc:297] Check failed: . socket() failed: Operation not permitted (1)\n[pid=82][err] [1104/120105.927220:ERROR:third_party/crashpad/crashpad/util/linux/scoped_ptrace_attach.cc:27] ptrace: Operation not permitted (1)\nCall log:\n\u001b[2m  - <launching> /usr/lib/chromium/chromium --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --use-gl=angle --use-angle=swiftshader --use-fake-device-for-media-stream --enable-unsafe-swiftshader --user-data-dir=/tmp/playwright_chromiumdev_profile-wsbvrq --remote-debugging-pipe --no-startup-window\u001b[22m\n\u001b[2m  - <launched> pid=82\u001b[22m\n\u001b[2m  - [pid=82][err] [82:82:1104/120105.926922:FATAL:chrome/browser/process_singleton_posix.cc:297] Check failed: . socket() failed: Operation not permitted (1)\u001b[22m\n\u001b[2m  - [pid=82][err] [1104/120105.927220:ERROR:third_party/crashpad/crashpad/util/linux/scoped_ptrace_attach.cc:27] ptrace: Operation not permitted (1)\u001b[22m\n\u001b[2m  - [pid=82] <gracefully close start>\u001b[22m\n\u001b[2m  - [pid=82] <kill>\u001b[22m\n\u001b[2m  - [pid=82] <will force kill>\u001b[22m\n\u001b[2m  - [pid=82] <process did exit: exitCode=null, signal=SIGABRT>\u001b[22m\n\u001b[2m  - [pid=82] starting temporary directories cleanup\u001b[22m\n\u001b[2m  - [pid=82] finished temporary directories cleanup\u001b[22m\n\u001b[2m  - [pid=82] <gracefully close end>\u001b[22m\n"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-04T06:01:05.807Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "/workspace/scratch/f2f00674cd4e/copilot/RoboLN/frontend/test-results/copilot-equipment-photos-s-d9f72-login-and-project-switching-desktop-1440/error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/workspace/scratch/f2f00674cd4e/copilot/RoboLN/frontend/test-results/copilot-equipment-photos-s-d9f72-login-and-project-switching-desktop-1440/trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "968c3adb0e465cd16288-3d8c8af169d89813c869",
+          "file": "copilot.spec.ts",
+          "line": 5,
+          "column": 5
+        },
+        {
+          "title": "camera denial, consented step upload and honest unavailable Meta error",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-1440",
+              "projectName": "desktop-1440",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "968c3adb0e465cd16288-30fce2cbff0d325cce67",
+          "file": "copilot.spec.ts",
+          "line": 14,
+          "column": 5
+        },
+        {
+          "title": "3D library search transforms undo redo and saved parenting",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-1440",
+              "projectName": "desktop-1440",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "968c3adb0e465cd16288-b075f4548858460da0ba",
+          "file": "copilot.spec.ts",
+          "line": 18,
+          "column": 5
+        },
+        {
+          "title": "equipment photos, saved steps, checkpoint, new tab, login and project switching",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "tablet-768",
+              "projectName": "tablet-768",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "968c3adb0e465cd16288-255d326216c1c602c9ad",
+          "file": "copilot.spec.ts",
+          "line": 5,
+          "column": 5
+        },
+        {
+          "title": "camera denial, consented step upload and honest unavailable Meta error",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "tablet-768",
+              "projectName": "tablet-768",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "968c3adb0e465cd16288-67ba435f1ded3e2b28f1",
+          "file": "copilot.spec.ts",
+          "line": 14,
+          "column": 5
+        },
+        {
+          "title": "3D library search transforms undo redo and saved parenting",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "tablet-768",
+              "projectName": "tablet-768",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "968c3adb0e465cd16288-e19427a203c33cc0138e",
+          "file": "copilot.spec.ts",
+          "line": 18,
+          "column": 5
+        },
+        {
+          "title": "equipment photos, saved steps, checkpoint, new tab, login and project switching",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-390",
+              "projectName": "mobile-390",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "968c3adb0e465cd16288-f7648ec461d6fa5ff96d",
+          "file": "copilot.spec.ts",
+          "line": 5,
+          "column": 5
+        },
+        {
+          "title": "camera denial, consented step upload and honest unavailable Meta error",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-390",
+              "projectName": "mobile-390",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "968c3adb0e465cd16288-f2eb41c278ded069a6b4",
+          "file": "copilot.spec.ts",
+          "line": 14,
+          "column": 5
+        },
+        {
+          "title": "3D library search transforms undo redo and saved parenting",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-390",
+              "projectName": "mobile-390",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "968c3adb0e465cd16288-ec0907a016e468806131",
+          "file": "copilot.spec.ts",
+          "line": 18,
+          "column": 5
+        },
+        {
+          "title": "equipment photos, saved steps, checkpoint, new tab, login and project switching",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-320",
+              "projectName": "mobile-320",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "968c3adb0e465cd16288-b10c94d93e2473068d46",
+          "file": "copilot.spec.ts",
+          "line": 5,
+          "column": 5
+        },
+        {
+          "title": "camera denial, consented step upload and honest unavailable Meta error",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-320",
+              "projectName": "mobile-320",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "968c3adb0e465cd16288-a5528cf4a3e59907b1a6",
+          "file": "copilot.spec.ts",
+          "line": 14,
+          "column": 5
+        },
+        {
+          "title": "3D library search transforms undo redo and saved parenting",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-320",
+              "projectName": "mobile-320",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "968c3adb0e465cd16288-d4e7ae73f164e05cd155",
+          "file": "copilot.spec.ts",
+          "line": 18,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "engineering-intake.spec.ts",
+      "file": "engineering-intake.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "engineering intake creates isolated, unverified, versioned draft",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-1440",
+              "projectName": "desktop-1440",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "126427702898e4097830-09fb865dbc1a4dfaa97d",
+          "file": "engineering-intake.spec.ts",
+          "line": 14,
+          "column": 5
+        },
+        {
+          "title": "camera starts disabled without permission and offers deliberate control",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-1440",
+              "projectName": "desktop-1440",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "126427702898e4097830-cf3b5b3550adeaabbbcd",
+          "file": "engineering-intake.spec.ts",
+          "line": 36,
+          "column": 5
+        },
+        {
+          "title": "engineering intake creates isolated, unverified, versioned draft",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "tablet-768",
+              "projectName": "tablet-768",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "126427702898e4097830-a7a7ae8d67012c5113b7",
+          "file": "engineering-intake.spec.ts",
+          "line": 14,
+          "column": 5
+        },
+        {
+          "title": "camera starts disabled without permission and offers deliberate control",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "tablet-768",
+              "projectName": "tablet-768",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "126427702898e4097830-30d5f9055405e5f2c53e",
+          "file": "engineering-intake.spec.ts",
+          "line": 36,
+          "column": 5
+        },
+        {
+          "title": "engineering intake creates isolated, unverified, versioned draft",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-390",
+              "projectName": "mobile-390",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "126427702898e4097830-097aabe70ecc0e8e1e36",
+          "file": "engineering-intake.spec.ts",
+          "line": 14,
+          "column": 5
+        },
+        {
+          "title": "camera starts disabled without permission and offers deliberate control",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-390",
+              "projectName": "mobile-390",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "126427702898e4097830-4d40a7b236f119c09202",
+          "file": "engineering-intake.spec.ts",
+          "line": 36,
+          "column": 5
+        },
+        {
+          "title": "engineering intake creates isolated, unverified, versioned draft",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-320",
+              "projectName": "mobile-320",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "126427702898e4097830-7f89c54d2d14c1cda1f3",
+          "file": "engineering-intake.spec.ts",
+          "line": 14,
+          "column": 5
+        },
+        {
+          "title": "camera starts disabled without permission and offers deliberate control",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-320",
+              "projectName": "mobile-320",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "126427702898e4097830-b88804ecae94b36ce687",
+          "file": "engineering-intake.spec.ts",
+          "line": 36,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "full-workflow.spec.ts",
+      "file": "full-workflow.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "source ingestion retrieval and honest AI not-configured error",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-1440",
+              "projectName": "desktop-1440",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "e3dd53e1c8f35c7597d6-6e62ff76b39056b80d06",
+          "file": "full-workflow.spec.ts",
+          "line": 9,
+          "column": 5
+        },
+        {
+          "title": "engineering revision interactive WebGL selection and manual scene correspondence",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-1440",
+              "projectName": "desktop-1440",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "e3dd53e1c8f35c7597d6-0cc932bd1fd605f85532",
+          "file": "full-workflow.spec.ts",
+          "line": 18,
+          "column": 5
+        },
+        {
+          "title": "synthetic MediaStream capture evidence and independent PASS boundary",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-1440",
+              "projectName": "desktop-1440",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "e3dd53e1c8f35c7597d6-a9dec9f97562474a647d",
+          "file": "full-workflow.spec.ts",
+          "line": 28,
+          "column": 5
+        },
+        {
+          "title": "camera denial stays safe and upload evidence works",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-1440",
+              "projectName": "desktop-1440",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "e3dd53e1c8f35c7597d6-9d4c456270f654e9b840",
+          "file": "full-workflow.spec.ts",
+          "line": 46,
+          "column": 5
+        },
+        {
+          "title": "authenticated simulation telemetry reaches twin and owner control remains HOLD",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-1440",
+              "projectName": "desktop-1440",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "e3dd53e1c8f35c7597d6-f46a4c1a8d8e4d587098",
+          "file": "full-workflow.spec.ts",
+          "line": 51,
+          "column": 5
+        },
+        {
+          "title": "integrated pages have no serious accessibility failures and fit viewport",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-1440",
+              "projectName": "desktop-1440",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "e3dd53e1c8f35c7597d6-193fb7457f40b2e634de",
+          "file": "full-workflow.spec.ts",
+          "line": 57,
+          "column": 5
+        },
+        {
+          "title": "source ingestion retrieval and honest AI not-configured error",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "tablet-768",
+              "projectName": "tablet-768",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "e3dd53e1c8f35c7597d6-1d938324b33040bc3534",
+          "file": "full-workflow.spec.ts",
+          "line": 9,
+          "column": 5
+        },
+        {
+          "title": "engineering revision interactive WebGL selection and manual scene correspondence",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "tablet-768",
+              "projectName": "tablet-768",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "e3dd53e1c8f35c7597d6-13afb6727688b158567e",
+          "file": "full-workflow.spec.ts",
+          "line": 18,
+          "column": 5
+        },
+        {
+          "title": "synthetic MediaStream capture evidence and independent PASS boundary",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "tablet-768",
+              "projectName": "tablet-768",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "e3dd53e1c8f35c7597d6-77de7767857b5d35515f",
+          "file": "full-workflow.spec.ts",
+          "line": 28,
+          "column": 5
+        },
+        {
+          "title": "camera denial stays safe and upload evidence works",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "tablet-768",
+              "projectName": "tablet-768",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "e3dd53e1c8f35c7597d6-f2175d796fbe87fe146c",
+          "file": "full-workflow.spec.ts",
+          "line": 46,
+          "column": 5
+        },
+        {
+          "title": "authenticated simulation telemetry reaches twin and owner control remains HOLD",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "tablet-768",
+              "projectName": "tablet-768",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "e3dd53e1c8f35c7597d6-f3cfeba8bcc7fc76bca7",
+          "file": "full-workflow.spec.ts",
+          "line": 51,
+          "column": 5
+        },
+        {
+          "title": "integrated pages have no serious accessibility failures and fit viewport",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "tablet-768",
+              "projectName": "tablet-768",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "e3dd53e1c8f35c7597d6-57687708c79a55f9c6fa",
+          "file": "full-workflow.spec.ts",
+          "line": 57,
+          "column": 5
+        },
+        {
+          "title": "source ingestion retrieval and honest AI not-configured error",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-390",
+              "projectName": "mobile-390",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "e3dd53e1c8f35c7597d6-bb75172e220b34b694dc",
+          "file": "full-workflow.spec.ts",
+          "line": 9,
+          "column": 5
+        },
+        {
+          "title": "engineering revision interactive WebGL selection and manual scene correspondence",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-390",
+              "projectName": "mobile-390",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "e3dd53e1c8f35c7597d6-21cba5b8de40d202e732",
+          "file": "full-workflow.spec.ts",
+          "line": 18,
+          "column": 5
+        },
+        {
+          "title": "synthetic MediaStream capture evidence and independent PASS boundary",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-390",
+              "projectName": "mobile-390",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "e3dd53e1c8f35c7597d6-4af2d2dcdb926d4320c5",
+          "file": "full-workflow.spec.ts",
+          "line": 28,
+          "column": 5
+        },
+        {
+          "title": "camera denial stays safe and upload evidence works",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-390",
+              "projectName": "mobile-390",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "e3dd53e1c8f35c7597d6-40d954d10920a96cd5da",
+          "file": "full-workflow.spec.ts",
+          "line": 46,
+          "column": 5
+        },
+        {
+          "title": "authenticated simulation telemetry reaches twin and owner control remains HOLD",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-390",
+              "projectName": "mobile-390",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "e3dd53e1c8f35c7597d6-101b83a24a6276a4e926",
+          "file": "full-workflow.spec.ts",
+          "line": 51,
+          "column": 5
+        },
+        {
+          "title": "integrated pages have no serious accessibility failures and fit viewport",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-390",
+              "projectName": "mobile-390",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "e3dd53e1c8f35c7597d6-c1fd3e95176887a8e7f2",
+          "file": "full-workflow.spec.ts",
+          "line": 57,
+          "column": 5
+        },
+        {
+          "title": "source ingestion retrieval and honest AI not-configured error",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-320",
+              "projectName": "mobile-320",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "e3dd53e1c8f35c7597d6-dff1f5021d608be94212",
+          "file": "full-workflow.spec.ts",
+          "line": 9,
+          "column": 5
+        },
+        {
+          "title": "engineering revision interactive WebGL selection and manual scene correspondence",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-320",
+              "projectName": "mobile-320",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "e3dd53e1c8f35c7597d6-642e7f48601c2ab72fb0",
+          "file": "full-workflow.spec.ts",
+          "line": 18,
+          "column": 5
+        },
+        {
+          "title": "synthetic MediaStream capture evidence and independent PASS boundary",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-320",
+              "projectName": "mobile-320",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "e3dd53e1c8f35c7597d6-49f07edbac4083a4381e",
+          "file": "full-workflow.spec.ts",
+          "line": 28,
+          "column": 5
+        },
+        {
+          "title": "camera denial stays safe and upload evidence works",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-320",
+              "projectName": "mobile-320",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "e3dd53e1c8f35c7597d6-41a9fdc81379a86c37e1",
+          "file": "full-workflow.spec.ts",
+          "line": 46,
+          "column": 5
+        },
+        {
+          "title": "authenticated simulation telemetry reaches twin and owner control remains HOLD",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-320",
+              "projectName": "mobile-320",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "e3dd53e1c8f35c7597d6-be53cd02eff08a00f46d",
+          "file": "full-workflow.spec.ts",
+          "line": 51,
+          "column": 5
+        },
+        {
+          "title": "integrated pages have no serious accessibility failures and fit viewport",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-320",
+              "projectName": "mobile-320",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "e3dd53e1c8f35c7597d6-a000b509d5f37ddd4964",
+          "file": "full-workflow.spec.ts",
+          "line": 57,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "industrial.spec.ts",
+      "file": "industrial.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "assembly orientation visibility pin association and accessibility persist",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-1440",
+              "projectName": "desktop-1440",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "dea6650e618b20cee706-87de92f9b47e329067bb",
+          "file": "industrial.spec.ts",
+          "line": 4,
+          "column": 5
+        },
+        {
+          "title": "Design Simulation Live mode refresh and deterministic virtual history",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-1440",
+              "projectName": "desktop-1440",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "dea6650e618b20cee706-bd8f1b3e29b2b82e8fe3",
+          "file": "industrial.spec.ts",
+          "line": 5,
+          "column": 5
+        },
+        {
+          "title": "software physical-origin contract packet maps into scene inspector chart and warnings",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-1440",
+              "projectName": "desktop-1440",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "dea6650e618b20cee706-c6b9ee2053e5633fa027",
+          "file": "industrial.spec.ts",
+          "line": 6,
+          "column": 5
+        },
+        {
+          "title": "simulated packets excluded from live scene; selected AI reports missing credentials",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-1440",
+              "projectName": "desktop-1440",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "dea6650e618b20cee706-9c662ab98a2d32a08633",
+          "file": "industrial.spec.ts",
+          "line": 7,
+          "column": 5
+        },
+        {
+          "title": "slow snapshot does not overlap and navigation cancels pending work",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-1440",
+              "projectName": "desktop-1440",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "dea6650e618b20cee706-fd981cda16be87354616",
+          "file": "industrial.spec.ts",
+          "line": 8,
+          "column": 5
+        },
+        {
+          "title": "modes camera embedding navigation and refresh have no runtime errors",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-1440",
+              "projectName": "desktop-1440",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "dea6650e618b20cee706-7cab15d02c271a43c0bd",
+          "file": "industrial.spec.ts",
+          "line": 9,
+          "column": 5
+        },
+        {
+          "title": "original telemetry history twin controls routes survive idle reads and refresh",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-1440",
+              "projectName": "desktop-1440",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "dea6650e618b20cee706-25e7af203510f5d8367b",
+          "file": "industrial.spec.ts",
+          "line": 10,
+          "column": 5
+        },
+        {
+          "title": "BOM deletion cleans draft relations but sensor mapping stays explicitly orphaned",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-1440",
+              "projectName": "desktop-1440",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "dea6650e618b20cee706-867a2a9c6884820b3a17",
+          "file": "industrial.spec.ts",
+          "line": 11,
+          "column": 5
+        },
+        {
+          "title": "assembly orientation visibility pin association and accessibility persist",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "tablet-768",
+              "projectName": "tablet-768",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "dea6650e618b20cee706-971cc383d906ba0ba9a8",
+          "file": "industrial.spec.ts",
+          "line": 4,
+          "column": 5
+        },
+        {
+          "title": "Design Simulation Live mode refresh and deterministic virtual history",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "tablet-768",
+              "projectName": "tablet-768",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "dea6650e618b20cee706-c6096f0d8fa421d0f0f7",
+          "file": "industrial.spec.ts",
+          "line": 5,
+          "column": 5
+        },
+        {
+          "title": "software physical-origin contract packet maps into scene inspector chart and warnings",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "tablet-768",
+              "projectName": "tablet-768",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "dea6650e618b20cee706-b786271cf2879d8c8055",
+          "file": "industrial.spec.ts",
+          "line": 6,
+          "column": 5
+        },
+        {
+          "title": "simulated packets excluded from live scene; selected AI reports missing credentials",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "tablet-768",
+              "projectName": "tablet-768",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "dea6650e618b20cee706-8e1cff8250a2008615b6",
+          "file": "industrial.spec.ts",
+          "line": 7,
+          "column": 5
+        },
+        {
+          "title": "slow snapshot does not overlap and navigation cancels pending work",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "tablet-768",
+              "projectName": "tablet-768",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "dea6650e618b20cee706-09c46d4d7f84718c7f65",
+          "file": "industrial.spec.ts",
+          "line": 8,
+          "column": 5
+        },
+        {
+          "title": "modes camera embedding navigation and refresh have no runtime errors",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "tablet-768",
+              "projectName": "tablet-768",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "dea6650e618b20cee706-51fc85cf27e41c2f0bcb",
+          "file": "industrial.spec.ts",
+          "line": 9,
+          "column": 5
+        },
+        {
+          "title": "original telemetry history twin controls routes survive idle reads and refresh",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "tablet-768",
+              "projectName": "tablet-768",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "dea6650e618b20cee706-d8612d9be43e8e302129",
+          "file": "industrial.spec.ts",
+          "line": 10,
+          "column": 5
+        },
+        {
+          "title": "BOM deletion cleans draft relations but sensor mapping stays explicitly orphaned",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "tablet-768",
+              "projectName": "tablet-768",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "dea6650e618b20cee706-26ee3c694ff0d1738f93",
+          "file": "industrial.spec.ts",
+          "line": 11,
+          "column": 5
+        },
+        {
+          "title": "assembly orientation visibility pin association and accessibility persist",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-390",
+              "projectName": "mobile-390",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "dea6650e618b20cee706-e065ba5eb22e038787b1",
+          "file": "industrial.spec.ts",
+          "line": 4,
+          "column": 5
+        },
+        {
+          "title": "Design Simulation Live mode refresh and deterministic virtual history",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-390",
+              "projectName": "mobile-390",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "dea6650e618b20cee706-654b0c65d55471104ef2",
+          "file": "industrial.spec.ts",
+          "line": 5,
+          "column": 5
+        },
+        {
+          "title": "software physical-origin contract packet maps into scene inspector chart and warnings",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-390",
+              "projectName": "mobile-390",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "dea6650e618b20cee706-9bd3e73fb7c105bc853d",
+          "file": "industrial.spec.ts",
+          "line": 6,
+          "column": 5
+        },
+        {
+          "title": "simulated packets excluded from live scene; selected AI reports missing credentials",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-390",
+              "projectName": "mobile-390",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "dea6650e618b20cee706-20641c26b20a0986f147",
+          "file": "industrial.spec.ts",
+          "line": 7,
+          "column": 5
+        },
+        {
+          "title": "slow snapshot does not overlap and navigation cancels pending work",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-390",
+              "projectName": "mobile-390",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "dea6650e618b20cee706-4776df8c27bc325951eb",
+          "file": "industrial.spec.ts",
+          "line": 8,
+          "column": 5
+        },
+        {
+          "title": "modes camera embedding navigation and refresh have no runtime errors",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-390",
+              "projectName": "mobile-390",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "dea6650e618b20cee706-1e3f2cc40ea64afe0990",
+          "file": "industrial.spec.ts",
+          "line": 9,
+          "column": 5
+        },
+        {
+          "title": "original telemetry history twin controls routes survive idle reads and refresh",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-390",
+              "projectName": "mobile-390",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "dea6650e618b20cee706-17e85a7fbc5b72c83f05",
+          "file": "industrial.spec.ts",
+          "line": 10,
+          "column": 5
+        },
+        {
+          "title": "BOM deletion cleans draft relations but sensor mapping stays explicitly orphaned",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-390",
+              "projectName": "mobile-390",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "dea6650e618b20cee706-be7d1ef177abaeb714ab",
+          "file": "industrial.spec.ts",
+          "line": 11,
+          "column": 5
+        },
+        {
+          "title": "assembly orientation visibility pin association and accessibility persist",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-320",
+              "projectName": "mobile-320",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "dea6650e618b20cee706-3a89ab6e17c9f8112b8f",
+          "file": "industrial.spec.ts",
+          "line": 4,
+          "column": 5
+        },
+        {
+          "title": "Design Simulation Live mode refresh and deterministic virtual history",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-320",
+              "projectName": "mobile-320",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "dea6650e618b20cee706-5576abaefad865b5f21d",
+          "file": "industrial.spec.ts",
+          "line": 5,
+          "column": 5
+        },
+        {
+          "title": "software physical-origin contract packet maps into scene inspector chart and warnings",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-320",
+              "projectName": "mobile-320",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "dea6650e618b20cee706-b1ebe84654f39cd00780",
+          "file": "industrial.spec.ts",
+          "line": 6,
+          "column": 5
+        },
+        {
+          "title": "simulated packets excluded from live scene; selected AI reports missing credentials",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-320",
+              "projectName": "mobile-320",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "dea6650e618b20cee706-9b176acbb1c2a9570381",
+          "file": "industrial.spec.ts",
+          "line": 7,
+          "column": 5
+        },
+        {
+          "title": "slow snapshot does not overlap and navigation cancels pending work",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-320",
+              "projectName": "mobile-320",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "dea6650e618b20cee706-13ee32b3fbf78adb240f",
+          "file": "industrial.spec.ts",
+          "line": 8,
+          "column": 5
+        },
+        {
+          "title": "modes camera embedding navigation and refresh have no runtime errors",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-320",
+              "projectName": "mobile-320",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "dea6650e618b20cee706-51def851906f0e56fc0f",
+          "file": "industrial.spec.ts",
+          "line": 9,
+          "column": 5
+        },
+        {
+          "title": "original telemetry history twin controls routes survive idle reads and refresh",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-320",
+              "projectName": "mobile-320",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "dea6650e618b20cee706-fa45a5f7be3a85652db4",
+          "file": "industrial.spec.ts",
+          "line": 10,
+          "column": 5
+        },
+        {
+          "title": "BOM deletion cleans draft relations but sensor mapping stays explicitly orphaned",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-320",
+              "projectName": "mobile-320",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "dea6650e618b20cee706-dd74ace51a82a5c43198",
+          "file": "industrial.spec.ts",
+          "line": 11,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "navigation.spec.ts",
+      "file": "navigation.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "registered session, routes, real back-forward, breadcrumbs, home, deep refresh",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-1440",
+              "projectName": "desktop-1440",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "5d2868f7d23420c27cca-436e737584132d17641f",
+          "file": "navigation.spec.ts",
+          "line": 19,
+          "column": 5
+        },
+        {
+          "title": "light/dark/system persistence, navigation and width audit",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-1440",
+              "projectName": "desktop-1440",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "5d2868f7d23420c27cca-a3fc7d8d2b6e0f86fc25",
+          "file": "navigation.spec.ts",
+          "line": 40,
+          "column": 5
+        },
+        {
+          "title": "viewer cannot edit, missing project cannot leak title, signout blocks deep link",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-1440",
+              "projectName": "desktop-1440",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "5d2868f7d23420c27cca-bb4ddbdcdb288ed292b5",
+          "file": "navigation.spec.ts",
+          "line": 54,
+          "column": 5
+        },
+        {
+          "title": "keyboard skip link and forward initially disabled",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-1440",
+              "projectName": "desktop-1440",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "5d2868f7d23420c27cca-319edeca84cb177cbbad",
+          "file": "navigation.spec.ts",
+          "line": 65,
+          "column": 5
+        },
+        {
+          "title": "per-project draft isolation across navigation and refresh",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-1440",
+              "projectName": "desktop-1440",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "5d2868f7d23420c27cca-5b34a7e2b320c5911f97",
+          "file": "navigation.spec.ts",
+          "line": 73,
+          "column": 5
+        },
+        {
+          "title": "public product titles and keyboard modal dismissal",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-1440",
+              "projectName": "desktop-1440",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "5d2868f7d23420c27cca-9048693988f0525cd698",
+          "file": "navigation.spec.ts",
+          "line": 86,
+          "column": 5
+        },
+        {
+          "title": "mobile workspace tabs expose all three complete destinations",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-1440",
+              "projectName": "desktop-1440",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "5d2868f7d23420c27cca-6c35432132f4c481bae0",
+          "file": "navigation.spec.ts",
+          "line": 96,
+          "column": 5
+        },
+        {
+          "title": "archived projects cannot edit hardware, membership or planning drafts",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-1440",
+              "projectName": "desktop-1440",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "5d2868f7d23420c27cca-de4746f1da31fa839ad5",
+          "file": "navigation.spec.ts",
+          "line": 108,
+          "column": 5
+        },
+        {
+          "title": "account export includes saved hardware and my own planning draft",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-1440",
+              "projectName": "desktop-1440",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "5d2868f7d23420c27cca-7197e1480f41585071a7",
+          "file": "navigation.spec.ts",
+          "line": 127,
+          "column": 5
+        },
+        {
+          "title": "registered session, routes, real back-forward, breadcrumbs, home, deep refresh",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "tablet-768",
+              "projectName": "tablet-768",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "5d2868f7d23420c27cca-fdf5d0f3321903e102bd",
+          "file": "navigation.spec.ts",
+          "line": 19,
+          "column": 5
+        },
+        {
+          "title": "light/dark/system persistence, navigation and width audit",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "tablet-768",
+              "projectName": "tablet-768",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "5d2868f7d23420c27cca-f9e86ba3fea4acf8706f",
+          "file": "navigation.spec.ts",
+          "line": 40,
+          "column": 5
+        },
+        {
+          "title": "viewer cannot edit, missing project cannot leak title, signout blocks deep link",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "tablet-768",
+              "projectName": "tablet-768",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "5d2868f7d23420c27cca-9adc878230af8ce8da55",
+          "file": "navigation.spec.ts",
+          "line": 54,
+          "column": 5
+        },
+        {
+          "title": "keyboard skip link and forward initially disabled",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "tablet-768",
+              "projectName": "tablet-768",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "5d2868f7d23420c27cca-972e2929041a44383e94",
+          "file": "navigation.spec.ts",
+          "line": 65,
+          "column": 5
+        },
+        {
+          "title": "per-project draft isolation across navigation and refresh",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "tablet-768",
+              "projectName": "tablet-768",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "5d2868f7d23420c27cca-d458ce7db7912920c6a4",
+          "file": "navigation.spec.ts",
+          "line": 73,
+          "column": 5
+        },
+        {
+          "title": "public product titles and keyboard modal dismissal",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "tablet-768",
+              "projectName": "tablet-768",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "5d2868f7d23420c27cca-3684a33a1bb1cc8e5dcd",
+          "file": "navigation.spec.ts",
+          "line": 86,
+          "column": 5
+        },
+        {
+          "title": "mobile workspace tabs expose all three complete destinations",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "tablet-768",
+              "projectName": "tablet-768",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "5d2868f7d23420c27cca-3d408754d3b7352c24a4",
+          "file": "navigation.spec.ts",
+          "line": 96,
+          "column": 5
+        },
+        {
+          "title": "archived projects cannot edit hardware, membership or planning drafts",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "tablet-768",
+              "projectName": "tablet-768",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "5d2868f7d23420c27cca-3dc45cb33c8134e8e3e1",
+          "file": "navigation.spec.ts",
+          "line": 108,
+          "column": 5
+        },
+        {
+          "title": "account export includes saved hardware and my own planning draft",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "tablet-768",
+              "projectName": "tablet-768",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "5d2868f7d23420c27cca-8bf95a52cc19a6be7937",
+          "file": "navigation.spec.ts",
+          "line": 127,
+          "column": 5
+        },
+        {
+          "title": "registered session, routes, real back-forward, breadcrumbs, home, deep refresh",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-390",
+              "projectName": "mobile-390",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "5d2868f7d23420c27cca-fe6e90f841226e3fc475",
+          "file": "navigation.spec.ts",
+          "line": 19,
+          "column": 5
+        },
+        {
+          "title": "light/dark/system persistence, navigation and width audit",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-390",
+              "projectName": "mobile-390",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "5d2868f7d23420c27cca-b6437a8dbd519fdbb73b",
+          "file": "navigation.spec.ts",
+          "line": 40,
+          "column": 5
+        },
+        {
+          "title": "viewer cannot edit, missing project cannot leak title, signout blocks deep link",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-390",
+              "projectName": "mobile-390",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "5d2868f7d23420c27cca-f2d1e936e7a40bb5a101",
+          "file": "navigation.spec.ts",
+          "line": 54,
+          "column": 5
+        },
+        {
+          "title": "keyboard skip link and forward initially disabled",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-390",
+              "projectName": "mobile-390",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "5d2868f7d23420c27cca-c1ceff3e124c36e75bef",
+          "file": "navigation.spec.ts",
+          "line": 65,
+          "column": 5
+        },
+        {
+          "title": "per-project draft isolation across navigation and refresh",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-390",
+              "projectName": "mobile-390",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "5d2868f7d23420c27cca-80072ba6c97da809a41c",
+          "file": "navigation.spec.ts",
+          "line": 73,
+          "column": 5
+        },
+        {
+          "title": "public product titles and keyboard modal dismissal",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-390",
+              "projectName": "mobile-390",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "5d2868f7d23420c27cca-d22651c1a9a515c287be",
+          "file": "navigation.spec.ts",
+          "line": 86,
+          "column": 5
+        },
+        {
+          "title": "mobile workspace tabs expose all three complete destinations",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-390",
+              "projectName": "mobile-390",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "5d2868f7d23420c27cca-ab3dfe5b38268ac2ce5b",
+          "file": "navigation.spec.ts",
+          "line": 96,
+          "column": 5
+        },
+        {
+          "title": "archived projects cannot edit hardware, membership or planning drafts",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-390",
+              "projectName": "mobile-390",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "5d2868f7d23420c27cca-1d99802f0025238f2080",
+          "file": "navigation.spec.ts",
+          "line": 108,
+          "column": 5
+        },
+        {
+          "title": "account export includes saved hardware and my own planning draft",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-390",
+              "projectName": "mobile-390",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "5d2868f7d23420c27cca-059002c80b81661cd8b5",
+          "file": "navigation.spec.ts",
+          "line": 127,
+          "column": 5
+        },
+        {
+          "title": "registered session, routes, real back-forward, breadcrumbs, home, deep refresh",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-320",
+              "projectName": "mobile-320",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "5d2868f7d23420c27cca-c06c02146a9450a4d25a",
+          "file": "navigation.spec.ts",
+          "line": 19,
+          "column": 5
+        },
+        {
+          "title": "light/dark/system persistence, navigation and width audit",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-320",
+              "projectName": "mobile-320",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "5d2868f7d23420c27cca-4adb52f71af9e71ea12f",
+          "file": "navigation.spec.ts",
+          "line": 40,
+          "column": 5
+        },
+        {
+          "title": "viewer cannot edit, missing project cannot leak title, signout blocks deep link",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-320",
+              "projectName": "mobile-320",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "5d2868f7d23420c27cca-f402e34e18954468bd22",
+          "file": "navigation.spec.ts",
+          "line": 54,
+          "column": 5
+        },
+        {
+          "title": "keyboard skip link and forward initially disabled",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-320",
+              "projectName": "mobile-320",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "5d2868f7d23420c27cca-d15a0a4396f1e2d117c7",
+          "file": "navigation.spec.ts",
+          "line": 65,
+          "column": 5
+        },
+        {
+          "title": "per-project draft isolation across navigation and refresh",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-320",
+              "projectName": "mobile-320",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "5d2868f7d23420c27cca-99503d814d6a18445424",
+          "file": "navigation.spec.ts",
+          "line": 73,
+          "column": 5
+        },
+        {
+          "title": "public product titles and keyboard modal dismissal",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-320",
+              "projectName": "mobile-320",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "5d2868f7d23420c27cca-e2d2be72433dae329614",
+          "file": "navigation.spec.ts",
+          "line": 86,
+          "column": 5
+        },
+        {
+          "title": "mobile workspace tabs expose all three complete destinations",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-320",
+              "projectName": "mobile-320",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "5d2868f7d23420c27cca-3ffaec6d626ef810a3a5",
+          "file": "navigation.spec.ts",
+          "line": 96,
+          "column": 5
+        },
+        {
+          "title": "archived projects cannot edit hardware, membership or planning drafts",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-320",
+              "projectName": "mobile-320",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "5d2868f7d23420c27cca-b1bda7ff6d64bb381fe1",
+          "file": "navigation.spec.ts",
+          "line": 108,
+          "column": 5
+        },
+        {
+          "title": "account export includes saved hardware and my own planning draft",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-320",
+              "projectName": "mobile-320",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "5d2868f7d23420c27cca-88b3aaf51561ef57a46a",
+          "file": "navigation.spec.ts",
+          "line": 127,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "ux-guided-assembly.spec.ts",
+      "file": "ux-guided-assembly.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "tutorial, drag from component library and revision persistence",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-1440",
+              "projectName": "desktop-1440",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "d31e7eab5bbf5181e86e-403b6d99eabd60ba1b3f",
+          "file": "ux-guided-assembly.spec.ts",
+          "line": 16,
+          "column": 5
+        },
+        {
+          "title": "drag existing part, attach parent, and preserve translated grouping",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-1440",
+              "projectName": "desktop-1440",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "d31e7eab5bbf5181e86e-6c32ae7407e75b503839",
+          "file": "ux-guided-assembly.spec.ts",
+          "line": 31,
+          "column": 5
+        },
+        {
+          "title": "model message renders headings/lists/code without interpreting HTML",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-1440",
+              "projectName": "desktop-1440",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "d31e7eab5bbf5181e86e-95d3cad647d2cb0770b5",
+          "file": "ux-guided-assembly.spec.ts",
+          "line": 64,
+          "column": 5
+        },
+        {
+          "title": "tutorial, drag from component library and revision persistence",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "tablet-768",
+              "projectName": "tablet-768",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "d31e7eab5bbf5181e86e-27946684dc48a77bd35c",
+          "file": "ux-guided-assembly.spec.ts",
+          "line": 16,
+          "column": 5
+        },
+        {
+          "title": "drag existing part, attach parent, and preserve translated grouping",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "tablet-768",
+              "projectName": "tablet-768",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "d31e7eab5bbf5181e86e-f7b3c89abb5b33546db6",
+          "file": "ux-guided-assembly.spec.ts",
+          "line": 31,
+          "column": 5
+        },
+        {
+          "title": "model message renders headings/lists/code without interpreting HTML",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "tablet-768",
+              "projectName": "tablet-768",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "d31e7eab5bbf5181e86e-13bb2ea4eaae6d8ec468",
+          "file": "ux-guided-assembly.spec.ts",
+          "line": 64,
+          "column": 5
+        },
+        {
+          "title": "tutorial, drag from component library and revision persistence",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-390",
+              "projectName": "mobile-390",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "d31e7eab5bbf5181e86e-da437a9a7dd3fcfc2c5e",
+          "file": "ux-guided-assembly.spec.ts",
+          "line": 16,
+          "column": 5
+        },
+        {
+          "title": "drag existing part, attach parent, and preserve translated grouping",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-390",
+              "projectName": "mobile-390",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "d31e7eab5bbf5181e86e-ef87a8d0876a7f960391",
+          "file": "ux-guided-assembly.spec.ts",
+          "line": 31,
+          "column": 5
+        },
+        {
+          "title": "model message renders headings/lists/code without interpreting HTML",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-390",
+              "projectName": "mobile-390",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "d31e7eab5bbf5181e86e-f25f4225879b6123e513",
+          "file": "ux-guided-assembly.spec.ts",
+          "line": 64,
+          "column": 5
+        },
+        {
+          "title": "tutorial, drag from component library and revision persistence",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-320",
+              "projectName": "mobile-320",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "d31e7eab5bbf5181e86e-9e5cc48cfd80340c470f",
+          "file": "ux-guided-assembly.spec.ts",
+          "line": 16,
+          "column": 5
+        },
+        {
+          "title": "drag existing part, attach parent, and preserve translated grouping",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-320",
+              "projectName": "mobile-320",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "d31e7eab5bbf5181e86e-5993657eb84cfd26ead6",
+          "file": "ux-guided-assembly.spec.ts",
+          "line": 31,
+          "column": 5
+        },
+        {
+          "title": "model message renders headings/lists/code without interpreting HTML",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-320",
+              "projectName": "mobile-320",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "d31e7eab5bbf5181e86e-d01c390d0a7d7b0c1d63",
+          "file": "ux-guided-assembly.spec.ts",
+          "line": 64,
+          "column": 5
+        }
+      ]
+    }
+  ],
+  "errors": [
+    {
+      "message": "Testing stopped early after 1 maximum allowed failures."
+    }
+  ],
+  "stats": {
+    "startTime": "2026-11-04T06:01:02.370Z",
+    "duration": 3607.7699999999995,
+    "expected": 0,
+    "skipped": 123,
+    "unexpected": 1,
+    "flaky": 0
+  }
+}

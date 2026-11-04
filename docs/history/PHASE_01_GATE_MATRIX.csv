@@ -1,0 +1,17 @@
+gate,status,evidence_or_blocker
+Recovered prior checkpoint,PASS,User uploaded nested project archive extracted without restarting
+Backend auth/Argon2id/Persistent sessions,PASS,11 actual pytest cases
+Project CRUD/RBAC/archived protections,PASS,pytest including archived membership and cross-project denial
+Local SQLite migration,PASS,upgrade downgrade upgrade 9 domain tables
+Actual Uvicorn HTTP,PASS,12 real HTTP checks over TCP
+User profile/consent/export/delete,PASS,pytest
+Sensor inventory size bound,PASS,pytest rejects over-32KiB draft
+Theme UI source,PRESENT_UNVERIFIED,Needs actual Next and browser test
+Home Back Forward breadcrumbs,PRESENT_UNVERIFIED,17 pure helper tests not browser E2E
+Mobile responsive and archived UI,PRESENT_UNVERIFIED,Requires new Playwright run and screenshot audit
+Next npm ci,BLOCKED,ENOTCACHED zod-validation-error-4.0.2.tgz; DNS unreachable
+Next ESLint/strict tsc/build,NOT_RUN_CURRENT_SOURCE,Dependencies unavailable
+Playwright desktop/tablet/mobile,NOT_RUN_CURRENT_SOURCE,Dependencies unavailable
+Actual screenshot visual audit,NOT_RUN_CURRENT_SOURCE,Old CI screenshots do not certify latest source
+Meta model/real camera/IoT telemetry,NOT_IMPLEMENTED,Later six-phase work and hardware/provider gates
+GitHub push,NOT_PERFORMED,User explicitly wants manual VS Code upload only when complete

@@ -1,0 +1,37 @@
+{
+  "backend_passed": 105,
+  "frontend_unit_passed": 22,
+  "frontend_lint": "PASS",
+  "frontend_typecheck": "PASS",
+  "frontend_production_build": "PASS",
+  "production_http_regression_checks": 41,
+  "copilot_http_checks_including_real_backend_restart": 48,
+  "tcp_auth_planning_adapter_checks": [
+    12,
+    7,
+    18
+  ],
+  "migration_scripts_passed": [
+    "verify_migration.py",
+    "verify_industrial_migration.py",
+    "verify_copilot_migration.py"
+  ],
+  "regular_browser": {
+    "startTime": "2026-11-04T06:01:02.370Z",
+    "duration": 3607.7699999999995,
+    "expected": 0,
+    "skipped": 123,
+    "unexpected": 1,
+    "flaky": 0
+  },
+  "mock_browser": {
+    "startTime": "2026-11-04T06:04:18.070Z",
+    "duration": 3319.5730000000003,
+    "expected": 0,
+    "skipped": 3,
+    "unexpected": 1,
+    "flaky": 0
+  },
+  "live_meta": "UNVERIFIED",
+  "native_media_audio_hardware": "UNVERIFIED"
+}

@@ -1,0 +1,73 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://proofstep.local/schemas/decision-v3.json",
+  "title": "Evidence Decision",
+  "type": "object",
+  "required": [
+    "decision_id",
+    "project_id",
+    "step_id",
+    "taskpack_version",
+    "status",
+    "evidence_ids",
+    "predicate_results",
+    "model_id",
+    "recorded_at"
+  ],
+  "properties": {
+    "decision_id": {
+      "type": "string"
+    },
+    "project_id": {
+      "type": "string"
+    },
+    "step_id": {
+      "type": "string"
+    },
+    "taskpack_version": {
+      "type": "string"
+    },
+    "status": {
+      "enum": [
+        "VERIFIED_PASS",
+        "OBSERVED_FAIL",
+        "INSUFFICIENT_EVIDENCE",
+        "SAFETY_HOLD"
+      ]
+    },
+    "evidence_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "predicate_results": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "model_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "recorded_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "limitations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "retake_instruction": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  }
+}

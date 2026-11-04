@@ -1,0 +1,3 @@
+import {defineConfig} from '@playwright/test';
+import base from './playwright.config';
+export default defineConfig({...base,testMatch:'**/copilot.mock.spec.ts',testIgnore:[],projects:base.projects?.filter(p=>['desktop-1440','mobile-390'].includes(p.name||'')),reporter:[['list'],['json',{outputFile:'../verification/copilot-mock-browser-results.json'}],['html',{outputFolder:'../logs/copilot-mock-browser-report',open:'never'}]],webServer:[{command:'python -m alembic upgrade head && python -m tests.mock_provider_api',cwd:'../backend',env:{MODEL_API_KEY:'',ROBOLN_TEST_API_PORT:'8000'},url:'http://127.0.0.1:8000/api/ready',reuseExistingServer:false,timeout:60000},{command:'npm run start',cwd:'.',url:'http://127.0.0.1:3000/login',reuseExistingServer:false,timeout:90000}]});

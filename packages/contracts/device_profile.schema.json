@@ -1,0 +1,121 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Project Hardware Profile V2",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "project_id",
+    "device_class",
+    "board_model",
+    "board_revision",
+    "profile_review_state",
+    "source_revision_ids"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "project_id": {
+      "type": "string"
+    },
+    "device_class": {
+      "enum": [
+        "MCU",
+        "SBC",
+        "OTHER"
+      ]
+    },
+    "board_model": {
+      "type": "string"
+    },
+    "board_revision": {
+      "type": "string"
+    },
+    "profile_review_state": {
+      "enum": [
+        "DRAFT",
+        "REVIEW_REQUIRED",
+        "APPROVED"
+      ]
+    },
+    "firmware_version": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "os_distribution": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "pin_map": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      }
+    },
+    "power_constraints": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "communication_capabilities": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "USB",
+          "SERIAL",
+          "WIFI",
+          "BLE",
+          "MQTT",
+          "HTTPS",
+          "WEBSOCKET",
+          "OTHER"
+        ]
+      }
+    },
+    "sensor_inventory": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "sensor_id",
+          "sensor_type",
+          "unit",
+          "is_confirmed"
+        ],
+        "properties": {
+          "sensor_id": {
+            "type": "string"
+          },
+          "sensor_type": {
+            "type": "string"
+          },
+          "unit": {
+            "type": "string"
+          },
+          "is_confirmed": {
+            "type": "boolean"
+          },
+          "datasheet_revision": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "source_revision_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

@@ -1,0 +1,1 @@
+Industrial migration data preservation: PASS; original identities/membership/chat/packet retained and reading backfilled once across downgrade/re-upgrade

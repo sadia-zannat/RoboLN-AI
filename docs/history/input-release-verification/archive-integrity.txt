@@ -1,0 +1,2 @@
+PASS: ZIP CRC and safe paths; clean extraction; 181 SHA-256 manifest entries; 119 tested runtime/test/config files byte-identical; private env/database/dependency/cache exclusions; credential-pattern scan.
+SHA-256 manifest: 181 files verified

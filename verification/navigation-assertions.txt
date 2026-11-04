@@ -1,0 +1,1 @@
+PASS: 17 pure navigation assertions from actual TS source. This is NOT browser E2E.

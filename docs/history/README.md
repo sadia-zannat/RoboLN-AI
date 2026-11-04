@@ -1,0 +1,1 @@
+Historical checkpoint documents and scripts only. They predate the consolidated release and are not current feature or verification claims. Use the root README, VERIFIED_TEST_REPORT.md and docs/FEATURE_MATRIX.md.

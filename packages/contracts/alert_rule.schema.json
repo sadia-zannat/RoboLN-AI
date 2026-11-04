@@ -1,0 +1,72 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Sensor Alert Rule V2",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "project_id",
+    "device_id",
+    "sensor_id",
+    "unit",
+    "operator",
+    "threshold",
+    "cooldown_seconds",
+    "channel",
+    "opt_in",
+    "enabled"
+  ],
+  "properties": {
+    "project_id": {
+      "type": "string"
+    },
+    "device_id": {
+      "type": "string"
+    },
+    "sensor_id": {
+      "type": "string"
+    },
+    "unit": {
+      "type": "string"
+    },
+    "operator": {
+      "enum": [
+        "lt",
+        "lte",
+        "gt",
+        "gte",
+        "eq"
+      ]
+    },
+    "threshold": {
+      "type": "number"
+    },
+    "hysteresis": {
+      "type": "number",
+      "minimum": 0
+    },
+    "cooldown_seconds": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "channel": {
+      "enum": [
+        "IN_APP",
+        "EMAIL",
+        "WEBHOOK"
+      ]
+    },
+    "opt_in": {
+      "type": "boolean"
+    },
+    "enabled": {
+      "type": "boolean"
+    },
+    "last_triggered_at": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    }
+  }
+}

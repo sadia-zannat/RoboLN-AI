@@ -1,0 +1,42 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> roboln-frontend@1.0.0 test:unit
+> node --experimental-strip-types --test tests/unit/*.test.ts
+
+(node:25) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///workspace/scratch/f2f00674cd4e/work/RoboLN/frontend/tests/unit/assembly-placement.test.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /workspace/scratch/f2f00674cd4e/work/RoboLN/frontend/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ moving a parent translates its linked descendants without moving unrelated parts (2.380556ms)
+✔ movement is bounded to backend workspace coordinate limits (0.356681ms)
+✔ group movement preserves child offsets at every workspace boundary (0.285746ms)
+✔ non-finite position changes do not mutate the assembly (0.19462ms)
+✔ a component cannot become its own parent or a descendant parent (1.65865ms)
+(node:26) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///workspace/scratch/f2f00674cd4e/work/RoboLN/frontend/tests/unit/backend-proxy.test.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /workspace/scratch/f2f00674cd4e/work/RoboLN/frontend/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ fresh sockets preserve genuine responses query cookies and CSRF (42.25208ms)
+[RoboLN proxy 587df8e5-e423-48fd-ac15-7a71ddd23c3e] GET /api/p ECONNRESET
+✔ forced reset is explicit 502 with correlation ID (7.821349ms)
+✔ real authorization and database errors are forwarded (13.618363ms)
+[RoboLN proxy 03b398ee-3add-4fb8-9287-390530e7c28c] POST /api/p UPSTREAM_TIMEOUT
+✔ timeout bounded with no mutation retry (33.910801ms)
+✔ invalid traversal and oversized body rejected (13.363553ms)
+✔ upload body is forwarded unchanged (5.435195ms)
+(node:27) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///workspace/scratch/f2f00674cd4e/work/RoboLN/frontend/tests/unit/twin-state.test.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /workspace/scratch/f2f00674cd4e/work/RoboLN/frontend/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ stale or revoked recorded wheel remains frozen (1.093398ms)
+✔ simulation cannot drive physical transforms (0.304183ms)
+✔ partial pose update retains previous atomic packet (1.657148ms)
+✔ incompatible historic units cannot move scene (1.623969ms)
+ℹ tests 15
+ℹ suites 0
+ℹ pass 15
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 481.432864

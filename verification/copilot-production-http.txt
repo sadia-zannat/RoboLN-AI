@@ -1,0 +1,1 @@
+Copilot production Next -> real API -> SQLite: 48 HTTP checks PASS, including actual backend termination/restart, saved steps, two equipment photos, scoped snapshot inspection via EXPLICIT TEST HTTP mock, user confirmation, checkpoint, relogin, project/member isolation, export and SIMULATION telemetry. No live Meta, physical camera, speech or hardware verification.

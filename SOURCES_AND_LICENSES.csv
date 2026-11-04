@@ -1,0 +1,11 @@
+item,source_or_owner,license_status,incorporation,verification_status,notes
+User V2 JSON schemas,User attached canonical V2 ZIP,User-provided source,packages/contracts,Verified input SHA256 copies,Original schema unchanged
+Fresh RoboLN Phase 01 code,New code authored for this build,License not assigned,backend frontend scripts tests,Source files present,No license grant for external reuse inferred
+Next.js,https://nextjs.org,License review pending,frontend package.json only,Not installed,No bundled dependency included
+React,https://react.dev,License review pending,frontend package.json only,Not installed,No bundled dependency included
+Radix Dialog,https://www.radix-ui.com,License review pending,frontend package.json only,Not installed,No bundled dependency included
+Lucide React,https://lucide.dev,License review pending,frontend package.json only,Not installed,No bundled dependency included
+FastAPI,https://fastapi.tiangolo.com,License review pending,backend installed environment,Locally tested,Dependency sources not bundled
+SQLAlchemy,https://www.sqlalchemy.org,License review pending,backend installed environment,Locally tested,Dependency sources not bundled
+Meta Muse,https://dev.meta.ai,Model terms not verified for this build,Not called,NOT_RUN,No provider output or credentials included
+Third-party CAD/rover footage,None,Not supplied,Not included,NOT_RUN,No user-media artifacts included

@@ -1,0 +1,844 @@
+EEEEEEEEEEEEEEEEEEEEEEEE                                                 [100%]
+==================================== ERRORS ====================================
+_ ERROR at setup of test_full_journey_inventory_photos_confirm_checkpoint_and_login _
+
+fixturedef = <FixtureDef argname='client' scope='function' baseid='tests'>
+request = <SubRequest 'client' for <Function test_full_journey_inventory_photos_confirm_checkpoint_and_login>>
+
+    @pytest.hookimpl(wrapper=True)
+    def pytest_fixture_setup(fixturedef: FixtureDef, request) -> object | None:
+        asyncio_mode = _get_asyncio_mode(request.config)
+        if not _is_asyncio_fixture_function(fixturedef.func):
+            if asyncio_mode == Mode.STRICT:
+                # Ignore async fixtures without explicit asyncio mark in strict mode
+                # This applies to pytest_trio fixtures, for example
+>               return (yield)
+                        ^^^^^
+
+/opt/pyvenv/lib/python3.13/site-packages/pytest_asyncio/plugin.py:728: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+tests/conftest.py:14: in client
+    from app.api import app
+app/api.py:389: in <module>
+    from .workbench import router as workbench_router
+app/workbench.py:16: in <module>
+    from .sources import extract, retrieve, image_bytes, MAX_FILE
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    """Bounded local extraction and lexical RAG. No network fetches or executable content."""
+    import io, re, math, hashlib
+    from collections import Counter
+    from pathlib import PurePosixPath
+    from fastapi import HTTPException
+>   from pypdf import PdfReader, overwrite_configuration
+E   ImportError: cannot import name 'overwrite_configuration' from 'pypdf' (/opt/pyvenv/lib/python3.13/site-packages/pypdf/__init__.py)
+
+app/sources.py:6: ImportError
+______ ERROR at setup of test_build_states_persist[WAITING_FOR_EVIDENCE] _______
+
+fixturedef = <FixtureDef argname='client' scope='function' baseid='tests'>
+request = <SubRequest 'client' for <Function test_build_states_persist[WAITING_FOR_EVIDENCE]>>
+
+    @pytest.hookimpl(wrapper=True)
+    def pytest_fixture_setup(fixturedef: FixtureDef, request) -> object | None:
+        asyncio_mode = _get_asyncio_mode(request.config)
+        if not _is_asyncio_fixture_function(fixturedef.func):
+            if asyncio_mode == Mode.STRICT:
+                # Ignore async fixtures without explicit asyncio mark in strict mode
+                # This applies to pytest_trio fixtures, for example
+>               return (yield)
+                        ^^^^^
+
+/opt/pyvenv/lib/python3.13/site-packages/pytest_asyncio/plugin.py:728: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+tests/conftest.py:14: in client
+    from app.api import app
+app/api.py:389: in <module>
+    from .workbench import router as workbench_router
+app/workbench.py:16: in <module>
+    from .sources import extract, retrieve, image_bytes, MAX_FILE
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    """Bounded local extraction and lexical RAG. No network fetches or executable content."""
+    import io, re, math, hashlib
+    from collections import Counter
+    from pathlib import PurePosixPath
+    from fastapi import HTTPException
+>   from pypdf import PdfReader, overwrite_configuration
+E   ImportError: cannot import name 'overwrite_configuration' from 'pypdf' (/opt/pyvenv/lib/python3.13/site-packages/pypdf/__init__.py)
+
+app/sources.py:6: ImportError
+_______ ERROR at setup of test_build_states_persist[NEEDS_MORE_EVIDENCE] _______
+
+fixturedef = <FixtureDef argname='client' scope='function' baseid='tests'>
+request = <SubRequest 'client' for <Function test_build_states_persist[NEEDS_MORE_EVIDENCE]>>
+
+    @pytest.hookimpl(wrapper=True)
+    def pytest_fixture_setup(fixturedef: FixtureDef, request) -> object | None:
+        asyncio_mode = _get_asyncio_mode(request.config)
+        if not _is_asyncio_fixture_function(fixturedef.func):
+            if asyncio_mode == Mode.STRICT:
+                # Ignore async fixtures without explicit asyncio mark in strict mode
+                # This applies to pytest_trio fixtures, for example
+>               return (yield)
+                        ^^^^^
+
+/opt/pyvenv/lib/python3.13/site-packages/pytest_asyncio/plugin.py:728: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+tests/conftest.py:14: in client
+    from app.api import app
+app/api.py:389: in <module>
+    from .workbench import router as workbench_router
+app/workbench.py:16: in <module>
+    from .sources import extract, retrieve, image_bytes, MAX_FILE
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    """Bounded local extraction and lexical RAG. No network fetches or executable content."""
+    import io, re, math, hashlib
+    from collections import Counter
+    from pathlib import PurePosixPath
+    from fastapi import HTTPException
+>   from pypdf import PdfReader, overwrite_configuration
+E   ImportError: cannot import name 'overwrite_configuration' from 'pypdf' (/opt/pyvenv/lib/python3.13/site-packages/pypdf/__init__.py)
+
+app/sources.py:6: ImportError
+__________ ERROR at setup of test_build_states_persist[NEEDS_REVIEW] ___________
+
+fixturedef = <FixtureDef argname='client' scope='function' baseid='tests'>
+request = <SubRequest 'client' for <Function test_build_states_persist[NEEDS_REVIEW]>>
+
+    @pytest.hookimpl(wrapper=True)
+    def pytest_fixture_setup(fixturedef: FixtureDef, request) -> object | None:
+        asyncio_mode = _get_asyncio_mode(request.config)
+        if not _is_asyncio_fixture_function(fixturedef.func):
+            if asyncio_mode == Mode.STRICT:
+                # Ignore async fixtures without explicit asyncio mark in strict mode
+                # This applies to pytest_trio fixtures, for example
+>               return (yield)
+                        ^^^^^
+
+/opt/pyvenv/lib/python3.13/site-packages/pytest_asyncio/plugin.py:728: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+tests/conftest.py:14: in client
+    from app.api import app
+app/api.py:389: in <module>
+    from .workbench import router as workbench_router
+app/workbench.py:16: in <module>
+    from .sources import extract, retrieve, image_bytes, MAX_FILE
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    """Bounded local extraction and lexical RAG. No network fetches or executable content."""
+    import io, re, math, hashlib
+    from collections import Counter
+    from pathlib import PurePosixPath
+    from fastapi import HTTPException
+>   from pypdf import PdfReader, overwrite_configuration
+E   ImportError: cannot import name 'overwrite_configuration' from 'pypdf' (/opt/pyvenv/lib/python3.13/site-packages/pypdf/__init__.py)
+
+app/sources.py:6: ImportError
+_____________ ERROR at setup of test_build_states_persist[BLOCKED] _____________
+
+fixturedef = <FixtureDef argname='client' scope='function' baseid='tests'>
+request = <SubRequest 'client' for <Function test_build_states_persist[BLOCKED]>>
+
+    @pytest.hookimpl(wrapper=True)
+    def pytest_fixture_setup(fixturedef: FixtureDef, request) -> object | None:
+        asyncio_mode = _get_asyncio_mode(request.config)
+        if not _is_asyncio_fixture_function(fixturedef.func):
+            if asyncio_mode == Mode.STRICT:
+                # Ignore async fixtures without explicit asyncio mark in strict mode
+                # This applies to pytest_trio fixtures, for example
+>               return (yield)
+                        ^^^^^
+
+/opt/pyvenv/lib/python3.13/site-packages/pytest_asyncio/plugin.py:728: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+tests/conftest.py:14: in client
+    from app.api import app
+app/api.py:389: in <module>
+    from .workbench import router as workbench_router
+app/workbench.py:16: in <module>
+    from .sources import extract, retrieve, image_bytes, MAX_FILE
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    """Bounded local extraction and lexical RAG. No network fetches or executable content."""
+    import io, re, math, hashlib
+    from collections import Counter
+    from pathlib import PurePosixPath
+    from fastapi import HTTPException
+>   from pypdf import PdfReader, overwrite_configuration
+E   ImportError: cannot import name 'overwrite_configuration' from 'pypdf' (/opt/pyvenv/lib/python3.13/site-packages/pypdf/__init__.py)
+
+app/sources.py:6: ImportError
+___________ ERROR at setup of test_build_states_persist[IN_PROGRESS] ___________
+
+fixturedef = <FixtureDef argname='client' scope='function' baseid='tests'>
+request = <SubRequest 'client' for <Function test_build_states_persist[IN_PROGRESS]>>
+
+    @pytest.hookimpl(wrapper=True)
+    def pytest_fixture_setup(fixturedef: FixtureDef, request) -> object | None:
+        asyncio_mode = _get_asyncio_mode(request.config)
+        if not _is_asyncio_fixture_function(fixturedef.func):
+            if asyncio_mode == Mode.STRICT:
+                # Ignore async fixtures without explicit asyncio mark in strict mode
+                # This applies to pytest_trio fixtures, for example
+>               return (yield)
+                        ^^^^^
+
+/opt/pyvenv/lib/python3.13/site-packages/pytest_asyncio/plugin.py:728: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+tests/conftest.py:14: in client
+    from app.api import app
+app/api.py:389: in <module>
+    from .workbench import router as workbench_router
+app/workbench.py:16: in <module>
+    from .sources import extract, retrieve, image_bytes, MAX_FILE
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    """Bounded local extraction and lexical RAG. No network fetches or executable content."""
+    import io, re, math, hashlib
+    from collections import Counter
+    from pathlib import PurePosixPath
+    from fastapi import HTTPException
+>   from pypdf import PdfReader, overwrite_configuration
+E   ImportError: cannot import name 'overwrite_configuration' from 'pypdf' (/opt/pyvenv/lib/python3.13/site-packages/pypdf/__init__.py)
+
+app/sources.py:6: ImportError
+_ ERROR at setup of test_complete_requires_user_check_and_edited_step_reopens_review _
+
+fixturedef = <FixtureDef argname='client' scope='function' baseid='tests'>
+request = <SubRequest 'client' for <Function test_complete_requires_user_check_and_edited_step_reopens_review>>
+
+    @pytest.hookimpl(wrapper=True)
+    def pytest_fixture_setup(fixturedef: FixtureDef, request) -> object | None:
+        asyncio_mode = _get_asyncio_mode(request.config)
+        if not _is_asyncio_fixture_function(fixturedef.func):
+            if asyncio_mode == Mode.STRICT:
+                # Ignore async fixtures without explicit asyncio mark in strict mode
+                # This applies to pytest_trio fixtures, for example
+>               return (yield)
+                        ^^^^^
+
+/opt/pyvenv/lib/python3.13/site-packages/pytest_asyncio/plugin.py:728: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+tests/conftest.py:14: in client
+    from app.api import app
+app/api.py:389: in <module>
+    from .workbench import router as workbench_router
+app/workbench.py:16: in <module>
+    from .sources import extract, retrieve, image_bytes, MAX_FILE
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    """Bounded local extraction and lexical RAG. No network fetches or executable content."""
+    import io, re, math, hashlib
+    from collections import Counter
+    from pathlib import PurePosixPath
+    from fastapi import HTTPException
+>   from pypdf import PdfReader, overwrite_configuration
+E   ImportError: cannot import name 'overwrite_configuration' from 'pypdf' (/opt/pyvenv/lib/python3.13/site-packages/pypdf/__init__.py)
+
+app/sources.py:6: ImportError
+_____ ERROR at setup of test_stale_progress_and_equipment_writes_rejected ______
+
+fixturedef = <FixtureDef argname='client' scope='function' baseid='tests'>
+request = <SubRequest 'client' for <Function test_stale_progress_and_equipment_writes_rejected>>
+
+    @pytest.hookimpl(wrapper=True)
+    def pytest_fixture_setup(fixturedef: FixtureDef, request) -> object | None:
+        asyncio_mode = _get_asyncio_mode(request.config)
+        if not _is_asyncio_fixture_function(fixturedef.func):
+            if asyncio_mode == Mode.STRICT:
+                # Ignore async fixtures without explicit asyncio mark in strict mode
+                # This applies to pytest_trio fixtures, for example
+>               return (yield)
+                        ^^^^^
+
+/opt/pyvenv/lib/python3.13/site-packages/pytest_asyncio/plugin.py:728: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+tests/conftest.py:14: in client
+    from app.api import app
+app/api.py:389: in <module>
+    from .workbench import router as workbench_router
+app/workbench.py:16: in <module>
+    from .sources import extract, retrieve, image_bytes, MAX_FILE
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    """Bounded local extraction and lexical RAG. No network fetches or executable content."""
+    import io, re, math, hashlib
+    from collections import Counter
+    from pathlib import PurePosixPath
+    from fastapi import HTTPException
+>   from pypdf import PdfReader, overwrite_configuration
+E   ImportError: cannot import name 'overwrite_configuration' from 'pypdf' (/opt/pyvenv/lib/python3.13/site-packages/pypdf/__init__.py)
+
+app/sources.py:6: ImportError
+_______ ERROR at setup of test_project_scope_and_private_member_progress _______
+
+fixturedef = <FixtureDef argname='client' scope='function' baseid='tests'>
+request = <SubRequest 'client' for <Function test_project_scope_and_private_member_progress>>
+
+    @pytest.hookimpl(wrapper=True)
+    def pytest_fixture_setup(fixturedef: FixtureDef, request) -> object | None:
+        asyncio_mode = _get_asyncio_mode(request.config)
+        if not _is_asyncio_fixture_function(fixturedef.func):
+            if asyncio_mode == Mode.STRICT:
+                # Ignore async fixtures without explicit asyncio mark in strict mode
+                # This applies to pytest_trio fixtures, for example
+>               return (yield)
+                        ^^^^^
+
+/opt/pyvenv/lib/python3.13/site-packages/pytest_asyncio/plugin.py:728: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+tests/conftest.py:14: in client
+    from app.api import app
+app/api.py:389: in <module>
+    from .workbench import router as workbench_router
+app/workbench.py:16: in <module>
+    from .sources import extract, retrieve, image_bytes, MAX_FILE
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    """Bounded local extraction and lexical RAG. No network fetches or executable content."""
+    import io, re, math, hashlib
+    from collections import Counter
+    from pathlib import PurePosixPath
+    from fastapi import HTTPException
+>   from pypdf import PdfReader, overwrite_configuration
+E   ImportError: cannot import name 'overwrite_configuration' from 'pypdf' (/opt/pyvenv/lib/python3.13/site-packages/pypdf/__init__.py)
+
+app/sources.py:6: ImportError
+____________ ERROR at setup of test_viewer_archived_and_csrf_guards ____________
+
+fixturedef = <FixtureDef argname='client' scope='function' baseid='tests'>
+request = <SubRequest 'client' for <Function test_viewer_archived_and_csrf_guards>>
+
+    @pytest.hookimpl(wrapper=True)
+    def pytest_fixture_setup(fixturedef: FixtureDef, request) -> object | None:
+        asyncio_mode = _get_asyncio_mode(request.config)
+        if not _is_asyncio_fixture_function(fixturedef.func):
+            if asyncio_mode == Mode.STRICT:
+                # Ignore async fixtures without explicit asyncio mark in strict mode
+                # This applies to pytest_trio fixtures, for example
+>               return (yield)
+                        ^^^^^
+
+/opt/pyvenv/lib/python3.13/site-packages/pytest_asyncio/plugin.py:728: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+tests/conftest.py:14: in client
+    from app.api import app
+app/api.py:389: in <module>
+    from .workbench import router as workbench_router
+app/workbench.py:16: in <module>
+    from .sources import extract, retrieve, image_bytes, MAX_FILE
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    """Bounded local extraction and lexical RAG. No network fetches or executable content."""
+    import io, re, math, hashlib
+    from collections import Counter
+    from pathlib import PurePosixPath
+    from fastapi import HTTPException
+>   from pypdf import PdfReader, overwrite_configuration
+E   ImportError: cannot import name 'overwrite_configuration' from 'pypdf' (/opt/pyvenv/lib/python3.13/site-packages/pypdf/__init__.py)
+
+app/sources.py:6: ImportError
+___________ ERROR at setup of test_photo_validation[no_consent-403] ____________
+
+fixturedef = <FixtureDef argname='client' scope='function' baseid='tests'>
+request = <SubRequest 'client' for <Function test_photo_validation[no_consent-403]>>
+
+    @pytest.hookimpl(wrapper=True)
+    def pytest_fixture_setup(fixturedef: FixtureDef, request) -> object | None:
+        asyncio_mode = _get_asyncio_mode(request.config)
+        if not _is_asyncio_fixture_function(fixturedef.func):
+            if asyncio_mode == Mode.STRICT:
+                # Ignore async fixtures without explicit asyncio mark in strict mode
+                # This applies to pytest_trio fixtures, for example
+>               return (yield)
+                        ^^^^^
+
+/opt/pyvenv/lib/python3.13/site-packages/pytest_asyncio/plugin.py:728: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+tests/conftest.py:14: in client
+    from app.api import app
+app/api.py:389: in <module>
+    from .workbench import router as workbench_router
+app/workbench.py:16: in <module>
+    from .sources import extract, retrieve, image_bytes, MAX_FILE
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    """Bounded local extraction and lexical RAG. No network fetches or executable content."""
+    import io, re, math, hashlib
+    from collections import Counter
+    from pathlib import PurePosixPath
+    from fastapi import HTTPException
+>   from pypdf import PdfReader, overwrite_configuration
+E   ImportError: cannot import name 'overwrite_configuration' from 'pypdf' (/opt/pyvenv/lib/python3.13/site-packages/pypdf/__init__.py)
+
+app/sources.py:6: ImportError
+__________ ERROR at setup of test_photo_validation[invalid_image-422] __________
+
+fixturedef = <FixtureDef argname='client' scope='function' baseid='tests'>
+request = <SubRequest 'client' for <Function test_photo_validation[invalid_image-422]>>
+
+    @pytest.hookimpl(wrapper=True)
+    def pytest_fixture_setup(fixturedef: FixtureDef, request) -> object | None:
+        asyncio_mode = _get_asyncio_mode(request.config)
+        if not _is_asyncio_fixture_function(fixturedef.func):
+            if asyncio_mode == Mode.STRICT:
+                # Ignore async fixtures without explicit asyncio mark in strict mode
+                # This applies to pytest_trio fixtures, for example
+>               return (yield)
+                        ^^^^^
+
+/opt/pyvenv/lib/python3.13/site-packages/pytest_asyncio/plugin.py:728: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+tests/conftest.py:14: in client
+    from app.api import app
+app/api.py:389: in <module>
+    from .workbench import router as workbench_router
+app/workbench.py:16: in <module>
+    from .sources import extract, retrieve, image_bytes, MAX_FILE
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    """Bounded local extraction and lexical RAG. No network fetches or executable content."""
+    import io, re, math, hashlib
+    from collections import Counter
+    from pathlib import PurePosixPath
+    from fastapi import HTTPException
+>   from pypdf import PdfReader, overwrite_configuration
+E   ImportError: cannot import name 'overwrite_configuration' from 'pypdf' (/opt/pyvenv/lib/python3.13/site-packages/pypdf/__init__.py)
+
+app/sources.py:6: ImportError
+___________ ERROR at setup of test_photo_validation[wrong_type-415] ____________
+
+fixturedef = <FixtureDef argname='client' scope='function' baseid='tests'>
+request = <SubRequest 'client' for <Function test_photo_validation[wrong_type-415]>>
+
+    @pytest.hookimpl(wrapper=True)
+    def pytest_fixture_setup(fixturedef: FixtureDef, request) -> object | None:
+        asyncio_mode = _get_asyncio_mode(request.config)
+        if not _is_asyncio_fixture_function(fixturedef.func):
+            if asyncio_mode == Mode.STRICT:
+                # Ignore async fixtures without explicit asyncio mark in strict mode
+                # This applies to pytest_trio fixtures, for example
+>               return (yield)
+                        ^^^^^
+
+/opt/pyvenv/lib/python3.13/site-packages/pytest_asyncio/plugin.py:728: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+tests/conftest.py:14: in client
+    from app.api import app
+app/api.py:389: in <module>
+    from .workbench import router as workbench_router
+app/workbench.py:16: in <module>
+    from .sources import extract, retrieve, image_bytes, MAX_FILE
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    """Bounded local extraction and lexical RAG. No network fetches or executable content."""
+    import io, re, math, hashlib
+    from collections import Counter
+    from pathlib import PurePosixPath
+    from fastapi import HTTPException
+>   from pypdf import PdfReader, overwrite_configuration
+E   ImportError: cannot import name 'overwrite_configuration' from 'pypdf' (/opt/pyvenv/lib/python3.13/site-packages/pypdf/__init__.py)
+
+app/sources.py:6: ImportError
+____________ ERROR at setup of test_photo_validation[oversize-413] _____________
+
+fixturedef = <FixtureDef argname='client' scope='function' baseid='tests'>
+request = <SubRequest 'client' for <Function test_photo_validation[oversize-413]>>
+
+    @pytest.hookimpl(wrapper=True)
+    def pytest_fixture_setup(fixturedef: FixtureDef, request) -> object | None:
+        asyncio_mode = _get_asyncio_mode(request.config)
+        if not _is_asyncio_fixture_function(fixturedef.func):
+            if asyncio_mode == Mode.STRICT:
+                # Ignore async fixtures without explicit asyncio mark in strict mode
+                # This applies to pytest_trio fixtures, for example
+>               return (yield)
+                        ^^^^^
+
+/opt/pyvenv/lib/python3.13/site-packages/pytest_asyncio/plugin.py:728: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+tests/conftest.py:14: in client
+    from app.api import app
+app/api.py:389: in <module>
+    from .workbench import router as workbench_router
+app/workbench.py:16: in <module>
+    from .sources import extract, retrieve, image_bytes, MAX_FILE
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    """Bounded local extraction and lexical RAG. No network fetches or executable content."""
+    import io, re, math, hashlib
+    from collections import Counter
+    from pathlib import PurePosixPath
+    from fastapi import HTTPException
+>   from pypdf import PdfReader, overwrite_configuration
+E   ImportError: cannot import name 'overwrite_configuration' from 'pypdf' (/opt/pyvenv/lib/python3.13/site-packages/pypdf/__init__.py)
+
+app/sources.py:6: ImportError
+_ ERROR at setup of test_provider_receives_real_step_context_and_saved_photos_and_retains_review[inspect] _
+
+fixturedef = <FixtureDef argname='client' scope='function' baseid='tests'>
+request = <SubRequest 'client' for <Function test_provider_receives_real_step_context_and_saved_photos_and_retains_review[inspect]>>
+
+    @pytest.hookimpl(wrapper=True)
+    def pytest_fixture_setup(fixturedef: FixtureDef, request) -> object | None:
+        asyncio_mode = _get_asyncio_mode(request.config)
+        if not _is_asyncio_fixture_function(fixturedef.func):
+            if asyncio_mode == Mode.STRICT:
+                # Ignore async fixtures without explicit asyncio mark in strict mode
+                # This applies to pytest_trio fixtures, for example
+>               return (yield)
+                        ^^^^^
+
+/opt/pyvenv/lib/python3.13/site-packages/pytest_asyncio/plugin.py:728: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+tests/conftest.py:14: in client
+    from app.api import app
+app/api.py:389: in <module>
+    from .workbench import router as workbench_router
+app/workbench.py:16: in <module>
+    from .sources import extract, retrieve, image_bytes, MAX_FILE
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    """Bounded local extraction and lexical RAG. No network fetches or executable content."""
+    import io, re, math, hashlib
+    from collections import Counter
+    from pathlib import PurePosixPath
+    from fastapi import HTTPException
+>   from pypdf import PdfReader, overwrite_configuration
+E   ImportError: cannot import name 'overwrite_configuration' from 'pypdf' (/opt/pyvenv/lib/python3.13/site-packages/pypdf/__init__.py)
+
+app/sources.py:6: ImportError
+_ ERROR at setup of test_provider_receives_real_step_context_and_saved_photos_and_retains_review[question] _
+
+fixturedef = <FixtureDef argname='client' scope='function' baseid='tests'>
+request = <SubRequest 'client' for <Function test_provider_receives_real_step_context_and_saved_photos_and_retains_review[question]>>
+
+    @pytest.hookimpl(wrapper=True)
+    def pytest_fixture_setup(fixturedef: FixtureDef, request) -> object | None:
+        asyncio_mode = _get_asyncio_mode(request.config)
+        if not _is_asyncio_fixture_function(fixturedef.func):
+            if asyncio_mode == Mode.STRICT:
+                # Ignore async fixtures without explicit asyncio mark in strict mode
+                # This applies to pytest_trio fixtures, for example
+>               return (yield)
+                        ^^^^^
+
+/opt/pyvenv/lib/python3.13/site-packages/pytest_asyncio/plugin.py:728: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+tests/conftest.py:14: in client
+    from app.api import app
+app/api.py:389: in <module>
+    from .workbench import router as workbench_router
+app/workbench.py:16: in <module>
+    from .sources import extract, retrieve, image_bytes, MAX_FILE
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    """Bounded local extraction and lexical RAG. No network fetches or executable content."""
+    import io, re, math, hashlib
+    from collections import Counter
+    from pathlib import PurePosixPath
+    from fastapi import HTTPException
+>   from pypdf import PdfReader, overwrite_configuration
+E   ImportError: cannot import name 'overwrite_configuration' from 'pypdf' (/opt/pyvenv/lib/python3.13/site-packages/pypdf/__init__.py)
+
+app/sources.py:6: ImportError
+_ ERROR at setup of test_provider_failure_and_media_delete_do_not_grant_completion _
+
+fixturedef = <FixtureDef argname='client' scope='function' baseid='tests'>
+request = <SubRequest 'client' for <Function test_provider_failure_and_media_delete_do_not_grant_completion>>
+
+    @pytest.hookimpl(wrapper=True)
+    def pytest_fixture_setup(fixturedef: FixtureDef, request) -> object | None:
+        asyncio_mode = _get_asyncio_mode(request.config)
+        if not _is_asyncio_fixture_function(fixturedef.func):
+            if asyncio_mode == Mode.STRICT:
+                # Ignore async fixtures without explicit asyncio mark in strict mode
+                # This applies to pytest_trio fixtures, for example
+>               return (yield)
+                        ^^^^^
+
+/opt/pyvenv/lib/python3.13/site-packages/pytest_asyncio/plugin.py:728: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+tests/conftest.py:14: in client
+    from app.api import app
+app/api.py:389: in <module>
+    from .workbench import router as workbench_router
+app/workbench.py:16: in <module>
+    from .sources import extract, retrieve, image_bytes, MAX_FILE
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    """Bounded local extraction and lexical RAG. No network fetches or executable content."""
+    import io, re, math, hashlib
+    from collections import Counter
+    from pathlib import PurePosixPath
+    from fastapi import HTTPException
+>   from pypdf import PdfReader, overwrite_configuration
+E   ImportError: cannot import name 'overwrite_configuration' from 'pypdf' (/opt/pyvenv/lib/python3.13/site-packages/pypdf/__init__.py)
+
+app/sources.py:6: ImportError
+_ ERROR at setup of test_meta_plan_proposal_requires_review_and_retains_provenance _
+
+fixturedef = <FixtureDef argname='client' scope='function' baseid='tests'>
+request = <SubRequest 'client' for <Function test_meta_plan_proposal_requires_review_and_retains_provenance>>
+
+    @pytest.hookimpl(wrapper=True)
+    def pytest_fixture_setup(fixturedef: FixtureDef, request) -> object | None:
+        asyncio_mode = _get_asyncio_mode(request.config)
+        if not _is_asyncio_fixture_function(fixturedef.func):
+            if asyncio_mode == Mode.STRICT:
+                # Ignore async fixtures without explicit asyncio mark in strict mode
+                # This applies to pytest_trio fixtures, for example
+>               return (yield)
+                        ^^^^^
+
+/opt/pyvenv/lib/python3.13/site-packages/pytest_asyncio/plugin.py:728: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+tests/conftest.py:14: in client
+    from app.api import app
+app/api.py:389: in <module>
+    from .workbench import router as workbench_router
+app/workbench.py:16: in <module>
+    from .sources import extract, retrieve, image_bytes, MAX_FILE
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    """Bounded local extraction and lexical RAG. No network fetches or executable content."""
+    import io, re, math, hashlib
+    from collections import Counter
+    from pathlib import PurePosixPath
+    from fastapi import HTTPException
+>   from pypdf import PdfReader, overwrite_configuration
+E   ImportError: cannot import name 'overwrite_configuration' from 'pypdf' (/opt/pyvenv/lib/python3.13/site-packages/pypdf/__init__.py)
+
+app/sources.py:6: ImportError
+_ ERROR at setup of test_invalid_provider_plan_never_changes_saved_steps[not JSON] _
+
+fixturedef = <FixtureDef argname='client' scope='function' baseid='tests'>
+request = <SubRequest 'client' for <Function test_invalid_provider_plan_never_changes_saved_steps[not JSON]>>
+
+    @pytest.hookimpl(wrapper=True)
+    def pytest_fixture_setup(fixturedef: FixtureDef, request) -> object | None:
+        asyncio_mode = _get_asyncio_mode(request.config)
+        if not _is_asyncio_fixture_function(fixturedef.func):
+            if asyncio_mode == Mode.STRICT:
+                # Ignore async fixtures without explicit asyncio mark in strict mode
+                # This applies to pytest_trio fixtures, for example
+>               return (yield)
+                        ^^^^^
+
+/opt/pyvenv/lib/python3.13/site-packages/pytest_asyncio/plugin.py:728: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+tests/conftest.py:14: in client
+    from app.api import app
+app/api.py:389: in <module>
+    from .workbench import router as workbench_router
+app/workbench.py:16: in <module>
+    from .sources import extract, retrieve, image_bytes, MAX_FILE
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    """Bounded local extraction and lexical RAG. No network fetches or executable content."""
+    import io, re, math, hashlib
+    from collections import Counter
+    from pathlib import PurePosixPath
+    from fastapi import HTTPException
+>   from pypdf import PdfReader, overwrite_configuration
+E   ImportError: cannot import name 'overwrite_configuration' from 'pypdf' (/opt/pyvenv/lib/python3.13/site-packages/pypdf/__init__.py)
+
+app/sources.py:6: ImportError
+_ ERROR at setup of test_invalid_provider_plan_never_changes_saved_steps[{"steps": [{"objective": "Bad scope", "instruction": "Wrong component reference", "component_ids": ["another-project-part"]}]}] _
+
+fixturedef = <FixtureDef argname='client' scope='function' baseid='tests'>
+request = <SubRequest 'client' for <Function test_invalid_provider_plan_never_changes_saved_steps[{"steps": [{"objective": "Bad scope", "instruction": "Wrong component reference", "component_ids": ["another-project-part"]}]}]>>
+
+    @pytest.hookimpl(wrapper=True)
+    def pytest_fixture_setup(fixturedef: FixtureDef, request) -> object | None:
+        asyncio_mode = _get_asyncio_mode(request.config)
+        if not _is_asyncio_fixture_function(fixturedef.func):
+            if asyncio_mode == Mode.STRICT:
+                # Ignore async fixtures without explicit asyncio mark in strict mode
+                # This applies to pytest_trio fixtures, for example
+>               return (yield)
+                        ^^^^^
+
+/opt/pyvenv/lib/python3.13/site-packages/pytest_asyncio/plugin.py:728: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+tests/conftest.py:14: in client
+    from app.api import app
+app/api.py:389: in <module>
+    from .workbench import router as workbench_router
+app/workbench.py:16: in <module>
+    from .sources import extract, retrieve, image_bytes, MAX_FILE
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    """Bounded local extraction and lexical RAG. No network fetches or executable content."""
+    import io, re, math, hashlib
+    from collections import Counter
+    from pathlib import PurePosixPath
+    from fastapi import HTTPException
+>   from pypdf import PdfReader, overwrite_configuration
+E   ImportError: cannot import name 'overwrite_configuration' from 'pypdf' (/opt/pyvenv/lib/python3.13/site-packages/pypdf/__init__.py)
+
+app/sources.py:6: ImportError
+_ ERROR at setup of test_late_image_response_cannot_overwrite_newer_user_checkpoint _
+
+fixturedef = <FixtureDef argname='client' scope='function' baseid='tests'>
+request = <SubRequest 'client' for <Function test_late_image_response_cannot_overwrite_newer_user_checkpoint>>
+
+    @pytest.hookimpl(wrapper=True)
+    def pytest_fixture_setup(fixturedef: FixtureDef, request) -> object | None:
+        asyncio_mode = _get_asyncio_mode(request.config)
+        if not _is_asyncio_fixture_function(fixturedef.func):
+            if asyncio_mode == Mode.STRICT:
+                # Ignore async fixtures without explicit asyncio mark in strict mode
+                # This applies to pytest_trio fixtures, for example
+>               return (yield)
+                        ^^^^^
+
+/opt/pyvenv/lib/python3.13/site-packages/pytest_asyncio/plugin.py:728: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+tests/conftest.py:14: in client
+    from app.api import app
+app/api.py:389: in <module>
+    from .workbench import router as workbench_router
+app/workbench.py:16: in <module>
+    from .sources import extract, retrieve, image_bytes, MAX_FILE
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    """Bounded local extraction and lexical RAG. No network fetches or executable content."""
+    import io, re, math, hashlib
+    from collections import Counter
+    from pathlib import PurePosixPath
+    from fastapi import HTTPException
+>   from pypdf import PdfReader, overwrite_configuration
+E   ImportError: cannot import name 'overwrite_configuration' from 'pypdf' (/opt/pyvenv/lib/python3.13/site-packages/pypdf/__init__.py)
+
+app/sources.py:6: ImportError
+_ ERROR at setup of test_changed_assembly_reference_reopens_confirmation_and_is_exported _
+
+fixturedef = <FixtureDef argname='client' scope='function' baseid='tests'>
+request = <SubRequest 'client' for <Function test_changed_assembly_reference_reopens_confirmation_and_is_exported>>
+
+    @pytest.hookimpl(wrapper=True)
+    def pytest_fixture_setup(fixturedef: FixtureDef, request) -> object | None:
+        asyncio_mode = _get_asyncio_mode(request.config)
+        if not _is_asyncio_fixture_function(fixturedef.func):
+            if asyncio_mode == Mode.STRICT:
+                # Ignore async fixtures without explicit asyncio mark in strict mode
+                # This applies to pytest_trio fixtures, for example
+>               return (yield)
+                        ^^^^^
+
+/opt/pyvenv/lib/python3.13/site-packages/pytest_asyncio/plugin.py:728: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+tests/conftest.py:14: in client
+    from app.api import app
+app/api.py:389: in <module>
+    from .workbench import router as workbench_router
+app/workbench.py:16: in <module>
+    from .sources import extract, retrieve, image_bytes, MAX_FILE
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    """Bounded local extraction and lexical RAG. No network fetches or executable content."""
+    import io, re, math, hashlib
+    from collections import Counter
+    from pathlib import PurePosixPath
+    from fastapi import HTTPException
+>   from pypdf import PdfReader, overwrite_configuration
+E   ImportError: cannot import name 'overwrite_configuration' from 'pypdf' (/opt/pyvenv/lib/python3.13/site-packages/pypdf/__init__.py)
+
+app/sources.py:6: ImportError
+_ ERROR at setup of test_older_conversation_cursor_preserves_full_private_history _
+
+fixturedef = <FixtureDef argname='client' scope='function' baseid='tests'>
+request = <SubRequest 'client' for <Function test_older_conversation_cursor_preserves_full_private_history>>
+
+    @pytest.hookimpl(wrapper=True)
+    def pytest_fixture_setup(fixturedef: FixtureDef, request) -> object | None:
+        asyncio_mode = _get_asyncio_mode(request.config)
+        if not _is_asyncio_fixture_function(fixturedef.func):
+            if asyncio_mode == Mode.STRICT:
+                # Ignore async fixtures without explicit asyncio mark in strict mode
+                # This applies to pytest_trio fixtures, for example
+>               return (yield)
+                        ^^^^^
+
+/opt/pyvenv/lib/python3.13/site-packages/pytest_asyncio/plugin.py:728: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+tests/conftest.py:14: in client
+    from app.api import app
+app/api.py:389: in <module>
+    from .workbench import router as workbench_router
+app/workbench.py:16: in <module>
+    from .sources import extract, retrieve, image_bytes, MAX_FILE
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    """Bounded local extraction and lexical RAG. No network fetches or executable content."""
+    import io, re, math, hashlib
+    from collections import Counter
+    from pathlib import PurePosixPath
+    from fastapi import HTTPException
+>   from pypdf import PdfReader, overwrite_configuration
+E   ImportError: cannot import name 'overwrite_configuration' from 'pypdf' (/opt/pyvenv/lib/python3.13/site-packages/pypdf/__init__.py)
+
+app/sources.py:6: ImportError
+_ ERROR at setup of test_deleted_equipment_author_does_not_leave_orphaned_project_photos _
+
+fixturedef = <FixtureDef argname='client' scope='function' baseid='tests'>
+request = <SubRequest 'client' for <Function test_deleted_equipment_author_does_not_leave_orphaned_project_photos>>
+
+    @pytest.hookimpl(wrapper=True)
+    def pytest_fixture_setup(fixturedef: FixtureDef, request) -> object | None:
+        asyncio_mode = _get_asyncio_mode(request.config)
+        if not _is_asyncio_fixture_function(fixturedef.func):
+            if asyncio_mode == Mode.STRICT:
+                # Ignore async fixtures without explicit asyncio mark in strict mode
+                # This applies to pytest_trio fixtures, for example
+>               return (yield)
+                        ^^^^^
+
+/opt/pyvenv/lib/python3.13/site-packages/pytest_asyncio/plugin.py:728: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+tests/conftest.py:14: in client
+    from app.api import app
+app/api.py:389: in <module>
+    from .workbench import router as workbench_router
+app/workbench.py:16: in <module>
+    from .sources import extract, retrieve, image_bytes, MAX_FILE
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    """Bounded local extraction and lexical RAG. No network fetches or executable content."""
+    import io, re, math, hashlib
+    from collections import Counter
+    from pathlib import PurePosixPath
+    from fastapi import HTTPException
+>   from pypdf import PdfReader, overwrite_configuration
+E   ImportError: cannot import name 'overwrite_configuration' from 'pypdf' (/opt/pyvenv/lib/python3.13/site-packages/pypdf/__init__.py)
+
+app/sources.py:6: ImportError
+=========================== short test summary info ============================
+ERROR tests/test_copilot.py::test_full_journey_inventory_photos_confirm_checkpoint_and_login - ImportError: cannot import name 'overwrite_configuration' from 'pypdf' (/opt/pyvenv/lib/python3.13/site-packages/pypdf/__init__.py)
+ERROR tests/test_copilot.py::test_build_states_persist[WAITING_FOR_EVIDENCE] - ImportError: cannot import name 'overwrite_configuration' from 'pypdf' (/opt/pyvenv/lib/python3.13/site-packages/pypdf/__init__.py)
+ERROR tests/test_copilot.py::test_build_states_persist[NEEDS_MORE_EVIDENCE] - ImportError: cannot import name 'overwrite_configuration' from 'pypdf' (/opt/pyvenv/lib/python3.13/site-packages/pypdf/__init__.py)
+ERROR tests/test_copilot.py::test_build_states_persist[NEEDS_REVIEW] - ImportError: cannot import name 'overwrite_configuration' from 'pypdf' (/opt/pyvenv/lib/python3.13/site-packages/pypdf/__init__.py)
+ERROR tests/test_copilot.py::test_build_states_persist[BLOCKED] - ImportError: cannot import name 'overwrite_configuration' from 'pypdf' (/opt/pyvenv/lib/python3.13/site-packages/pypdf/__init__.py)
+ERROR tests/test_copilot.py::test_build_states_persist[IN_PROGRESS] - ImportError: cannot import name 'overwrite_configuration' from 'pypdf' (/opt/pyvenv/lib/python3.13/site-packages/pypdf/__init__.py)
+ERROR tests/test_copilot.py::test_complete_requires_user_check_and_edited_step_reopens_review - ImportError: cannot import name 'overwrite_configuration' from 'pypdf' (/opt/pyvenv/lib/python3.13/site-packages/pypdf/__init__.py)
+ERROR tests/test_copilot.py::test_stale_progress_and_equipment_writes_rejected - ImportError: cannot import name 'overwrite_configuration' from 'pypdf' (/opt/pyvenv/lib/python3.13/site-packages/pypdf/__init__.py)
+ERROR tests/test_copilot.py::test_project_scope_and_private_member_progress - ImportError: cannot import name 'overwrite_configuration' from 'pypdf' (/opt/pyvenv/lib/python3.13/site-packages/pypdf/__init__.py)
+ERROR tests/test_copilot.py::test_viewer_archived_and_csrf_guards - ImportError: cannot import name 'overwrite_configuration' from 'pypdf' (/opt/pyvenv/lib/python3.13/site-packages/pypdf/__init__.py)
+ERROR tests/test_copilot.py::test_photo_validation[no_consent-403] - ImportError: cannot import name 'overwrite_configuration' from 'pypdf' (/opt/pyvenv/lib/python3.13/site-packages/pypdf/__init__.py)
+ERROR tests/test_copilot.py::test_photo_validation[invalid_image-422] - ImportError: cannot import name 'overwrite_configuration' from 'pypdf' (/opt/pyvenv/lib/python3.13/site-packages/pypdf/__init__.py)
+ERROR tests/test_copilot.py::test_photo_validation[wrong_type-415] - ImportError: cannot import name 'overwrite_configuration' from 'pypdf' (/opt/pyvenv/lib/python3.13/site-packages/pypdf/__init__.py)
+ERROR tests/test_copilot.py::test_photo_validation[oversize-413] - ImportError: cannot import name 'overwrite_configuration' from 'pypdf' (/opt/pyvenv/lib/python3.13/site-packages/pypdf/__init__.py)
+ERROR tests/test_copilot.py::test_provider_receives_real_step_context_and_saved_photos_and_retains_review[inspect] - ImportError: cannot import name 'overwrite_configuration' from 'pypdf' (/opt/pyvenv/lib/python3.13/site-packages/pypdf/__init__.py)
+ERROR tests/test_copilot.py::test_provider_receives_real_step_context_and_saved_photos_and_retains_review[question] - ImportError: cannot import name 'overwrite_configuration' from 'pypdf' (/opt/pyvenv/lib/python3.13/site-packages/pypdf/__init__.py)
+ERROR tests/test_copilot.py::test_provider_failure_and_media_delete_do_not_grant_completion - ImportError: cannot import name 'overwrite_configuration' from 'pypdf' (/opt/pyvenv/lib/python3.13/site-packages/pypdf/__init__.py)
+ERROR tests/test_copilot.py::test_meta_plan_proposal_requires_review_and_retains_provenance - ImportError: cannot import name 'overwrite_configuration' from 'pypdf' (/opt/pyvenv/lib/python3.13/site-packages/pypdf/__init__.py)
+ERROR tests/test_copilot.py::test_invalid_provider_plan_never_changes_saved_steps[not JSON] - ImportError: cannot import name 'overwrite_configuration' from 'pypdf' (/opt/pyvenv/lib/python3.13/site-packages/pypdf/__init__.py)
+ERROR tests/test_copilot.py::test_invalid_provider_plan_never_changes_saved_steps[{"steps": [{"objective": "Bad scope", "instruction": "Wrong component reference", "component_ids": ["another-project-part"]}]}] - ImportError: cannot import name 'overwrite_configuration' from 'pypdf' (/opt/pyvenv/lib/python3.13/site-packages/pypdf/__init__.py)
+ERROR tests/test_copilot.py::test_late_image_response_cannot_overwrite_newer_user_checkpoint - ImportError: cannot import name 'overwrite_configuration' from 'pypdf' (/opt/pyvenv/lib/python3.13/site-packages/pypdf/__init__.py)
+ERROR tests/test_copilot.py::test_changed_assembly_reference_reopens_confirmation_and_is_exported - ImportError: cannot import name 'overwrite_configuration' from 'pypdf' (/opt/pyvenv/lib/python3.13/site-packages/pypdf/__init__.py)
+ERROR tests/test_copilot.py::test_older_conversation_cursor_preserves_full_private_history - ImportError: cannot import name 'overwrite_configuration' from 'pypdf' (/opt/pyvenv/lib/python3.13/site-packages/pypdf/__init__.py)
+ERROR tests/test_copilot.py::test_deleted_equipment_author_does_not_leave_orphaned_project_photos - ImportError: cannot import name 'overwrite_configuration' from 'pypdf' (/opt/pyvenv/lib/python3.13/site-packages/pypdf/__init__.py)
+24 errors in 6.68s

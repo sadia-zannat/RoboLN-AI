@@ -1,0 +1,33 @@
+{
+  "verified_at_utc": "2026-11-03T19:07:48.571234+00:00",
+  "verified_date_dhaka": "2026-11-04T01:07:48.571370+06:00",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "python": "Python 3.12.14",
+  "node": "v24.22.1",
+  "npm": "11.9.0",
+  "input_zip_sha256": "4cc75f5439d93d603ead203e3a31d2dd5c264021111e108a5b89f9e9cfcfdee6",
+  "lockfiles_unchanged_from_input": true,
+  "python_environment": "isolated venv installed from backend/requirements.lock; no dependency compatibility shims",
+  "chromium_attempted": "System Chromium 155.0.8059.79",
+  "playwright": "1.64.1",
+  "browser_status": "BLOCKED: Unix socket() denied with EPERM before page creation",
+  "outside_sandbox_request": "Rejected automatically because sandbox escalation is disabled",
+  "viewport_profiles": [
+    [
+      1440,
+      900
+    ],
+    [
+      768,
+      1024
+    ],
+    [
+      390,
+      844
+    ],
+    [
+      320,
+      700
+    ]
+  ]
+}

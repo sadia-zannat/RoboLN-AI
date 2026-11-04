@@ -1,0 +1,1 @@
+REAL UVICORN TCP planning smoke: 7 checks PASS; real SQLite migration; no model or physical hardware involved

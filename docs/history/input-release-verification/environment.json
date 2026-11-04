@@ -1,0 +1,12 @@
+{
+  "verified_on": "2026-10-30",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.39",
+  "python": "3.12.14",
+  "node": "24.22.1",
+  "npm": "11.9.0",
+  "chromium": "153.0.8010.0 ANGLE/SwiftShader",
+  "recovery_input_sha256": "3aff59f27949a46a3f3a982d39859aa638979183ad1b454bc937ba9f41e35196",
+  "real_meta_inference": false,
+  "physical_tests": false,
+  "deployment": false
+}

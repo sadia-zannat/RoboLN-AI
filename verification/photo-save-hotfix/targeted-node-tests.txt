@@ -1,0 +1,82 @@
+TAP version 13
+# (node:1655) ExperimentalWarning: Type Stripping is an experimental feature and might change at any time
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# (node:1655) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///mnt/data/roboln_repair_work/RoboLN/frontend/tests/unit/backend-proxy.test.ts is not specified and it doesn't parse as CommonJS.
+# Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+# To eliminate this warning, add "type": "module" to /mnt/data/roboln_repair_work/RoboLN/frontend/package.json.
+# Subtest: fresh sockets preserve genuine responses query cookies and CSRF
+ok 1 - fresh sockets preserve genuine responses query cookies and CSRF
+  ---
+  duration_ms: 198.333253
+  type: 'test'
+  ...
+# [RoboLN proxy a4b40a2e-bacc-4f12-8b70-202258a785e2] GET /api/p ECONNRESET
+# Subtest: forced reset is explicit 502 with correlation ID
+ok 2 - forced reset is explicit 502 with correlation ID
+  ---
+  duration_ms: 26.208843
+  type: 'test'
+  ...
+# Subtest: real authorization and database errors are forwarded
+ok 3 - real authorization and database errors are forwarded
+  ---
+  duration_ms: 61.753303
+  type: 'test'
+  ...
+# [RoboLN proxy 3e5bf8d8-8842-418e-8b24-7b8a50c9044e] POST /api/p UPSTREAM_TIMEOUT
+# Subtest: timeout bounded with no mutation retry
+ok 4 - timeout bounded with no mutation retry
+  ---
+  duration_ms: 41.333042
+  type: 'test'
+  ...
+# Subtest: invalid traversal and oversized body rejected
+ok 5 - invalid traversal and oversized body rejected
+  ---
+  duration_ms: 30.487215
+  type: 'test'
+  ...
+# Subtest: upload body is forwarded unchanged
+ok 6 - upload body is forwarded unchanged
+  ---
+  duration_ms: 9.242523
+  type: 'test'
+  ...
+# Subtest: binary JPEG multipart upload forwards step consent and bytes without mutation
+ok 7 - binary JPEG multipart upload forwards step consent and bytes without mutation
+  ---
+  duration_ms: 21.684127
+  type: 'test'
+  ...
+# (node:1661) ExperimentalWarning: Type Stripping is an experimental feature and might change at any time
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# (node:1661) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///mnt/data/roboln_repair_work/RoboLN/frontend/tests/unit/local-image.test.ts is not specified and it doesn't parse as CommonJS.
+# Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+# To eliminate this warning, add "type": "module" to /mnt/data/roboln_repair_work/RoboLN/frontend/package.json.
+# Subtest: camera data URL is converted to a JPEG Blob locally without fetch or CSP connect-src
+ok 8 - camera data URL is converted to a JPEG Blob locally without fetch or CSP connect-src
+  ---
+  duration_ms: 6.222295
+  type: 'test'
+  ...
+# Subtest: PNG and WebP local snapshots retain media type and exact bytes
+ok 9 - PNG and WebP local snapshots retain media type and exact bytes
+  ---
+  duration_ms: 1.248308
+  type: 'test'
+  ...
+# Subtest: invalid, empty and oversized data URLs are rejected before upload
+ok 10 - invalid, empty and oversized data URLs are rejected before upload
+  ---
+  duration_ms: 39.223528
+  type: 'test'
+  ...
+1..10
+# tests 10
+# suites 0
+# pass 10
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 944.66255

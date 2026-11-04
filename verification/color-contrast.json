@@ -1,0 +1,9 @@
+{
+  "method": "WCAG sRGB relative luminance; static theme token pairs only, not a complete accessibility audit",
+  "dark_previous_white_on_accent": 2.89,
+  "dark_white_on_corrected_action": 5.83,
+  "light_white_on_primary": 5.83,
+  "dark_muted_text_on_surface": 8.04,
+  "light_muted_text_on_surface": 5.99,
+  "normal_text_threshold": 4.5
+}

@@ -1,0 +1,1 @@
+REAL UVICORN TCP integrated workbench: 18 checks PASS; Python adapter executed; sensor packet explicitly SIMULATION; no provider/hardware inference.

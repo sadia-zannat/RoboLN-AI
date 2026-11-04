@@ -1,0 +1,71 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:roboln:project-context:v2",
+  "title": "Project Context Snapshot V2",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "project_id",
+    "owner_scope",
+    "name",
+    "hardware_profile_id",
+    "context_version",
+    "source_revision_ids",
+    "timestamp"
+  ],
+  "properties": {
+    "project_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "owner_scope": {
+      "type": "string",
+      "minLength": 1
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "hardware_profile_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "context_version": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "source_revision_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "taskpack_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "code_artifact_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "device_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "timestamp": {
+      "type": "string",
+      "format": "date-time"
+    }
+  }
+}

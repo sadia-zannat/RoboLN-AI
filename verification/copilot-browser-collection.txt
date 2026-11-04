@@ -1,0 +1,7 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+Listing tests:
+  [desktop-1440] › copilot.mock.spec.ts:5:5 › review actual saved provider-mock plan, inspect synthetic snapshot, confirm and resume
+  [desktop-1440] › copilot.mock.spec.ts:10:5 › browser speech fixtures speak stop and dictate without auto-sending
+  [mobile-390] › copilot.mock.spec.ts:5:5 › review actual saved provider-mock plan, inspect synthetic snapshot, confirm and resume
+  [mobile-390] › copilot.mock.spec.ts:10:5 › browser speech fixtures speak stop and dictate without auto-sending
+Total: 4 tests in 1 file

@@ -1,0 +1,1112 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> roboln-frontend@1.0.0 test:e2e
+> playwright test --project=desktop-1440
+
+[WebServer] INFO:     Started server process [33]
+[WebServer] INFO:     Waiting for application startup.
+[WebServer] INFO:     Application startup complete.
+[WebServer] INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+[WebServer] (node:36) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+[WebServer] (node:49) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 28 tests using 1 worker
+
+(node:70) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   1 [desktop-1440] › tests/e2e/engineering-intake.spec.ts:14:5 › engineering intake creates isolated, unverified, versioned draft (2ms)
+(node:104) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   2 [desktop-1440] › tests/e2e/engineering-intake.spec.ts:36:5 › camera starts disabled without permission and offers deliberate control (1ms)
+(node:139) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   3 [desktop-1440] › tests/e2e/full-workflow.spec.ts:9:5 › source ingestion retrieval and honest AI not-configured error (2ms)
+(node:174) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   4 [desktop-1440] › tests/e2e/full-workflow.spec.ts:18:5 › engineering revision interactive WebGL selection and manual scene correspondence (2ms)
+(node:209) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   5 [desktop-1440] › tests/e2e/full-workflow.spec.ts:28:5 › synthetic MediaStream capture evidence and independent PASS boundary (2ms)
+(node:244) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   6 [desktop-1440] › tests/e2e/full-workflow.spec.ts:46:5 › camera denial stays safe and upload evidence works (2ms)
+(node:279) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   7 [desktop-1440] › tests/e2e/full-workflow.spec.ts:51:5 › authenticated simulation telemetry reaches twin and owner control remains HOLD (2ms)
+(node:314) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   8 [desktop-1440] › tests/e2e/full-workflow.spec.ts:57:5 › integrated pages have no serious accessibility failures and fit viewport (2ms)
+(node:349) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   9 [desktop-1440] › tests/e2e/industrial.spec.ts:4:5 › assembly orientation visibility pin association and accessibility persist (1ms)
+(node:384) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  10 [desktop-1440] › tests/e2e/industrial.spec.ts:5:5 › Design Simulation Live mode refresh and deterministic virtual history (2ms)
+(node:419) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  11 [desktop-1440] › tests/e2e/industrial.spec.ts:6:5 › software physical-origin contract packet maps into scene inspector chart and warnings (2ms)
+(node:454) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  12 [desktop-1440] › tests/e2e/industrial.spec.ts:7:5 › simulated packets excluded from live scene; selected AI reports missing credentials (2ms)
+(node:489) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  13 [desktop-1440] › tests/e2e/industrial.spec.ts:8:5 › slow snapshot does not overlap and navigation cancels pending work (2ms)
+(node:524) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  14 [desktop-1440] › tests/e2e/industrial.spec.ts:9:5 › modes camera embedding navigation and refresh have no runtime errors (1ms)
+(node:559) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  15 [desktop-1440] › tests/e2e/industrial.spec.ts:10:5 › original telemetry history twin controls routes survive idle reads and refresh (2ms)
+(node:594) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  16 [desktop-1440] › tests/e2e/industrial.spec.ts:11:5 › BOM deletion cleans draft relations but sensor mapping stays explicitly orphaned (2ms)
+(node:629) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  17 [desktop-1440] › tests/e2e/navigation.spec.ts:19:5 › registered session, routes, real back-forward, breadcrumbs, home, deep refresh (2ms)
+(node:664) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  18 [desktop-1440] › tests/e2e/navigation.spec.ts:40:5 › light/dark/system persistence, navigation and width audit (2ms)
+(node:699) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  19 [desktop-1440] › tests/e2e/navigation.spec.ts:54:5 › viewer cannot edit, missing project cannot leak title, signout blocks deep link (2ms)
+(node:734) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  20 [desktop-1440] › tests/e2e/navigation.spec.ts:65:5 › keyboard skip link and forward initially disabled (2ms)
+(node:769) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  21 [desktop-1440] › tests/e2e/navigation.spec.ts:73:5 › per-project draft isolation across navigation and refresh (2ms)
+(node:804) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  22 [desktop-1440] › tests/e2e/navigation.spec.ts:86:5 › public product titles and keyboard modal dismissal (2ms)
+(node:839) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  23 [desktop-1440] › tests/e2e/navigation.spec.ts:96:5 › mobile workspace tabs expose all three complete destinations (2ms)
+(node:874) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  24 [desktop-1440] › tests/e2e/navigation.spec.ts:108:5 › archived projects cannot edit hardware, membership or planning drafts (2ms)
+(node:909) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  25 [desktop-1440] › tests/e2e/navigation.spec.ts:127:5 › account export includes saved hardware and my own planning draft (2ms)
+(node:944) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  26 [desktop-1440] › tests/e2e/ux-guided-assembly.spec.ts:15:5 › tutorial, drag from component library and revision persistence (4ms)
+(node:979) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  27 [desktop-1440] › tests/e2e/ux-guided-assembly.spec.ts:28:5 › drag existing part, attach parent, and preserve translated grouping (4ms)
+(node:1014) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  28 [desktop-1440] › tests/e2e/ux-guided-assembly.spec.ts:45:5 › model message renders headings/lists/code without interpreting HTML (2ms)
+
+
+  1) [desktop-1440] › tests/e2e/engineering-intake.spec.ts:14:5 › engineering intake creates isolated, unverified, versioned draft 
+
+    Error: browserType.launch: Target page, context or browser has been closed
+    Browser logs:
+
+    <launching> /usr/bin/chromium --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --use-gl=angle --use-angle=swiftshader --use-fake-device-for-media-stream --enable-unsafe-swiftshader --user-data-dir=/tmp/playwright_chromiumdev_profile-d8uvGl --remote-debugging-pipe --no-startup-window
+    <launched> pid=82
+    [pid=82][err] /usr/bin/chromium: 9: [: 5225713664: unexpected operator
+    [pid=82][err] [82:82:1104/005645.095225:FATAL:chrome/browser/process_singleton_posix.cc:297] Check failed: . socket() failed: Operation not permitted (1)
+    [pid=82][err] [1104/005645.095820:ERROR:third_party/crashpad/crashpad/util/linux/scoped_ptrace_attach.cc:27] ptrace: Operation not permitted (1)
+    Call log:
+      - <launching> /usr/bin/chromium --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --use-gl=angle --use-angle=swiftshader --use-fake-device-for-media-stream --enable-unsafe-swiftshader --user-data-dir=/tmp/playwright_chromiumdev_profile-d8uvGl --remote-debugging-pipe --no-startup-window
+      - <launched> pid=82
+      - [pid=82][err] /usr/bin/chromium: 9: [: 5225713664: unexpected operator
+      - [pid=82][err] [82:82:1104/005645.095225:FATAL:chrome/browser/process_singleton_posix.cc:297] Check failed: . socket() failed: Operation not permitted (1)
+      - [pid=82][err] [1104/005645.095820:ERROR:third_party/crashpad/crashpad/util/linux/scoped_ptrace_attach.cc:27] ptrace: Operation not permitted (1)
+      - [pid=82] <gracefully close start>
+      - [pid=82] <kill>
+      - [pid=82] <will force kill>
+      - [pid=82] <process did exit: exitCode=null, signal=SIGABRT>
+      - [pid=82] starting temporary directories cleanup
+      - [pid=82] finished temporary directories cleanup
+      - [pid=82] <gracefully close end>
+
+
+    Error Context: test-results/engineering-intake-enginee-19684--unverified-versioned-draft-desktop-1440/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/engineering-intake-enginee-19684--unverified-versioned-draft-desktop-1440/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/engineering-intake-enginee-19684--unverified-versioned-draft-desktop-1440/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) [desktop-1440] › tests/e2e/engineering-intake.spec.ts:36:5 › camera starts disabled without permission and offers deliberate control 
+
+    Error: browserType.launch: Target page, context or browser has been closed
+    Browser logs:
+
+    <launching> /usr/bin/chromium --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --use-gl=angle --use-angle=swiftshader --use-fake-device-for-media-stream --enable-unsafe-swiftshader --user-data-dir=/tmp/playwright_chromiumdev_profile-7RP4Ga --remote-debugging-pipe --no-startup-window
+    <launched> pid=116
+    [pid=116][err] /usr/bin/chromium: 9: [: 5225713664: unexpected operator
+    [pid=116][err] [116:116:1104/005645.541933:FATAL:chrome/browser/process_singleton_posix.cc:297] Check failed: . socket() failed: Operation not permitted (1)
+    [pid=116][err] [1104/005645.542114:ERROR:third_party/crashpad/crashpad/util/linux/scoped_ptrace_attach.cc:27] ptrace: Operation not permitted (1)
+    Call log:
+      - <launching> /usr/bin/chromium --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --use-gl=angle --use-angle=swiftshader --use-fake-device-for-media-stream --enable-unsafe-swiftshader --user-data-dir=/tmp/playwright_chromiumdev_profile-7RP4Ga --remote-debugging-pipe --no-startup-window
+      - <launched> pid=116
+      - [pid=116][err] /usr/bin/chromium: 9: [: 5225713664: unexpected operator
+      - [pid=116][err] [116:116:1104/005645.541933:FATAL:chrome/browser/process_singleton_posix.cc:297] Check failed: . socket() failed: Operation not permitted (1)
+      - [pid=116][err] [1104/005645.542114:ERROR:third_party/crashpad/crashpad/util/linux/scoped_ptrace_attach.cc:27] ptrace: Operation not permitted (1)
+      - [pid=116] <gracefully close start>
+      - [pid=116] <kill>
+      - [pid=116] <will force kill>
+      - [pid=116] <process did exit: exitCode=null, signal=SIGABRT>
+      - [pid=116] starting temporary directories cleanup
+      - [pid=116] finished temporary directories cleanup
+      - [pid=116] <gracefully close end>
+
+
+    Error Context: test-results/engineering-intake-camera--7ae4d-d-offers-deliberate-control-desktop-1440/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/engineering-intake-camera--7ae4d-d-offers-deliberate-control-desktop-1440/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/engineering-intake-camera--7ae4d-d-offers-deliberate-control-desktop-1440/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  3) [desktop-1440] › tests/e2e/full-workflow.spec.ts:9:5 › source ingestion retrieval and honest AI not-configured error 
+
+    Error: browserType.launch: Target page, context or browser has been closed
+    Browser logs:
+
+    <launching> /usr/bin/chromium --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --use-gl=angle --use-angle=swiftshader --use-fake-device-for-media-stream --enable-unsafe-swiftshader --user-data-dir=/tmp/playwright_chromiumdev_profile-gIJ6Iw --remote-debugging-pipe --no-startup-window
+    <launched> pid=151
+    [pid=151][err] /usr/bin/chromium: 9: [: 5225713664: unexpected operator
+    [pid=151][err] [151:151:1104/005646.085872:FATAL:chrome/browser/process_singleton_posix.cc:297] Check failed: . socket() failed: Operation not permitted (1)
+    [pid=151][err] [1104/005646.086235:ERROR:third_party/crashpad/crashpad/util/linux/scoped_ptrace_attach.cc:27] ptrace: Operation not permitted (1)
+    Call log:
+      - <launching> /usr/bin/chromium --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --use-gl=angle --use-angle=swiftshader --use-fake-device-for-media-stream --enable-unsafe-swiftshader --user-data-dir=/tmp/playwright_chromiumdev_profile-gIJ6Iw --remote-debugging-pipe --no-startup-window
+      - <launched> pid=151
+      - [pid=151][err] /usr/bin/chromium: 9: [: 5225713664: unexpected operator
+      - [pid=151][err] [151:151:1104/005646.085872:FATAL:chrome/browser/process_singleton_posix.cc:297] Check failed: . socket() failed: Operation not permitted (1)
+      - [pid=151][err] [1104/005646.086235:ERROR:third_party/crashpad/crashpad/util/linux/scoped_ptrace_attach.cc:27] ptrace: Operation not permitted (1)
+      - [pid=151] <gracefully close start>
+      - [pid=151] <kill>
+      - [pid=151] <will force kill>
+      - [pid=151] <process did exit: exitCode=null, signal=SIGABRT>
+      - [pid=151] starting temporary directories cleanup
+      - [pid=151] finished temporary directories cleanup
+      - [pid=151] <gracefully close end>
+
+
+    Error Context: test-results/full-workflow-source-inges-2f40e-est-AI-not-configured-error-desktop-1440/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/full-workflow-source-inges-2f40e-est-AI-not-configured-error-desktop-1440/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/full-workflow-source-inges-2f40e-est-AI-not-configured-error-desktop-1440/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  4) [desktop-1440] › tests/e2e/full-workflow.spec.ts:18:5 › engineering revision interactive WebGL selection and manual scene correspondence 
+
+    Error: browserType.launch: Target page, context or browser has been closed
+    Browser logs:
+
+    <launching> /usr/bin/chromium --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --use-gl=angle --use-angle=swiftshader --use-fake-device-for-media-stream --enable-unsafe-swiftshader --user-data-dir=/tmp/playwright_chromiumdev_profile-BCPbNQ --remote-debugging-pipe --no-startup-window
+    <launched> pid=186
+    [pid=186][err] /usr/bin/chromium: 9: [: 5225713664: unexpected operator
+    [pid=186][err] [186:186:1104/005646.586303:FATAL:chrome/browser/process_singleton_posix.cc:297] Check failed: . socket() failed: Operation not permitted (1)
+    [pid=186][err] [1104/005646.587103:ERROR:third_party/crashpad/crashpad/util/linux/scoped_ptrace_attach.cc:27] ptrace: Operation not permitted (1)
+    Call log:
+      - <launching> /usr/bin/chromium --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --use-gl=angle --use-angle=swiftshader --use-fake-device-for-media-stream --enable-unsafe-swiftshader --user-data-dir=/tmp/playwright_chromiumdev_profile-BCPbNQ --remote-debugging-pipe --no-startup-window
+      - <launched> pid=186
+      - [pid=186][err] /usr/bin/chromium: 9: [: 5225713664: unexpected operator
+      - [pid=186][err] [186:186:1104/005646.586303:FATAL:chrome/browser/process_singleton_posix.cc:297] Check failed: . socket() failed: Operation not permitted (1)
+      - [pid=186][err] [1104/005646.587103:ERROR:third_party/crashpad/crashpad/util/linux/scoped_ptrace_attach.cc:27] ptrace: Operation not permitted (1)
+      - [pid=186] <gracefully close start>
+      - [pid=186] <kill>
+      - [pid=186] <will force kill>
+      - [pid=186] <process did exit: exitCode=null, signal=SIGABRT>
+      - [pid=186] starting temporary directories cleanup
+      - [pid=186] finished temporary directories cleanup
+      - [pid=186] <gracefully close end>
+
+
+    Error Context: test-results/full-workflow-engineering--4692f-manual-scene-correspondence-desktop-1440/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/full-workflow-engineering--4692f-manual-scene-correspondence-desktop-1440/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/full-workflow-engineering--4692f-manual-scene-correspondence-desktop-1440/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  5) [desktop-1440] › tests/e2e/full-workflow.spec.ts:28:5 › synthetic MediaStream capture evidence and independent PASS boundary 
+
+    Error: browserType.launch: Target page, context or browser has been closed
+    Browser logs:
+
+    <launching> /usr/bin/chromium --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --use-gl=angle --use-angle=swiftshader --use-fake-device-for-media-stream --enable-unsafe-swiftshader --user-data-dir=/tmp/playwright_chromiumdev_profile-oIVV8U --remote-debugging-pipe --no-startup-window
+    <launched> pid=221
+    [pid=221][err] /usr/bin/chromium: 9: [: 5225713664: unexpected operator
+    [pid=221][err] [221:221:1104/005647.110195:FATAL:chrome/browser/process_singleton_posix.cc:297] Check failed: . socket() failed: Operation not permitted (1)
+    [pid=221][err] [1104/005647.111208:ERROR:third_party/crashpad/crashpad/util/linux/scoped_ptrace_attach.cc:27] ptrace: Operation not permitted (1)
+    Call log:
+      - <launching> /usr/bin/chromium --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --use-gl=angle --use-angle=swiftshader --use-fake-device-for-media-stream --enable-unsafe-swiftshader --user-data-dir=/tmp/playwright_chromiumdev_profile-oIVV8U --remote-debugging-pipe --no-startup-window
+      - <launched> pid=221
+      - [pid=221][err] /usr/bin/chromium: 9: [: 5225713664: unexpected operator
+      - [pid=221][err] [221:221:1104/005647.110195:FATAL:chrome/browser/process_singleton_posix.cc:297] Check failed: . socket() failed: Operation not permitted (1)
+      - [pid=221][err] [1104/005647.111208:ERROR:third_party/crashpad/crashpad/util/linux/scoped_ptrace_attach.cc:27] ptrace: Operation not permitted (1)
+      - [pid=221] <gracefully close start>
+      - [pid=221] <kill>
+      - [pid=221] <will force kill>
+      - [pid=221] <process did exit: exitCode=null, signal=SIGABRT>
+      - [pid=221] starting temporary directories cleanup
+      - [pid=221] finished temporary directories cleanup
+      - [pid=221] <gracefully close end>
+
+
+    Error Context: test-results/full-workflow-synthetic-Me-443f0-d-independent-PASS-boundary-desktop-1440/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/full-workflow-synthetic-Me-443f0-d-independent-PASS-boundary-desktop-1440/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/full-workflow-synthetic-Me-443f0-d-independent-PASS-boundary-desktop-1440/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  6) [desktop-1440] › tests/e2e/full-workflow.spec.ts:46:5 › camera denial stays safe and upload evidence works 
+
+    Error: browserType.launch: Target page, context or browser has been closed
+    Browser logs:
+
+    <launching> /usr/bin/chromium --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --use-gl=angle --use-angle=swiftshader --use-fake-device-for-media-stream --enable-unsafe-swiftshader --user-data-dir=/tmp/playwright_chromiumdev_profile-IitJ1G --remote-debugging-pipe --no-startup-window
+    <launched> pid=256
+    [pid=256][err] /usr/bin/chromium: 9: [: 5225713664: unexpected operator
+    [pid=256][err] [256:256:1104/005647.650613:FATAL:chrome/browser/process_singleton_posix.cc:297] Check failed: . socket() failed: Operation not permitted (1)
+    [pid=256][err] [1104/005647.651046:ERROR:third_party/crashpad/crashpad/util/linux/scoped_ptrace_attach.cc:27] ptrace: Operation not permitted (1)
+    Call log:
+      - <launching> /usr/bin/chromium --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --use-gl=angle --use-angle=swiftshader --use-fake-device-for-media-stream --enable-unsafe-swiftshader --user-data-dir=/tmp/playwright_chromiumdev_profile-IitJ1G --remote-debugging-pipe --no-startup-window
+      - <launched> pid=256
+      - [pid=256][err] /usr/bin/chromium: 9: [: 5225713664: unexpected operator
+      - [pid=256][err] [256:256:1104/005647.650613:FATAL:chrome/browser/process_singleton_posix.cc:297] Check failed: . socket() failed: Operation not permitted (1)
+      - [pid=256][err] [1104/005647.651046:ERROR:third_party/crashpad/crashpad/util/linux/scoped_ptrace_attach.cc:27] ptrace: Operation not permitted (1)
+      - [pid=256] <gracefully close start>
+      - [pid=256] <kill>
+      - [pid=256] <will force kill>
+      - [pid=256] <process did exit: exitCode=null, signal=SIGABRT>
+      - [pid=256] starting temporary directories cleanup
+      - [pid=256] finished temporary directories cleanup
+      - [pid=256] <gracefully close end>
+
+
+    Error Context: test-results/full-workflow-camera-denia-64832-e-and-upload-evidence-works-desktop-1440/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/full-workflow-camera-denia-64832-e-and-upload-evidence-works-desktop-1440/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/full-workflow-camera-denia-64832-e-and-upload-evidence-works-desktop-1440/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  7) [desktop-1440] › tests/e2e/full-workflow.spec.ts:51:5 › authenticated simulation telemetry reaches twin and owner control remains HOLD 
+
+    Error: browserType.launch: Target page, context or browser has been closed
+    Browser logs:
+
+    <launching> /usr/bin/chromium --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --use-gl=angle --use-angle=swiftshader --use-fake-device-for-media-stream --enable-unsafe-swiftshader --user-data-dir=/tmp/playwright_chromiumdev_profile-3LyhRH --remote-debugging-pipe --no-startup-window
+    <launched> pid=291
+    [pid=291][err] /usr/bin/chromium: 9: [: 5225713664: unexpected operator
+    [pid=291][err] [291:291:1104/005648.170074:FATAL:chrome/browser/process_singleton_posix.cc:297] Check failed: . socket() failed: Operation not permitted (1)
+    [pid=291][err] [1104/005648.170628:ERROR:third_party/crashpad/crashpad/util/linux/scoped_ptrace_attach.cc:27] ptrace: Operation not permitted (1)
+    Call log:
+      - <launching> /usr/bin/chromium --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --use-gl=angle --use-angle=swiftshader --use-fake-device-for-media-stream --enable-unsafe-swiftshader --user-data-dir=/tmp/playwright_chromiumdev_profile-3LyhRH --remote-debugging-pipe --no-startup-window
+      - <launched> pid=291
+      - [pid=291][err] /usr/bin/chromium: 9: [: 5225713664: unexpected operator
+      - [pid=291][err] [291:291:1104/005648.170074:FATAL:chrome/browser/process_singleton_posix.cc:297] Check failed: . socket() failed: Operation not permitted (1)
+      - [pid=291][err] [1104/005648.170628:ERROR:third_party/crashpad/crashpad/util/linux/scoped_ptrace_attach.cc:27] ptrace: Operation not permitted (1)
+      - [pid=291] <gracefully close start>
+      - [pid=291] <kill>
+      - [pid=291] <will force kill>
+      - [pid=291] <process did exit: exitCode=null, signal=SIGABRT>
+      - [pid=291] starting temporary directories cleanup
+      - [pid=291] finished temporary directories cleanup
+      - [pid=291] <gracefully close end>
+
+
+    Error Context: test-results/full-workflow-authenticate-00152--owner-control-remains-HOLD-desktop-1440/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/full-workflow-authenticate-00152--owner-control-remains-HOLD-desktop-1440/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/full-workflow-authenticate-00152--owner-control-remains-HOLD-desktop-1440/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  8) [desktop-1440] › tests/e2e/full-workflow.spec.ts:57:5 › integrated pages have no serious accessibility failures and fit viewport 
+
+    Error: browserType.launch: Target page, context or browser has been closed
+    Browser logs:
+
+    <launching> /usr/bin/chromium --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --use-gl=angle --use-angle=swiftshader --use-fake-device-for-media-stream --enable-unsafe-swiftshader --user-data-dir=/tmp/playwright_chromiumdev_profile-w2mid0 --remote-debugging-pipe --no-startup-window
+    <launched> pid=326
+    [pid=326][err] /usr/bin/chromium: 9: [: 5225713664: unexpected operator
+    [pid=326][err] [326:326:1104/005648.708180:FATAL:chrome/browser/process_singleton_posix.cc:297] Check failed: . socket() failed: Operation not permitted (1)
+    [pid=326][err] [1104/005648.708351:ERROR:third_party/crashpad/crashpad/util/linux/scoped_ptrace_attach.cc:27] ptrace: Operation not permitted (1)
+    Call log:
+      - <launching> /usr/bin/chromium --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --use-gl=angle --use-angle=swiftshader --use-fake-device-for-media-stream --enable-unsafe-swiftshader --user-data-dir=/tmp/playwright_chromiumdev_profile-w2mid0 --remote-debugging-pipe --no-startup-window
+      - <launched> pid=326
+      - [pid=326][err] /usr/bin/chromium: 9: [: 5225713664: unexpected operator
+      - [pid=326][err] [326:326:1104/005648.708180:FATAL:chrome/browser/process_singleton_posix.cc:297] Check failed: . socket() failed: Operation not permitted (1)
+      - [pid=326][err] [1104/005648.708351:ERROR:third_party/crashpad/crashpad/util/linux/scoped_ptrace_attach.cc:27] ptrace: Operation not permitted (1)
+      - [pid=326] <gracefully close start>
+      - [pid=326] <kill>
+      - [pid=326] <will force kill>
+      - [pid=326] <process did exit: exitCode=null, signal=SIGABRT>
+      - [pid=326] starting temporary directories cleanup
+      - [pid=326] finished temporary directories cleanup
+      - [pid=326] <gracefully close end>
+
+
+    Error Context: test-results/full-workflow-integrated-p-9550c-y-failures-and-fit-viewport-desktop-1440/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/full-workflow-integrated-p-9550c-y-failures-and-fit-viewport-desktop-1440/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/full-workflow-integrated-p-9550c-y-failures-and-fit-viewport-desktop-1440/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  9) [desktop-1440] › tests/e2e/industrial.spec.ts:4:5 › assembly orientation visibility pin association and accessibility persist 
+
+    Error: browserType.launch: Target page, context or browser has been closed
+    Browser logs:
+
+    <launching> /usr/bin/chromium --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --use-gl=angle --use-angle=swiftshader --use-fake-device-for-media-stream --enable-unsafe-swiftshader --user-data-dir=/tmp/playwright_chromiumdev_profile-3oQH1h --remote-debugging-pipe --no-startup-window
+    <launched> pid=361
+    [pid=361][err] /usr/bin/chromium: 9: [: 5225713664: unexpected operator
+    [pid=361][err] [361:361:1104/005649.259461:FATAL:chrome/browser/process_singleton_posix.cc:297] Check failed: . socket() failed: Operation not permitted (1)
+    [pid=361][err] [1104/005649.259652:ERROR:third_party/crashpad/crashpad/util/linux/scoped_ptrace_attach.cc:27] ptrace: Operation not permitted (1)
+    Call log:
+      - <launching> /usr/bin/chromium --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --use-gl=angle --use-angle=swiftshader --use-fake-device-for-media-stream --enable-unsafe-swiftshader --user-data-dir=/tmp/playwright_chromiumdev_profile-3oQH1h --remote-debugging-pipe --no-startup-window
+      - <launched> pid=361
+      - [pid=361][err] /usr/bin/chromium: 9: [: 5225713664: unexpected operator
+      - [pid=361][err] [361:361:1104/005649.259461:FATAL:chrome/browser/process_singleton_posix.cc:297] Check failed: . socket() failed: Operation not permitted (1)
+      - [pid=361][err] [1104/005649.259652:ERROR:third_party/crashpad/crashpad/util/linux/scoped_ptrace_attach.cc:27] ptrace: Operation not permitted (1)
+      - [pid=361] <gracefully close start>
+      - [pid=361] <kill>
+      - [pid=361] <will force kill>
+      - [pid=361] <process did exit: exitCode=null, signal=SIGABRT>
+      - [pid=361] starting temporary directories cleanup
+      - [pid=361] finished temporary directories cleanup
+      - [pid=361] <gracefully close end>
+
+
+    Error Context: test-results/industrial-assembly-orient-d31e7-n-and-accessibility-persist-desktop-1440/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/industrial-assembly-orient-d31e7-n-and-accessibility-persist-desktop-1440/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/industrial-assembly-orient-d31e7-n-and-accessibility-persist-desktop-1440/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  10) [desktop-1440] › tests/e2e/industrial.spec.ts:5:5 › Design Simulation Live mode refresh and deterministic virtual history 
+
+    Error: browserType.launch: Target page, context or browser has been closed
+    Browser logs:
+
+    <launching> /usr/bin/chromium --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --use-gl=angle --use-angle=swiftshader --use-fake-device-for-media-stream --enable-unsafe-swiftshader --user-data-dir=/tmp/playwright_chromiumdev_profile-LPEKRk --remote-debugging-pipe --no-startup-window
+    <launched> pid=396
+    [pid=396][err] /usr/bin/chromium: 9: [: 5225713664: unexpected operator
+    [pid=396][err] [396:396:1104/005649.791046:FATAL:chrome/browser/process_singleton_posix.cc:297] Check failed: . socket() failed: Operation not permitted (1)
+    [pid=396][err] [1104/005649.791253:ERROR:third_party/crashpad/crashpad/util/linux/scoped_ptrace_attach.cc:27] ptrace: Operation not permitted (1)
+    Call log:
+      - <launching> /usr/bin/chromium --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --use-gl=angle --use-angle=swiftshader --use-fake-device-for-media-stream --enable-unsafe-swiftshader --user-data-dir=/tmp/playwright_chromiumdev_profile-LPEKRk --remote-debugging-pipe --no-startup-window
+      - <launched> pid=396
+      - [pid=396][err] /usr/bin/chromium: 9: [: 5225713664: unexpected operator
+      - [pid=396][err] [396:396:1104/005649.791046:FATAL:chrome/browser/process_singleton_posix.cc:297] Check failed: . socket() failed: Operation not permitted (1)
+      - [pid=396][err] [1104/005649.791253:ERROR:third_party/crashpad/crashpad/util/linux/scoped_ptrace_attach.cc:27] ptrace: Operation not permitted (1)
+      - [pid=396] <gracefully close start>
+      - [pid=396] <kill>
+      - [pid=396] <will force kill>
+      - [pid=396] <process did exit: exitCode=null, signal=SIGABRT>
+      - [pid=396] starting temporary directories cleanup
+      - [pid=396] finished temporary directories cleanup
+      - [pid=396] <gracefully close end>
+
+
+    Error Context: test-results/industrial-Design-Simulati-b8c4f-terministic-virtual-history-desktop-1440/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/industrial-Design-Simulati-b8c4f-terministic-virtual-history-desktop-1440/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/industrial-Design-Simulati-b8c4f-terministic-virtual-history-desktop-1440/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  11) [desktop-1440] › tests/e2e/industrial.spec.ts:6:5 › software physical-origin contract packet maps into scene inspector chart and warnings 
+
+    Error: browserType.launch: Target page, context or browser has been closed
+    Browser logs:
+
+    <launching> /usr/bin/chromium --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --use-gl=angle --use-angle=swiftshader --use-fake-device-for-media-stream --enable-unsafe-swiftshader --user-data-dir=/tmp/playwright_chromiumdev_profile-n1HnIj --remote-debugging-pipe --no-startup-window
+    <launched> pid=431
+    [pid=431][err] /usr/bin/chromium: 9: [: 5225713664: unexpected operator
+    [pid=431][err] [431:431:1104/005650.356043:FATAL:chrome/browser/process_singleton_posix.cc:297] Check failed: . socket() failed: Operation not permitted (1)
+    [pid=431][err] [1104/005650.356197:ERROR:third_party/crashpad/crashpad/util/linux/scoped_ptrace_attach.cc:27] ptrace: Operation not permitted (1)
+    Call log:
+      - <launching> /usr/bin/chromium --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --use-gl=angle --use-angle=swiftshader --use-fake-device-for-media-stream --enable-unsafe-swiftshader --user-data-dir=/tmp/playwright_chromiumdev_profile-n1HnIj --remote-debugging-pipe --no-startup-window
+      - <launched> pid=431
+      - [pid=431][err] /usr/bin/chromium: 9: [: 5225713664: unexpected operator
+      - [pid=431][err] [431:431:1104/005650.356043:FATAL:chrome/browser/process_singleton_posix.cc:297] Check failed: . socket() failed: Operation not permitted (1)
+      - [pid=431][err] [1104/005650.356197:ERROR:third_party/crashpad/crashpad/util/linux/scoped_ptrace_attach.cc:27] ptrace: Operation not permitted (1)
+      - [pid=431] <gracefully close start>
+      - [pid=431] <kill>
+      - [pid=431] <will force kill>
+      - [pid=431] <process did exit: exitCode=null, signal=SIGABRT>
+      - [pid=431] starting temporary directories cleanup
+      - [pid=431] finished temporary directories cleanup
+      - [pid=431] <gracefully close end>
+
+
+    Error Context: test-results/industrial-software-physic-19a51-nspector-chart-and-warnings-desktop-1440/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/industrial-software-physic-19a51-nspector-chart-and-warnings-desktop-1440/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/industrial-software-physic-19a51-nspector-chart-and-warnings-desktop-1440/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  12) [desktop-1440] › tests/e2e/industrial.spec.ts:7:5 › simulated packets excluded from live scene; selected AI reports missing credentials 
+
+    Error: browserType.launch: Target page, context or browser has been closed
+    Browser logs:
+
+    <launching> /usr/bin/chromium --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --use-gl=angle --use-angle=swiftshader --use-fake-device-for-media-stream --enable-unsafe-swiftshader --user-data-dir=/tmp/playwright_chromiumdev_profile-YqOik7 --remote-debugging-pipe --no-startup-window
+    <launched> pid=466
+    [pid=466][err] /usr/bin/chromium: 9: [: 5225713664: unexpected operator
+    [pid=466][err] [466:466:1104/005650.910879:FATAL:chrome/browser/process_singleton_posix.cc:297] Check failed: . socket() failed: Operation not permitted (1)
+    [pid=466][err] [1104/005650.911138:ERROR:third_party/crashpad/crashpad/util/linux/scoped_ptrace_attach.cc:27] ptrace: Operation not permitted (1)
+    Call log:
+      - <launching> /usr/bin/chromium --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --use-gl=angle --use-angle=swiftshader --use-fake-device-for-media-stream --enable-unsafe-swiftshader --user-data-dir=/tmp/playwright_chromiumdev_profile-YqOik7 --remote-debugging-pipe --no-startup-window
+      - <launched> pid=466
+      - [pid=466][err] /usr/bin/chromium: 9: [: 5225713664: unexpected operator
+      - [pid=466][err] [466:466:1104/005650.910879:FATAL:chrome/browser/process_singleton_posix.cc:297] Check failed: . socket() failed: Operation not permitted (1)
+      - [pid=466][err] [1104/005650.911138:ERROR:third_party/crashpad/crashpad/util/linux/scoped_ptrace_attach.cc:27] ptrace: Operation not permitted (1)
+      - [pid=466] <gracefully close start>
+      - [pid=466] <kill>
+      - [pid=466] <will force kill>
+      - [pid=466] <process did exit: exitCode=null, signal=SIGABRT>
+      - [pid=466] starting temporary directories cleanup
+      - [pid=466] finished temporary directories cleanup
+      - [pid=466] <gracefully close end>
+
+
+    Error Context: test-results/industrial-simulated-packe-1f27a-reports-missing-credentials-desktop-1440/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/industrial-simulated-packe-1f27a-reports-missing-credentials-desktop-1440/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/industrial-simulated-packe-1f27a-reports-missing-credentials-desktop-1440/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  13) [desktop-1440] › tests/e2e/industrial.spec.ts:8:5 › slow snapshot does not overlap and navigation cancels pending work 
+
+    Error: browserType.launch: Target page, context or browser has been closed
+    Browser logs:
+
+    <launching> /usr/bin/chromium --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --use-gl=angle --use-angle=swiftshader --use-fake-device-for-media-stream --enable-unsafe-swiftshader --user-data-dir=/tmp/playwright_chromiumdev_profile-XC1oaz --remote-debugging-pipe --no-startup-window
+    <launched> pid=501
+    [pid=501][err] /usr/bin/chromium: 9: [: 5225713664: unexpected operator
+    [pid=501][err] [501:501:1104/005651.441486:FATAL:chrome/browser/process_singleton_posix.cc:297] Check failed: . socket() failed: Operation not permitted (1)
+    [pid=501][err] [1104/005651.441632:ERROR:third_party/crashpad/crashpad/util/linux/scoped_ptrace_attach.cc:27] ptrace: Operation not permitted (1)
+    Call log:
+      - <launching> /usr/bin/chromium --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --use-gl=angle --use-angle=swiftshader --use-fake-device-for-media-stream --enable-unsafe-swiftshader --user-data-dir=/tmp/playwright_chromiumdev_profile-XC1oaz --remote-debugging-pipe --no-startup-window
+      - <launched> pid=501
+      - [pid=501][err] /usr/bin/chromium: 9: [: 5225713664: unexpected operator
+      - [pid=501][err] [501:501:1104/005651.441486:FATAL:chrome/browser/process_singleton_posix.cc:297] Check failed: . socket() failed: Operation not permitted (1)
+      - [pid=501][err] [1104/005651.441632:ERROR:third_party/crashpad/crashpad/util/linux/scoped_ptrace_attach.cc:27] ptrace: Operation not permitted (1)
+      - [pid=501] <gracefully close start>
+      - [pid=501] <kill>
+      - [pid=501] <will force kill>
+      - [pid=501] <process did exit: exitCode=null, signal=SIGABRT>
+      - [pid=501] starting temporary directories cleanup
+      - [pid=501] finished temporary directories cleanup
+      - [pid=501] <gracefully close end>
+
+
+    Error Context: test-results/industrial-slow-snapshot-d-1d041-gation-cancels-pending-work-desktop-1440/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/industrial-slow-snapshot-d-1d041-gation-cancels-pending-work-desktop-1440/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/industrial-slow-snapshot-d-1d041-gation-cancels-pending-work-desktop-1440/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  14) [desktop-1440] › tests/e2e/industrial.spec.ts:9:5 › modes camera embedding navigation and refresh have no runtime errors 
+
+    Error: browserType.launch: Target page, context or browser has been closed
+    Browser logs:
+
+    <launching> /usr/bin/chromium --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --use-gl=angle --use-angle=swiftshader --use-fake-device-for-media-stream --enable-unsafe-swiftshader --user-data-dir=/tmp/playwright_chromiumdev_profile-qS725G --remote-debugging-pipe --no-startup-window
+    <launched> pid=536
+    [pid=536][err] /usr/bin/chromium: 9: [: 5225713664: unexpected operator
+    [pid=536][err] [536:536:1104/005651.980997:FATAL:chrome/browser/process_singleton_posix.cc:297] Check failed: . socket() failed: Operation not permitted (1)
+    [pid=536][err] [1104/005651.981280:ERROR:third_party/crashpad/crashpad/util/linux/scoped_ptrace_attach.cc:27] ptrace: Operation not permitted (1)
+    Call log:
+      - <launching> /usr/bin/chromium --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --use-gl=angle --use-angle=swiftshader --use-fake-device-for-media-stream --enable-unsafe-swiftshader --user-data-dir=/tmp/playwright_chromiumdev_profile-qS725G --remote-debugging-pipe --no-startup-window
+      - <launched> pid=536
+      - [pid=536][err] /usr/bin/chromium: 9: [: 5225713664: unexpected operator
+      - [pid=536][err] [536:536:1104/005651.980997:FATAL:chrome/browser/process_singleton_posix.cc:297] Check failed: . socket() failed: Operation not permitted (1)
+      - [pid=536][err] [1104/005651.981280:ERROR:third_party/crashpad/crashpad/util/linux/scoped_ptrace_attach.cc:27] ptrace: Operation not permitted (1)
+      - [pid=536] <gracefully close start>
+      - [pid=536] <kill>
+      - [pid=536] <will force kill>
+      - [pid=536] <process did exit: exitCode=null, signal=SIGABRT>
+      - [pid=536] starting temporary directories cleanup
+      - [pid=536] finished temporary directories cleanup
+      - [pid=536] <gracefully close end>
+
+
+    Error Context: test-results/industrial-modes-camera-em-5a648-resh-have-no-runtime-errors-desktop-1440/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/industrial-modes-camera-em-5a648-resh-have-no-runtime-errors-desktop-1440/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/industrial-modes-camera-em-5a648-resh-have-no-runtime-errors-desktop-1440/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  15) [desktop-1440] › tests/e2e/industrial.spec.ts:10:5 › original telemetry history twin controls routes survive idle reads and refresh 
+
+    Error: browserType.launch: Target page, context or browser has been closed
+    Browser logs:
+
+    <launching> /usr/bin/chromium --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --use-gl=angle --use-angle=swiftshader --use-fake-device-for-media-stream --enable-unsafe-swiftshader --user-data-dir=/tmp/playwright_chromiumdev_profile-4yM7IR --remote-debugging-pipe --no-startup-window
+    <launched> pid=571
+    [pid=571][err] /usr/bin/chromium: 9: [: 5225713664: unexpected operator
+    [pid=571][err] [571:571:1104/005652.527095:FATAL:chrome/browser/process_singleton_posix.cc:297] Check failed: . socket() failed: Operation not permitted (1)
+    [pid=571][err] [1104/005652.527264:ERROR:third_party/crashpad/crashpad/util/linux/scoped_ptrace_attach.cc:27] ptrace: Operation not permitted (1)
+    Call log:
+      - <launching> /usr/bin/chromium --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --use-gl=angle --use-angle=swiftshader --use-fake-device-for-media-stream --enable-unsafe-swiftshader --user-data-dir=/tmp/playwright_chromiumdev_profile-4yM7IR --remote-debugging-pipe --no-startup-window
+      - <launched> pid=571
+      - [pid=571][err] /usr/bin/chromium: 9: [: 5225713664: unexpected operator
+      - [pid=571][err] [571:571:1104/005652.527095:FATAL:chrome/browser/process_singleton_posix.cc:297] Check failed: . socket() failed: Operation not permitted (1)
+      - [pid=571][err] [1104/005652.527264:ERROR:third_party/crashpad/crashpad/util/linux/scoped_ptrace_attach.cc:27] ptrace: Operation not permitted (1)
+      - [pid=571] <gracefully close start>
+      - [pid=571] <kill>
+      - [pid=571] <will force kill>
+      - [pid=571] <process did exit: exitCode=null, signal=SIGABRT>
+      - [pid=571] starting temporary directories cleanup
+      - [pid=571] finished temporary directories cleanup
+      - [pid=571] <gracefully close end>
+
+
+    Error Context: test-results/industrial-original-teleme-c6d58-vive-idle-reads-and-refresh-desktop-1440/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/industrial-original-teleme-c6d58-vive-idle-reads-and-refresh-desktop-1440/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/industrial-original-teleme-c6d58-vive-idle-reads-and-refresh-desktop-1440/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  16) [desktop-1440] › tests/e2e/industrial.spec.ts:11:5 › BOM deletion cleans draft relations but sensor mapping stays explicitly orphaned 
+
+    Error: browserType.launch: Target page, context or browser has been closed
+    Browser logs:
+
+    <launching> /usr/bin/chromium --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --use-gl=angle --use-angle=swiftshader --use-fake-device-for-media-stream --enable-unsafe-swiftshader --user-data-dir=/tmp/playwright_chromiumdev_profile-Jru55K --remote-debugging-pipe --no-startup-window
+    <launched> pid=606
+    [pid=606][err] /usr/bin/chromium: 9: [: 5225713664: unexpected operator
+    [pid=606][err] [606:606:1104/005653.064186:FATAL:chrome/browser/process_singleton_posix.cc:297] Check failed: . socket() failed: Operation not permitted (1)
+    [pid=606][err] [1104/005653.064428:ERROR:third_party/crashpad/crashpad/util/linux/scoped_ptrace_attach.cc:27] ptrace: Operation not permitted (1)
+    Call log:
+      - <launching> /usr/bin/chromium --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --use-gl=angle --use-angle=swiftshader --use-fake-device-for-media-stream --enable-unsafe-swiftshader --user-data-dir=/tmp/playwright_chromiumdev_profile-Jru55K --remote-debugging-pipe --no-startup-window
+      - <launched> pid=606
+      - [pid=606][err] /usr/bin/chromium: 9: [: 5225713664: unexpected operator
+      - [pid=606][err] [606:606:1104/005653.064186:FATAL:chrome/browser/process_singleton_posix.cc:297] Check failed: . socket() failed: Operation not permitted (1)
+      - [pid=606][err] [1104/005653.064428:ERROR:third_party/crashpad/crashpad/util/linux/scoped_ptrace_attach.cc:27] ptrace: Operation not permitted (1)
+      - [pid=606] <gracefully close start>
+      - [pid=606] <kill>
+      - [pid=606] <will force kill>
+      - [pid=606] <process did exit: exitCode=null, signal=SIGABRT>
+      - [pid=606] starting temporary directories cleanup
+      - [pid=606] finished temporary directories cleanup
+      - [pid=606] <gracefully close end>
+
+
+    Error Context: test-results/industrial-BOM-deletion-cl-14a21-g-stays-explicitly-orphaned-desktop-1440/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/industrial-BOM-deletion-cl-14a21-g-stays-explicitly-orphaned-desktop-1440/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/industrial-BOM-deletion-cl-14a21-g-stays-explicitly-orphaned-desktop-1440/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  17) [desktop-1440] › tests/e2e/navigation.spec.ts:19:5 › registered session, routes, real back-forward, breadcrumbs, home, deep refresh 
+
+    Error: browserType.launch: Target page, context or browser has been closed
+    Browser logs:
+
+    <launching> /usr/bin/chromium --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --use-gl=angle --use-angle=swiftshader --use-fake-device-for-media-stream --enable-unsafe-swiftshader --user-data-dir=/tmp/playwright_chromiumdev_profile-ZtKY3N --remote-debugging-pipe --no-startup-window
+    <launched> pid=641
+    [pid=641][err] /usr/bin/chromium: 9: [: 5225713664: unexpected operator
+    [pid=641][err] [641:641:1104/005653.579493:FATAL:chrome/browser/process_singleton_posix.cc:297] Check failed: . socket() failed: Operation not permitted (1)
+    [pid=641][err] [1104/005653.579622:ERROR:third_party/crashpad/crashpad/util/linux/scoped_ptrace_attach.cc:27] ptrace: Operation not permitted (1)
+    Call log:
+      - <launching> /usr/bin/chromium --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --use-gl=angle --use-angle=swiftshader --use-fake-device-for-media-stream --enable-unsafe-swiftshader --user-data-dir=/tmp/playwright_chromiumdev_profile-ZtKY3N --remote-debugging-pipe --no-startup-window
+      - <launched> pid=641
+      - [pid=641][err] /usr/bin/chromium: 9: [: 5225713664: unexpected operator
+      - [pid=641][err] [641:641:1104/005653.579493:FATAL:chrome/browser/process_singleton_posix.cc:297] Check failed: . socket() failed: Operation not permitted (1)
+      - [pid=641][err] [1104/005653.579622:ERROR:third_party/crashpad/crashpad/util/linux/scoped_ptrace_attach.cc:27] ptrace: Operation not permitted (1)
+      - [pid=641] <gracefully close start>
+      - [pid=641] <kill>
+      - [pid=641] <will force kill>
+      - [pid=641] <process did exit: exitCode=null, signal=SIGABRT>
+      - [pid=641] starting temporary directories cleanup
+      - [pid=641] finished temporary directories cleanup
+      - [pid=641] <gracefully close end>
+
+
+    Error Context: test-results/navigation-registered-sess-8835e-eadcrumbs-home-deep-refresh-desktop-1440/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/navigation-registered-sess-8835e-eadcrumbs-home-deep-refresh-desktop-1440/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/navigation-registered-sess-8835e-eadcrumbs-home-deep-refresh-desktop-1440/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  18) [desktop-1440] › tests/e2e/navigation.spec.ts:40:5 › light/dark/system persistence, navigation and width audit 
+
+    Error: browserType.launch: Target page, context or browser has been closed
+    Browser logs:
+
+    <launching> /usr/bin/chromium --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --use-gl=angle --use-angle=swiftshader --use-fake-device-for-media-stream --enable-unsafe-swiftshader --user-data-dir=/tmp/playwright_chromiumdev_profile-X3bhrx --remote-debugging-pipe --no-startup-window
+    <launched> pid=676
+    [pid=676][err] /usr/bin/chromium: 9: [: 5225713664: unexpected operator
+    [pid=676][err] [676:676:1104/005654.058427:FATAL:chrome/browser/process_singleton_posix.cc:297] Check failed: . socket() failed: Operation not permitted (1)
+    [pid=676][err] [1104/005654.058706:ERROR:third_party/crashpad/crashpad/util/linux/scoped_ptrace_attach.cc:27] ptrace: Operation not permitted (1)
+    Call log:
+      - <launching> /usr/bin/chromium --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --use-gl=angle --use-angle=swiftshader --use-fake-device-for-media-stream --enable-unsafe-swiftshader --user-data-dir=/tmp/playwright_chromiumdev_profile-X3bhrx --remote-debugging-pipe --no-startup-window
+      - <launched> pid=676
+      - [pid=676][err] /usr/bin/chromium: 9: [: 5225713664: unexpected operator
+      - [pid=676][err] [676:676:1104/005654.058427:FATAL:chrome/browser/process_singleton_posix.cc:297] Check failed: . socket() failed: Operation not permitted (1)
+      - [pid=676][err] [1104/005654.058706:ERROR:third_party/crashpad/crashpad/util/linux/scoped_ptrace_attach.cc:27] ptrace: Operation not permitted (1)
+      - [pid=676] <gracefully close start>
+      - [pid=676] <kill>
+      - [pid=676] <will force kill>
+      - [pid=676] <process did exit: exitCode=null, signal=SIGABRT>
+      - [pid=676] starting temporary directories cleanup
+      - [pid=676] finished temporary directories cleanup
+      - [pid=676] <gracefully close end>
+
+
+    Error Context: test-results/navigation-light-dark-syst-cfc3c--navigation-and-width-audit-desktop-1440/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/navigation-light-dark-syst-cfc3c--navigation-and-width-audit-desktop-1440/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/navigation-light-dark-syst-cfc3c--navigation-and-width-audit-desktop-1440/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  19) [desktop-1440] › tests/e2e/navigation.spec.ts:54:5 › viewer cannot edit, missing project cannot leak title, signout blocks deep link 
+
+    Error: browserType.launch: Target page, context or browser has been closed
+    Browser logs:
+
+    <launching> /usr/bin/chromium --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --use-gl=angle --use-angle=swiftshader --use-fake-device-for-media-stream --enable-unsafe-swiftshader --user-data-dir=/tmp/playwright_chromiumdev_profile-djWibO --remote-debugging-pipe --no-startup-window
+    <launched> pid=711
+    [pid=711][err] /usr/bin/chromium: 9: [: 5225713664: unexpected operator
+    [pid=711][err] [711:711:1104/005654.534613:FATAL:chrome/browser/process_singleton_posix.cc:297] Check failed: . socket() failed: Operation not permitted (1)
+    [pid=711][err] [1104/005654.535018:ERROR:third_party/crashpad/crashpad/util/linux/scoped_ptrace_attach.cc:27] ptrace: Operation not permitted (1)
+    Call log:
+      - <launching> /usr/bin/chromium --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --use-gl=angle --use-angle=swiftshader --use-fake-device-for-media-stream --enable-unsafe-swiftshader --user-data-dir=/tmp/playwright_chromiumdev_profile-djWibO --remote-debugging-pipe --no-startup-window
+      - <launched> pid=711
+      - [pid=711][err] /usr/bin/chromium: 9: [: 5225713664: unexpected operator
+      - [pid=711][err] [711:711:1104/005654.534613:FATAL:chrome/browser/process_singleton_posix.cc:297] Check failed: . socket() failed: Operation not permitted (1)
+      - [pid=711][err] [1104/005654.535018:ERROR:third_party/crashpad/crashpad/util/linux/scoped_ptrace_attach.cc:27] ptrace: Operation not permitted (1)
+      - [pid=711] <gracefully close start>
+      - [pid=711] <kill>
+      - [pid=711] <will force kill>
+      - [pid=711] <process did exit: exitCode=null, signal=SIGABRT>
+      - [pid=711] starting temporary directories cleanup
+      - [pid=711] finished temporary directories cleanup
+      - [pid=711] <gracefully close end>
+
+
+    Error Context: test-results/navigation-viewer-cannot-e-fdd4a-le-signout-blocks-deep-link-desktop-1440/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/navigation-viewer-cannot-e-fdd4a-le-signout-blocks-deep-link-desktop-1440/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/navigation-viewer-cannot-e-fdd4a-le-signout-blocks-deep-link-desktop-1440/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  20) [desktop-1440] › tests/e2e/navigation.spec.ts:65:5 › keyboard skip link and forward initially disabled 
+
+    Error: browserType.launch: Target page, context or browser has been closed
+    Browser logs:
+
+    <launching> /usr/bin/chromium --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --use-gl=angle --use-angle=swiftshader --use-fake-device-for-media-stream --enable-unsafe-swiftshader --user-data-dir=/tmp/playwright_chromiumdev_profile-tAl6ia --remote-debugging-pipe --no-startup-window
+    <launched> pid=746
+    [pid=746][err] /usr/bin/chromium: 9: [: 5225713664: unexpected operator
+    [pid=746][err] [746:746:1104/005655.022766:FATAL:chrome/browser/process_singleton_posix.cc:297] Check failed: . socket() failed: Operation not permitted (1)
+    [pid=746][err] [1104/005655.023486:ERROR:third_party/crashpad/crashpad/util/linux/scoped_ptrace_attach.cc:27] ptrace: Operation not permitted (1)
+    Call log:
+      - <launching> /usr/bin/chromium --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --use-gl=angle --use-angle=swiftshader --use-fake-device-for-media-stream --enable-unsafe-swiftshader --user-data-dir=/tmp/playwright_chromiumdev_profile-tAl6ia --remote-debugging-pipe --no-startup-window
+      - <launched> pid=746
+      - [pid=746][err] /usr/bin/chromium: 9: [: 5225713664: unexpected operator
+      - [pid=746][err] [746:746:1104/005655.022766:FATAL:chrome/browser/process_singleton_posix.cc:297] Check failed: . socket() failed: Operation not permitted (1)
+      - [pid=746][err] [1104/005655.023486:ERROR:third_party/crashpad/crashpad/util/linux/scoped_ptrace_attach.cc:27] ptrace: Operation not permitted (1)
+      - [pid=746] <gracefully close start>
+      - [pid=746] <kill>
+      - [pid=746] <will force kill>
+      - [pid=746] <process did exit: exitCode=null, signal=SIGABRT>
+      - [pid=746] starting temporary directories cleanup
+      - [pid=746] finished temporary directories cleanup
+      - [pid=746] <gracefully close end>
+
+
+    Error Context: test-results/navigation-keyboard-skip-link-and-forward-initially-disabled-desktop-1440/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/navigation-keyboard-skip-link-and-forward-initially-disabled-desktop-1440/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/navigation-keyboard-skip-link-and-forward-initially-disabled-desktop-1440/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  21) [desktop-1440] › tests/e2e/navigation.spec.ts:73:5 › per-project draft isolation across navigation and refresh 
+
+    Error: browserType.launch: Target page, context or browser has been closed
+    Browser logs:
+
+    <launching> /usr/bin/chromium --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --use-gl=angle --use-angle=swiftshader --use-fake-device-for-media-stream --enable-unsafe-swiftshader --user-data-dir=/tmp/playwright_chromiumdev_profile-31TJSy --remote-debugging-pipe --no-startup-window
+    <launched> pid=781
+    [pid=781][err] /usr/bin/chromium: 9: [: 5225713664: unexpected operator
+    [pid=781][err] [781:781:1104/005655.568068:FATAL:chrome/browser/process_singleton_posix.cc:297] Check failed: . socket() failed: Operation not permitted (1)
+    [pid=781][err] [1104/005655.568364:ERROR:third_party/crashpad/crashpad/util/linux/scoped_ptrace_attach.cc:27] ptrace: Operation not permitted (1)
+    Call log:
+      - <launching> /usr/bin/chromium --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --use-gl=angle --use-angle=swiftshader --use-fake-device-for-media-stream --enable-unsafe-swiftshader --user-data-dir=/tmp/playwright_chromiumdev_profile-31TJSy --remote-debugging-pipe --no-startup-window
+      - <launched> pid=781
+      - [pid=781][err] /usr/bin/chromium: 9: [: 5225713664: unexpected operator
+      - [pid=781][err] [781:781:1104/005655.568068:FATAL:chrome/browser/process_singleton_posix.cc:297] Check failed: . socket() failed: Operation not permitted (1)
+      - [pid=781][err] [1104/005655.568364:ERROR:third_party/crashpad/crashpad/util/linux/scoped_ptrace_attach.cc:27] ptrace: Operation not permitted (1)
+      - [pid=781] <gracefully close start>
+      - [pid=781] <kill>
+      - [pid=781] <will force kill>
+      - [pid=781] <process did exit: exitCode=null, signal=SIGABRT>
+      - [pid=781] starting temporary directories cleanup
+      - [pid=781] finished temporary directories cleanup
+      - [pid=781] <gracefully close end>
+
+
+    Error Context: test-results/navigation-per-project-dra-504b7-ross-navigation-and-refresh-desktop-1440/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/navigation-per-project-dra-504b7-ross-navigation-and-refresh-desktop-1440/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/navigation-per-project-dra-504b7-ross-navigation-and-refresh-desktop-1440/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  22) [desktop-1440] › tests/e2e/navigation.spec.ts:86:5 › public product titles and keyboard modal dismissal 
+
+    Error: browserType.launch: Target page, context or browser has been closed
+    Browser logs:
+
+    <launching> /usr/bin/chromium --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --use-gl=angle --use-angle=swiftshader --use-fake-device-for-media-stream --enable-unsafe-swiftshader --user-data-dir=/tmp/playwright_chromiumdev_profile-DFjshz --remote-debugging-pipe --no-startup-window
+    <launched> pid=816
+    [pid=816][err] /usr/bin/chromium: 9: [: 5225713664: unexpected operator
+    [pid=816][err] [816:816:1104/005656.044190:FATAL:chrome/browser/process_singleton_posix.cc:297] Check failed: . socket() failed: Operation not permitted (1)
+    [pid=816][err] [1104/005656.044521:ERROR:third_party/crashpad/crashpad/util/linux/scoped_ptrace_attach.cc:27] ptrace: Operation not permitted (1)
+    Call log:
+      - <launching> /usr/bin/chromium --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --use-gl=angle --use-angle=swiftshader --use-fake-device-for-media-stream --enable-unsafe-swiftshader --user-data-dir=/tmp/playwright_chromiumdev_profile-DFjshz --remote-debugging-pipe --no-startup-window
+      - <launched> pid=816
+      - [pid=816][err] /usr/bin/chromium: 9: [: 5225713664: unexpected operator
+      - [pid=816][err] [816:816:1104/005656.044190:FATAL:chrome/browser/process_singleton_posix.cc:297] Check failed: . socket() failed: Operation not permitted (1)
+      - [pid=816][err] [1104/005656.044521:ERROR:third_party/crashpad/crashpad/util/linux/scoped_ptrace_attach.cc:27] ptrace: Operation not permitted (1)
+      - [pid=816] <gracefully close start>
+      - [pid=816] <kill>
+      - [pid=816] <will force kill>
+      - [pid=816] <process did exit: exitCode=null, signal=SIGABRT>
+      - [pid=816] starting temporary directories cleanup
+      - [pid=816] finished temporary directories cleanup
+      - [pid=816] <gracefully close end>
+
+
+    Error Context: test-results/navigation-public-product--603c6-nd-keyboard-modal-dismissal-desktop-1440/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/navigation-public-product--603c6-nd-keyboard-modal-dismissal-desktop-1440/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/navigation-public-product--603c6-nd-keyboard-modal-dismissal-desktop-1440/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  23) [desktop-1440] › tests/e2e/navigation.spec.ts:96:5 › mobile workspace tabs expose all three complete destinations 
+
+    Error: browserType.launch: Target page, context or browser has been closed
+    Browser logs:
+
+    <launching> /usr/bin/chromium --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --use-gl=angle --use-angle=swiftshader --use-fake-device-for-media-stream --enable-unsafe-swiftshader --user-data-dir=/tmp/playwright_chromiumdev_profile-zS7nlO --remote-debugging-pipe --no-startup-window
+    <launched> pid=851
+    [pid=851][err] /usr/bin/chromium: 9: [: 5225713664: unexpected operator
+    [pid=851][err] [851:851:1104/005656.526156:FATAL:chrome/browser/process_singleton_posix.cc:297] Check failed: . socket() failed: Operation not permitted (1)
+    [pid=851][err] [1104/005656.526637:ERROR:third_party/crashpad/crashpad/util/linux/scoped_ptrace_attach.cc:27] ptrace: Operation not permitted (1)
+    Call log:
+      - <launching> /usr/bin/chromium --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --use-gl=angle --use-angle=swiftshader --use-fake-device-for-media-stream --enable-unsafe-swiftshader --user-data-dir=/tmp/playwright_chromiumdev_profile-zS7nlO --remote-debugging-pipe --no-startup-window
+      - <launched> pid=851
+      - [pid=851][err] /usr/bin/chromium: 9: [: 5225713664: unexpected operator
+      - [pid=851][err] [851:851:1104/005656.526156:FATAL:chrome/browser/process_singleton_posix.cc:297] Check failed: . socket() failed: Operation not permitted (1)
+      - [pid=851][err] [1104/005656.526637:ERROR:third_party/crashpad/crashpad/util/linux/scoped_ptrace_attach.cc:27] ptrace: Operation not permitted (1)
+      - [pid=851] <gracefully close start>
+      - [pid=851] <kill>
+      - [pid=851] <will force kill>
+      - [pid=851] <process did exit: exitCode=null, signal=SIGABRT>
+      - [pid=851] starting temporary directories cleanup
+      - [pid=851] finished temporary directories cleanup
+      - [pid=851] <gracefully close end>
+
+
+    Error Context: test-results/navigation-mobile-workspac-acbc6-three-complete-destinations-desktop-1440/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/navigation-mobile-workspac-acbc6-three-complete-destinations-desktop-1440/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/navigation-mobile-workspac-acbc6-three-complete-destinations-desktop-1440/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  24) [desktop-1440] › tests/e2e/navigation.spec.ts:108:5 › archived projects cannot edit hardware, membership or planning drafts 
+
+    Error: browserType.launch: Target page, context or browser has been closed
+    Browser logs:
+
+    <launching> /usr/bin/chromium --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --use-gl=angle --use-angle=swiftshader --use-fake-device-for-media-stream --enable-unsafe-swiftshader --user-data-dir=/tmp/playwright_chromiumdev_profile-OcRJAG --remote-debugging-pipe --no-startup-window
+    <launched> pid=886
+    [pid=886][err] /usr/bin/chromium: 9: [: 5225713664: unexpected operator
+    [pid=886][err] [886:886:1104/005657.031325:FATAL:chrome/browser/process_singleton_posix.cc:297] Check failed: . socket() failed: Operation not permitted (1)
+    [pid=886][err] [1104/005657.034133:ERROR:third_party/crashpad/crashpad/util/linux/scoped_ptrace_attach.cc:27] ptrace: Operation not permitted (1)
+    Call log:
+      - <launching> /usr/bin/chromium --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --use-gl=angle --use-angle=swiftshader --use-fake-device-for-media-stream --enable-unsafe-swiftshader --user-data-dir=/tmp/playwright_chromiumdev_profile-OcRJAG --remote-debugging-pipe --no-startup-window
+      - <launched> pid=886
+      - [pid=886][err] /usr/bin/chromium: 9: [: 5225713664: unexpected operator
+      - [pid=886][err] [886:886:1104/005657.031325:FATAL:chrome/browser/process_singleton_posix.cc:297] Check failed: . socket() failed: Operation not permitted (1)
+      - [pid=886][err] [1104/005657.034133:ERROR:third_party/crashpad/crashpad/util/linux/scoped_ptrace_attach.cc:27] ptrace: Operation not permitted (1)
+      - [pid=886] <gracefully close start>
+      - [pid=886] <kill>
+      - [pid=886] <will force kill>
+      - [pid=886] <process did exit: exitCode=null, signal=SIGABRT>
+      - [pid=886] starting temporary directories cleanup
+      - [pid=886] finished temporary directories cleanup
+      - [pid=886] <gracefully close end>
+
+
+    Error Context: test-results/navigation-archived-projec-c6a3c-mbership-or-planning-drafts-desktop-1440/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/navigation-archived-projec-c6a3c-mbership-or-planning-drafts-desktop-1440/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/navigation-archived-projec-c6a3c-mbership-or-planning-drafts-desktop-1440/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  25) [desktop-1440] › tests/e2e/navigation.spec.ts:127:5 › account export includes saved hardware and my own planning draft 
+
+    Error: browserType.launch: Target page, context or browser has been closed
+    Browser logs:
+
+    <launching> /usr/bin/chromium --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --use-gl=angle --use-angle=swiftshader --use-fake-device-for-media-stream --enable-unsafe-swiftshader --user-data-dir=/tmp/playwright_chromiumdev_profile-jQoFpj --remote-debugging-pipe --no-startup-window
+    <launched> pid=921
+    [pid=921][err] /usr/bin/chromium: 9: [: 5225713664: unexpected operator
+    [pid=921][err] [921:921:1104/005657.592450:FATAL:chrome/browser/process_singleton_posix.cc:297] Check failed: . socket() failed: Operation not permitted (1)
+    [pid=921][err] [1104/005657.592636:ERROR:third_party/crashpad/crashpad/util/linux/scoped_ptrace_attach.cc:27] ptrace: Operation not permitted (1)
+    Call log:
+      - <launching> /usr/bin/chromium --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --use-gl=angle --use-angle=swiftshader --use-fake-device-for-media-stream --enable-unsafe-swiftshader --user-data-dir=/tmp/playwright_chromiumdev_profile-jQoFpj --remote-debugging-pipe --no-startup-window
+      - <launched> pid=921
+      - [pid=921][err] /usr/bin/chromium: 9: [: 5225713664: unexpected operator
+      - [pid=921][err] [921:921:1104/005657.592450:FATAL:chrome/browser/process_singleton_posix.cc:297] Check failed: . socket() failed: Operation not permitted (1)
+      - [pid=921][err] [1104/005657.592636:ERROR:third_party/crashpad/crashpad/util/linux/scoped_ptrace_attach.cc:27] ptrace: Operation not permitted (1)
+      - [pid=921] <gracefully close start>
+      - [pid=921] <kill>
+      - [pid=921] <will force kill>
+      - [pid=921] <process did exit: exitCode=null, signal=SIGABRT>
+      - [pid=921] starting temporary directories cleanup
+      - [pid=921] finished temporary directories cleanup
+      - [pid=921] <gracefully close end>
+
+
+    Error Context: test-results/navigation-account-export--8ded3-e-and-my-own-planning-draft-desktop-1440/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/navigation-account-export--8ded3-e-and-my-own-planning-draft-desktop-1440/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/navigation-account-export--8ded3-e-and-my-own-planning-draft-desktop-1440/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  26) [desktop-1440] › tests/e2e/ux-guided-assembly.spec.ts:15:5 › tutorial, drag from component library and revision persistence 
+
+    Error: browserType.launch: Target page, context or browser has been closed
+    Browser logs:
+
+    <launching> /usr/bin/chromium --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --use-gl=angle --use-angle=swiftshader --use-fake-device-for-media-stream --enable-unsafe-swiftshader --user-data-dir=/tmp/playwright_chromiumdev_profile-hfuLq0 --remote-debugging-pipe --no-startup-window
+    <launched> pid=956
+    [pid=956][err] /usr/bin/chromium: 9: [: 5225713664: unexpected operator
+    [pid=956][err] [956:956:1104/005658.173626:FATAL:chrome/browser/process_singleton_posix.cc:297] Check failed: . socket() failed: Operation not permitted (1)
+    [pid=956][err] [1104/005658.174030:ERROR:third_party/crashpad/crashpad/util/linux/scoped_ptrace_attach.cc:27] ptrace: Operation not permitted (1)
+    Call log:
+      - <launching> /usr/bin/chromium --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --use-gl=angle --use-angle=swiftshader --use-fake-device-for-media-stream --enable-unsafe-swiftshader --user-data-dir=/tmp/playwright_chromiumdev_profile-hfuLq0 --remote-debugging-pipe --no-startup-window
+      - <launched> pid=956
+      - [pid=956][err] /usr/bin/chromium: 9: [: 5225713664: unexpected operator
+      - [pid=956][err] [956:956:1104/005658.173626:FATAL:chrome/browser/process_singleton_posix.cc:297] Check failed: . socket() failed: Operation not permitted (1)
+      - [pid=956][err] [1104/005658.174030:ERROR:third_party/crashpad/crashpad/util/linux/scoped_ptrace_attach.cc:27] ptrace: Operation not permitted (1)
+      - [pid=956] <gracefully close start>
+      - [pid=956] <kill>
+      - [pid=956] <will force kill>
+      - [pid=956] <process did exit: exitCode=null, signal=SIGABRT>
+      - [pid=956] starting temporary directories cleanup
+      - [pid=956] finished temporary directories cleanup
+      - [pid=956] <gracefully close end>
+
+
+    Error Context: test-results/ux-guided-assembly-tutoria-0e395-ry-and-revision-persistence-desktop-1440/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/ux-guided-assembly-tutoria-0e395-ry-and-revision-persistence-desktop-1440/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/ux-guided-assembly-tutoria-0e395-ry-and-revision-persistence-desktop-1440/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  27) [desktop-1440] › tests/e2e/ux-guided-assembly.spec.ts:28:5 › drag existing part, attach parent, and preserve translated grouping 
+
+    Error: browserType.launch: Target page, context or browser has been closed
+    Browser logs:
+
+    <launching> /usr/bin/chromium --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --use-gl=angle --use-angle=swiftshader --use-fake-device-for-media-stream --enable-unsafe-swiftshader --user-data-dir=/tmp/playwright_chromiumdev_profile-OXPkPT --remote-debugging-pipe --no-startup-window
+    <launched> pid=991
+    [pid=991][err] /usr/bin/chromium: 9: [: 5225713664: unexpected operator
+    [pid=991][err] [991:991:1104/005658.715478:FATAL:chrome/browser/process_singleton_posix.cc:297] Check failed: . socket() failed: Operation not permitted (1)
+    [pid=991][err] [1104/005658.715631:ERROR:third_party/crashpad/crashpad/util/linux/scoped_ptrace_attach.cc:27] ptrace: Operation not permitted (1)
+    Call log:
+      - <launching> /usr/bin/chromium --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --use-gl=angle --use-angle=swiftshader --use-fake-device-for-media-stream --enable-unsafe-swiftshader --user-data-dir=/tmp/playwright_chromiumdev_profile-OXPkPT --remote-debugging-pipe --no-startup-window
+      - <launched> pid=991
+      - [pid=991][err] /usr/bin/chromium: 9: [: 5225713664: unexpected operator
+      - [pid=991][err] [991:991:1104/005658.715478:FATAL:chrome/browser/process_singleton_posix.cc:297] Check failed: . socket() failed: Operation not permitted (1)
+      - [pid=991][err] [1104/005658.715631:ERROR:third_party/crashpad/crashpad/util/linux/scoped_ptrace_attach.cc:27] ptrace: Operation not permitted (1)
+      - [pid=991] <gracefully close start>
+      - [pid=991] <kill>
+      - [pid=991] <will force kill>
+      - [pid=991] <process did exit: exitCode=null, signal=SIGABRT>
+      - [pid=991] starting temporary directories cleanup
+      - [pid=991] finished temporary directories cleanup
+      - [pid=991] <gracefully close end>
+
+
+    Error Context: test-results/ux-guided-assembly-drag-ex-9071e-reserve-translated-grouping-desktop-1440/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/ux-guided-assembly-drag-ex-9071e-reserve-translated-grouping-desktop-1440/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/ux-guided-assembly-drag-ex-9071e-reserve-translated-grouping-desktop-1440/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  28) [desktop-1440] › tests/e2e/ux-guided-assembly.spec.ts:45:5 › model message renders headings/lists/code without interpreting HTML 
+
+    Error: browserType.launch: Target page, context or browser has been closed
+    Browser logs:
+
+    <launching> /usr/bin/chromium --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --use-gl=angle --use-angle=swiftshader --use-fake-device-for-media-stream --enable-unsafe-swiftshader --user-data-dir=/tmp/playwright_chromiumdev_profile-GwxvZJ --remote-debugging-pipe --no-startup-window
+    <launched> pid=1026
+    [pid=1026][err] /usr/bin/chromium: 9: [: 5225713664: unexpected operator
+    [pid=1026][err] [1026:1026:1104/005659.197845:FATAL:chrome/browser/process_singleton_posix.cc:297] Check failed: . socket() failed: Operation not permitted (1)
+    [pid=1026][err] [1104/005659.198068:ERROR:third_party/crashpad/crashpad/util/linux/scoped_ptrace_attach.cc:27] ptrace: Operation not permitted (1)
+    Call log:
+      - <launching> /usr/bin/chromium --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --use-gl=angle --use-angle=swiftshader --use-fake-device-for-media-stream --enable-unsafe-swiftshader --user-data-dir=/tmp/playwright_chromiumdev_profile-GwxvZJ --remote-debugging-pipe --no-startup-window
+      - <launched> pid=1026
+      - [pid=1026][err] /usr/bin/chromium: 9: [: 5225713664: unexpected operator
+      - [pid=1026][err] [1026:1026:1104/005659.197845:FATAL:chrome/browser/process_singleton_posix.cc:297] Check failed: . socket() failed: Operation not permitted (1)
+      - [pid=1026][err] [1104/005659.198068:ERROR:third_party/crashpad/crashpad/util/linux/scoped_ptrace_attach.cc:27] ptrace: Operation not permitted (1)
+      - [pid=1026] <gracefully close start>
+      - [pid=1026] <kill>
+      - [pid=1026] <will force kill>
+      - [pid=1026] <process did exit: exitCode=null, signal=SIGABRT>
+      - [pid=1026] starting temporary directories cleanup
+      - [pid=1026] finished temporary directories cleanup
+      - [pid=1026] <gracefully close end>
+
+
+    Error Context: test-results/ux-guided-assembly-model-m-21811-e-without-interpreting-HTML-desktop-1440/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/ux-guided-assembly-model-m-21811-e-without-interpreting-HTML-desktop-1440/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/ux-guided-assembly-model-m-21811-e-without-interpreting-HTML-desktop-1440/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  28 failed
+    [desktop-1440] › tests/e2e/engineering-intake.spec.ts:14:5 › engineering intake creates isolated, unverified, versioned draft 
+    [desktop-1440] › tests/e2e/engineering-intake.spec.ts:36:5 › camera starts disabled without permission and offers deliberate control 
+    [desktop-1440] › tests/e2e/full-workflow.spec.ts:9:5 › source ingestion retrieval and honest AI not-configured error 
+    [desktop-1440] › tests/e2e/full-workflow.spec.ts:18:5 › engineering revision interactive WebGL selection and manual scene correspondence 
+    [desktop-1440] › tests/e2e/full-workflow.spec.ts:28:5 › synthetic MediaStream capture evidence and independent PASS boundary 
+    [desktop-1440] › tests/e2e/full-workflow.spec.ts:46:5 › camera denial stays safe and upload evidence works 
+    [desktop-1440] › tests/e2e/full-workflow.spec.ts:51:5 › authenticated simulation telemetry reaches twin and owner control remains HOLD 
+    [desktop-1440] › tests/e2e/full-workflow.spec.ts:57:5 › integrated pages have no serious accessibility failures and fit viewport 
+    [desktop-1440] › tests/e2e/industrial.spec.ts:4:5 › assembly orientation visibility pin association and accessibility persist 
+    [desktop-1440] › tests/e2e/industrial.spec.ts:5:5 › Design Simulation Live mode refresh and deterministic virtual history 
+    [desktop-1440] › tests/e2e/industrial.spec.ts:6:5 › software physical-origin contract packet maps into scene inspector chart and warnings 
+    [desktop-1440] › tests/e2e/industrial.spec.ts:7:5 › simulated packets excluded from live scene; selected AI reports missing credentials 
+    [desktop-1440] › tests/e2e/industrial.spec.ts:8:5 › slow snapshot does not overlap and navigation cancels pending work 
+    [desktop-1440] › tests/e2e/industrial.spec.ts:9:5 › modes camera embedding navigation and refresh have no runtime errors 
+    [desktop-1440] › tests/e2e/industrial.spec.ts:10:5 › original telemetry history twin controls routes survive idle reads and refresh 
+    [desktop-1440] › tests/e2e/industrial.spec.ts:11:5 › BOM deletion cleans draft relations but sensor mapping stays explicitly orphaned 
+    [desktop-1440] › tests/e2e/navigation.spec.ts:19:5 › registered session, routes, real back-forward, breadcrumbs, home, deep refresh 
+    [desktop-1440] › tests/e2e/navigation.spec.ts:40:5 › light/dark/system persistence, navigation and width audit 
+    [desktop-1440] › tests/e2e/navigation.spec.ts:54:5 › viewer cannot edit, missing project cannot leak title, signout blocks deep link 
+    [desktop-1440] › tests/e2e/navigation.spec.ts:65:5 › keyboard skip link and forward initially disabled 
+    [desktop-1440] › tests/e2e/navigation.spec.ts:73:5 › per-project draft isolation across navigation and refresh 
+    [desktop-1440] › tests/e2e/navigation.spec.ts:86:5 › public product titles and keyboard modal dismissal 
+    [desktop-1440] › tests/e2e/navigation.spec.ts:96:5 › mobile workspace tabs expose all three complete destinations 
+    [desktop-1440] › tests/e2e/navigation.spec.ts:108:5 › archived projects cannot edit hardware, membership or planning drafts 
+    [desktop-1440] › tests/e2e/navigation.spec.ts:127:5 › account export includes saved hardware and my own planning draft 
+    [desktop-1440] › tests/e2e/ux-guided-assembly.spec.ts:15:5 › tutorial, drag from component library and revision persistence 
+    [desktop-1440] › tests/e2e/ux-guided-assembly.spec.ts:28:5 › drag existing part, attach parent, and preserve translated grouping 
+    [desktop-1440] › tests/e2e/ux-guided-assembly.spec.ts:45:5 › model message renders headings/lists/code without interpreting HTML 

@@ -1,0 +1,19 @@
+{
+  "release": "RoboLN_AI_LIVE_BUILD_COPILOT_ULTIMATE_FINAL_2026.zip",
+  "verified_at_utc": "2026-11-04T06:15:10.503418+00:00",
+  "verified_at_dhaka": "2026-11-04T12:15:10.503541+06:00",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "python": "Python 3.12.14",
+  "node": "v24.22.1",
+  "npm": "11.9.0",
+  "input_filename": "RoboLN_AI_FINAL_VERIFIED_RELEASE_2026(6).zip",
+  "input_bytes": 414670,
+  "input_sha256": "043121a446f169ebc53c99eb1af66ec6ae987eaaf018eb1c51868cae9a7012f0",
+  "new_migration_head": "c17a90bd4201",
+  "python_dependency_shims": false,
+  "live_provider_inference": "NOT VERIFIED; all provider-success tests explicitly mocked",
+  "browser": "BLOCKED before page creation: Chromium local socket EPERM; managed browser could not connect to localhost",
+  "native_camera_speech_hardware": "NOT VERIFIED",
+  "github_push": false,
+  "deployment": false
+}

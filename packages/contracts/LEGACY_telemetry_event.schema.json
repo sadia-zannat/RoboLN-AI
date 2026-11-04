@@ -1,0 +1,103 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://proofstep.local/schemas/telemetry-event-v3.json",
+  "title": "ProofStep read-only measurement event - design contract",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "event_id",
+    "device_id",
+    "project_id",
+    "source_kind",
+    "metric",
+    "value",
+    "unit",
+    "device_time",
+    "received_time",
+    "sequence",
+    "adapter_name",
+    "quality"
+  ],
+  "properties": {
+    "event_id": {
+      "type": "string"
+    },
+    "project_id": {
+      "type": "string"
+    },
+    "device_id": {
+      "type": "string"
+    },
+    "source_kind": {
+      "enum": [
+        "LIVE_REAL",
+        "SIMULATION",
+        "REPLAY"
+      ]
+    },
+    "metric": {
+      "type": "string"
+    },
+    "value": {
+      "type": "number"
+    },
+    "unit": {
+      "type": "string"
+    },
+    "device_time": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "received_time": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "sequence": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "adapter_name": {
+      "type": "string"
+    },
+    "adapter_version": {
+      "type": "string"
+    },
+    "quality": {
+      "enum": [
+        "GOOD",
+        "SUSPECT",
+        "INVALID"
+      ]
+    },
+    "source_sensor": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "calibration_version": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "raw_value": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "raw_unit": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "integrity_hash": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  }
+}

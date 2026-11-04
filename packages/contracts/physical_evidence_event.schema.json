@@ -1,0 +1,81 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Traceable Physical Evidence V2",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "project_id",
+    "taskpack_step_id",
+    "hardware_profile_id",
+    "source_revision_ids",
+    "observation_sha256",
+    "captured_at",
+    "decision",
+    "rule_version",
+    "reason"
+  ],
+  "properties": {
+    "project_id": {
+      "type": "string"
+    },
+    "taskpack_step_id": {
+      "type": "string"
+    },
+    "hardware_profile_id": {
+      "type": "string"
+    },
+    "source_revision_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "observation_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "captured_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "decision": {
+      "enum": [
+        "PASS",
+        "FAIL",
+        "UNKNOWN",
+        "HOLD"
+      ]
+    },
+    "rule_version": {
+      "type": "string"
+    },
+    "reason": {
+      "type": "string"
+    },
+    "visible_predicates": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "human_only_checks": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "camera_mode": {
+      "enum": [
+        "PHOTO",
+        "LIVE_TEXT",
+        "VOICE_3D"
+      ]
+    },
+    "provider_request_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  }
+}

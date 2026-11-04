@@ -1,0 +1,53 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> roboln-frontend@1.0.0 test:unit
+> node --experimental-strip-types --test tests/unit/*.test.ts
+
+(node:26) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///workspace/scratch/f2f00674cd4e/copilot/RoboLN/frontend/tests/unit/assembly-placement.test.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /workspace/scratch/f2f00674cd4e/copilot/RoboLN/frontend/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ moving a parent translates its linked descendants without moving unrelated parts (2.219047ms)
+✔ movement is bounded to backend workspace coordinate limits (0.301023ms)
+✔ group movement preserves child offsets at every workspace boundary (0.261523ms)
+✔ non-finite position changes do not mutate the assembly (0.231118ms)
+✔ a component cannot become its own parent or a descendant parent (0.284698ms)
+(node:27) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///workspace/scratch/f2f00674cd4e/copilot/RoboLN/frontend/tests/unit/backend-proxy.test.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /workspace/scratch/f2f00674cd4e/copilot/RoboLN/frontend/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ fresh sockets preserve genuine responses query cookies and CSRF (32.85741ms)
+[RoboLN proxy 73f36899-9131-4bc7-8111-06bc5f81c6dc] GET /api/p ECONNRESET
+✔ forced reset is explicit 502 with correlation ID (4.940018ms)
+✔ real authorization and database errors are forwarded (10.459316ms)
+[RoboLN proxy a9c95c2a-98bd-489a-a5cf-9007d8fb6bfa] POST /api/p UPSTREAM_TIMEOUT
+✔ timeout bounded with no mutation retry (33.72232ms)
+✔ invalid traversal and oversized body rejected (8.01393ms)
+✔ upload body is forwarded unchanged (2.389482ms)
+(node:28) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///workspace/scratch/f2f00674cd4e/copilot/RoboLN/frontend/tests/unit/copilot.test.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /workspace/scratch/f2f00674cd4e/copilot/RoboLN/frontend/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ parent rotation preserves offsets and moves nested descendants around the parent pivot (2.90627ms)
+✔ invalid or out-of-bounds group rotations leave the entire saved draft intact (0.2663ms)
+✔ reparenting preserves existing world placement and hidden parents hide descendants (0.231858ms)
+✔ undo redo restore hierarchy and transforms; a new edit discards the old redo branch (0.43863ms)
+✔ English speech text keeps readable instructions and does not speak code or Markdown markup (0.4857ms)
+✔ photo validation accepts bounded real image types and rejects oversized or unsupported uploads (0.211178ms)
+✔ saved provider proposals normalize optional fields before reopening without losing evidence requirements (1.000354ms)
+(node:29) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///workspace/scratch/f2f00674cd4e/copilot/RoboLN/frontend/tests/unit/twin-state.test.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /workspace/scratch/f2f00674cd4e/copilot/RoboLN/frontend/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ stale or revoked recorded wheel remains frozen (1.269489ms)
+✔ simulation cannot drive physical transforms (0.316516ms)
+✔ partial pose update retains previous atomic packet (1.011971ms)
+✔ incompatible historic units cannot move scene (0.291328ms)
+ℹ tests 22
+ℹ suites 0
+ℹ pass 22
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 297.077273

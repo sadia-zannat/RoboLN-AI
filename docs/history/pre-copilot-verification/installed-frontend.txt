@@ -1,0 +1,23 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+roboln-frontend@1.0.0 /workspace/scratch/f2f00674cd4e/work/RoboLN/frontend
+├── @axe-core/playwright@4.14.0
+├── @emnapi/runtime@1.11.3 extraneous
+├── @img/sharp-wasm32@0.35.5 extraneous
+├── @playwright/test@1.64.1
+├── @radix-ui/react-dialog@1.1.15
+├── @react-three/drei@10.7.9
+├── @react-three/fiber@9.8.2
+├── @tailwindcss/postcss@4.1.16
+├── @types/node@22.15.0
+├── @types/react-dom@19.2.0
+├── @types/react@19.2.0
+├── eslint-config-next@16.4.3
+├── eslint@9.39.0
+├── lucide-react@0.468.0
+├── next@16.4.3
+├── react-dom@19.3.1
+├── react@19.3.1
+├── tailwindcss@4.1.16
+├── three@0.186.1
+└── typescript@5.9.3
+
